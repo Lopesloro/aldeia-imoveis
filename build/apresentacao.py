@@ -103,7 +103,7 @@ def corpo_apresentacao(ctx):
 <section class="sec sec-alt">
   <div class="cont duas">
     <div class="duas-txt">
-      <p class="eyebrow">A dúvida do Cláudio</p>
+      <p class="eyebrow">A dúvida que ficou</p>
       <h2 class="sec-titulo">E a hospedagem que está com outra pessoa?</h2>
       {regua}
       <p>Nada no site atual foi tocado. A versão nova roda em outro endereço, em paralelo, e o site de hoje segue no ar do jeito que está.</p>
