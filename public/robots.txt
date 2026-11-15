@@ -1,0 +1,4 @@
+# Demonstração. Nada aqui deve ser indexado.
+# A versão de produção está em /robots.producao.txt e entra quando o domínio do cliente for apontado.
+User-agent: *
+Disallow: /

@@ -1,0 +1,54 @@
+# Aldeia Imóveis. Buscadores e assistentes de IA podem ler o site inteiro.
+User-agent: *
+Allow: /
+Disallow: /apresentacao/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /apresentacao/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /apresentacao/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /apresentacao/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /apresentacao/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /apresentacao/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /apresentacao/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /apresentacao/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /apresentacao/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /apresentacao/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /apresentacao/
+
+User-agent: CCBot
+Allow: /
+Disallow: /apresentacao/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /apresentacao/
+
+Sitemap: https://aldeia-imoveis.onrender.com/sitemap.xml

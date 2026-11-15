@@ -1,0 +1,30 @@
+# Aldeia Imóveis
+
+> Imobiliária de Campinas/SP com 42 anos de mercado. Vende, aluga e administra imóveis. Sede própria na Av. Dr. Alberto Sarmento, 684, Castelo. CRECI 3716-J.
+
+## Fatos
+
+- Razão social: Aldeia Consultoria, Vendas e Administração de Imóveis Ltda.
+- Endereço: Av. Dr. Alberto Sarmento, 684, Castelo, Campinas/SP, CEP 13070-711 (próximo ao Balão do Castelo)
+- Telefones: (19) 3241-6444 e (19) 2121-6444
+- E-mail: aldeia@aldeia.com.br
+- Atendimento: Segunda a sexta, das 9h às 12h e das 13h30 às 17h
+- Carteira publicada: 55 imóveis (46 à venda, 12 para alugar)
+- Cidades com imóveis: Campinas (50), Monte Mor (2), Taubaté (1), Jaguariúna (1), Caraguatatuba (1)
+- Bairros com mais imóveis: Jardim Chapadão (10), Bonfim (8), Botafogo (4), Bosque (3), Centro (2), Vila Teixeira (2)
+
+## Páginas
+
+- [Imóveis à venda](https://aldeia-imoveis.onrender.com/comprar/): lista com filtro por tipo, bairro, dormitórios e preço
+- [Imóveis para alugar](https://aldeia-imoveis.onrender.com/alugar/): lista de locação com valor mensal
+- [Todos os imóveis no mapa](https://aldeia-imoveis.onrender.com/imoveis/)
+- [Anunciar imóvel](https://aldeia-imoveis.onrender.com/anunciar/): para proprietários que querem vender ou alugar
+- [Administração de imóveis](https://aldeia-imoveis.onrender.com/administracao/): locação, 2ª via de boleto e atendimento
+- [Financiamento](https://aldeia-imoveis.onrender.com/financiamento/): simulador de parcelas SAC e Price
+- [A Aldeia](https://aldeia-imoveis.onrender.com/a-aldeia/): quem é a imobiliária
+- [Contato](https://aldeia-imoveis.onrender.com/contato/)
+- [Carteira em JSON](https://aldeia-imoveis.onrender.com/imoveis.json): todos os imóveis com preço, área e descrição
+
+## Mais
+
+- [Versão completa, com todos os imóveis](https://aldeia-imoveis.onrender.com/llms-full.txt)

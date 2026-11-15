@@ -1,0 +1,593 @@
+# Aldeia Imóveis
+
+> Imobiliária de Campinas/SP com 42 anos de mercado. Vende, aluga e administra imóveis. Sede própria na Av. Dr. Alberto Sarmento, 684, Castelo. CRECI 3716-J.
+
+## Fatos
+
+- Razão social: Aldeia Consultoria, Vendas e Administração de Imóveis Ltda.
+- Endereço: Av. Dr. Alberto Sarmento, 684, Castelo, Campinas/SP, CEP 13070-711 (próximo ao Balão do Castelo)
+- Telefones: (19) 3241-6444 e (19) 2121-6444
+- E-mail: aldeia@aldeia.com.br
+- Atendimento: Segunda a sexta, das 9h às 12h e das 13h30 às 17h
+- Carteira publicada: 55 imóveis (46 à venda, 12 para alugar)
+- Cidades com imóveis: Campinas (50), Monte Mor (2), Taubaté (1), Jaguariúna (1), Caraguatatuba (1)
+- Bairros com mais imóveis: Jardim Chapadão (10), Bonfim (8), Botafogo (4), Bosque (3), Centro (2), Vila Teixeira (2)
+
+## Páginas
+
+- [Imóveis à venda](https://aldeia-imoveis.onrender.com/comprar/): lista com filtro por tipo, bairro, dormitórios e preço
+- [Imóveis para alugar](https://aldeia-imoveis.onrender.com/alugar/): lista de locação com valor mensal
+- [Todos os imóveis no mapa](https://aldeia-imoveis.onrender.com/imoveis/)
+- [Anunciar imóvel](https://aldeia-imoveis.onrender.com/anunciar/): para proprietários que querem vender ou alugar
+- [Administração de imóveis](https://aldeia-imoveis.onrender.com/administracao/): locação, 2ª via de boleto e atendimento
+- [Financiamento](https://aldeia-imoveis.onrender.com/financiamento/): simulador de parcelas SAC e Price
+- [A Aldeia](https://aldeia-imoveis.onrender.com/a-aldeia/): quem é a imobiliária
+- [Contato](https://aldeia-imoveis.onrender.com/contato/)
+- [Carteira em JSON](https://aldeia-imoveis.onrender.com/imoveis.json): todos os imóveis com preço, área e descrição
+
+## Imóveis
+
+### Casa de 3 dormitórios e 177 m² no Jardim Chapadão (cód. CAS00346)
+
+- venda R$ 650.000
+- 3 dormitórios, 2 banheiros, 1 vaga, 177 m²
+- Local: Jardim Chapadão, Campinas (Rua Erasmo Braga)
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas00346-casa-jardim-chapadao/
+
+Casa térrea a duas quadras do supermercado Pão de Açúcar. O terreno tem 177 m², com 12 metros de frente, e a construção tem 119 m². São três dormitórios, um com dois armários, banheiro social, banheiro de serviço e cozinha planejada. O quintal é bom e a frente é ampla.
+
+### Apartamento de 3 dormitórios e 86 m² no Jardim Chapadão (cód. APA00345)
+
+- venda R$ 750.000
+- 3 dormitórios, 1 suíte, 2 banheiros, 2 vagas, 86 m²
+- Local: Jardim Chapadão, Campinas (Rua Irmã Maria Inez, 84)
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00345-apartamento-jardim-chapadao/
+
+Apartamento de 86 m² na Rua Irmã Maria Inez, no Jardim Chapadão. Tem sala com sacada e três dormitórios com armários, um deles suíte, mais o banheiro social. O piso é laminado. Duas vagas de garagem.
+
+### Terreno Residencial de 450 m² na Cidade Universitária (cód. TER00343)
+
+- venda R$ 650.000
+- 450 m²
+- Local: Cidade Universitária, Campinas (Rua Antonio Augusto de Almeida, 823)
+- Página: https://aldeia-imoveis.onrender.com/imovel/ter00343-terreno-residencial-cidade-universitaria/
+
+Terreno de 450 m² na Cidade Universitária, com 15 metros de frente por 30 de fundo. É todo murado, gramado, com portão eletrônico, alarme, cerca elétrica e seis câmeras. Tem árvores frutíferas, água e luz ligadas e viela nos fundos. Há uma garagem e um escritório construídos, e um corte já feito no terreno para um futuro salão de festas.
+
+Observação: A garagem e o escritório não estão regularizados na Prefeitura de Campinas.
+
+### Sala Comercial de 40 m² no Bonfim (cód. SAL00342)
+
+- locação R$ 1.200 por mês
+- 1 banheiro, 40 m²
+- Local: Bonfim, Campinas (Rua do Açucar, 294)
+- Página: https://aldeia-imoveis.onrender.com/imovel/sal00342-sala-comercial-bonfim/
+
+Salão comercial na Rua do Açúcar, no Bonfim. Na locação, o inquilino paga 25% do IPTU e 50% da conta de água. A luz é individual.
+
+### Sala Comercial de 95 m² no Centro (cód. SAL00334)
+
+- locação R$ 1.500 por mês
+- 2 banheiros, 5 vagas, 95 m²
+- Local: Centro, Campinas (Rua Onze de Agosto, 770)
+- Página: https://aldeia-imoveis.onrender.com/imovel/sal00334-sala-comercial-centro/
+
+Sala comercial em sobrado na Rua Onze de Agosto, no Centro, de frente para a rua. Já tem divisórias instaladas, dois banheiros e piso frio. É bem arejada e recebe muita luz natural.
+
+### Casa em Condomínio de 2 dormitórios e 66 m² na Vila Aurocam (cód. CAS00330)
+
+- venda R$ 550.000; locação R$ 2.600 por mês
+- 2 dormitórios, 2 suítes, 3 banheiros, 2 vagas, 66 m²
+- Local: Vila Aurocam, Campinas (Rua Deise Aparecida Guize, 26)
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas00330-casa-em-condominio-vila-aurocam/
+
+Sobrado novo em condomínio na Vila Aurocam. São duas suítes, uma delas com sacada. A sala comporta dois ambientes e tem lavabo. O piso é frio em toda a casa e a escada é de granito. Tem quintal e duas vagas descobertas. A construção tem 66,70 m² em terreno de 110,99 m².
+
+Observação: Disponível para venda ou locação. O proprietário não aceita permuta.
+
+### Casa Comercial de 230 m² no Botafogo (cód. CAS00329)
+
+- venda R$ 1.300.000
+- 3 banheiros, 6 vagas, 230 m²
+- Local: Botafogo, Campinas (Rua Francisco Alves, 37)
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas00329-casa-comercial-botafogo/
+
+Casa de esquina para uso comercial na Rua Francisco Alves, no Botafogo. O terreno tem 318 m², todo plano, e a construção tem 230 m². São dez salas, uma suíte e dois banheiros sociais. O pátio comporta até seis carros descobertos.
+
+Observação: O imóvel está alugado e o inquilino não tem interesse na compra. Visitas somente com agendamento.
+
+### Apartamento de 3 dormitórios e 90 m² no Guanabara (cód. APA00326)
+
+- locação R$ 7.000 por mês
+- 3 dormitórios, 1 suíte, 3 banheiros, 2 vagas, 90 m²
+- Local: Guanabara, Campinas (Rua José do Patrocínio, 220)
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00326-apartamento-guanabara/
+
+Apartamento de 90 m² na Rua José do Patrocínio, no Guanabara, com três dormitórios (um suíte), três banheiros e duas vagas de garagem. Fale com a Aldeia para receber a descrição completa e agendar a visita.
+
+### Barracão de 571 m² no Jardim do Trevo (cód. BAR00321)
+
+- locação R$ 12.000 por mês
+- 2 banheiros, 8 vagas, 571 m²
+- Local: Jardim do Trevo, Campinas (Rua Fernão Pompeu de Camargo, 1.864)
+- Página: https://aldeia-imoveis.onrender.com/imovel/bar00321-barracao-jardim-do-trevo/
+
+Barracão reformado na Rua Fernão Pompeu de Camargo, no Jardim do Trevo. O terreno tem 660 m², com 22 metros de frente, e a construção tem 571 m². O vão é livre, sem colunas, com pé-direito de 5 metros. Tem dois banheiros novos e estacionamento para até dez carros. O terreno tem leve declive para a rua, o que facilita o escoamento da água da chuva.
+
+Observação: Liberado para locação.
+
+### Apartamento de 2 dormitórios e 65 m² no Bonfim (cód. APA00319)
+
+- venda R$ 360.000
+- 2 dormitórios, 1 banheiro, 1 vaga, 65 m²
+- Local: Bonfim, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00319-apartamento-bonfim/
+
+Apartamento reformado em andar alto, com vista para o pôr do sol. Sala com varanda, dois dormitórios e banheiro social com box. O condomínio tem academia, salão de festas, churrasqueira e área verde para caminhada, com portaria virtual e portão elétrico.
+
+Observação: Visitas somente com agendamento.
+
+### Sala Comercial de 38 m² no Jardim IV Centenário (cód. SAL00318)
+
+- locação R$ 1.000 por mês
+- 1 banheiro, 38 m²
+- Local: Jardim IV Centenário, Campinas (Rua Reinaldo Laubstein, 581)
+- Página: https://aldeia-imoveis.onrender.com/imovel/sal00318-sala-comercial-jardim-iv-centenario/
+
+Salão térreo reformado na Rua Reinaldo Laubstein, no Jardim IV Centenário. Tem piso cerâmico, pintura nova, teto rebaixado, um banheiro e porta de enrolar. A rua tem bom movimento de carros e pedestres.
+
+### Apartamento de 3 dormitórios e 85 m² no Botafogo (cód. APA00312)
+
+- venda R$ 350.000
+- 3 dormitórios, 2 banheiros, 1 vaga, 85 m²
+- Local: Botafogo, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00312-apartamento-botafogo/
+
+Apartamento de 85 m² ao lado da Avenida Andrade Neves, perto do San Francisco Day Hospital, do Instituto Penido Burnier e do Hospital São Luiz. A sala é ampla, para dois ambientes, e as janelas são grandes. São três quartos com armários embutidos, um banheiro social com box e um de serviço. O escritório já vem montado, com cômoda, estante e guarda-roupa. A cozinha tem armários e bancada americana. Uma vaga de garagem.
+
+### Casa de 4 dormitórios e 200 m² no Jardim Chapadão (cód. CAS00288)
+
+- venda R$ 1.200.000
+- 4 dormitórios, 2 suítes, 4 banheiros, 2 vagas, 200 m²
+- Local: Jardim Chapadão, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas00288-casa-jardim-chapadao/
+
+Casa de projeto arquitetônico no Jardim Chapadão, com 200 m², quatro dormitórios (dois suítes), quatro banheiros e duas vagas. Os ambientes internos recebem muita luz natural. As fotos mostram melhor a distribuição dos espaços do que qualquer descrição.
+
+Observação: O proprietário pode aceitar apartamento como parte do pagamento.
+
+### Casa de 4 dormitórios e 300 m² no Jardim Chapadão (cód. CAS00284)
+
+- venda R$ 880.000
+- 4 dormitórios, 1 suíte, 3 banheiros, 2 vagas, 300 m²
+- Local: Jardim Chapadão, Campinas (Av. Santo Antônio Claret)
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas00284-casa-jardim-chapadao/
+
+Casa térrea a uma quadra do Balão do Castelo, em terreno de 300 m² com 10 metros de frente. Tem jardim, hall social, lavabo, sala de visitas e sala de jantar. São quatro dormitórios, três com armários, e quatro banheiros com box de vidro: social, suíte, lavabo e serviço. Cozinha ampla e planejada, despensa, área de serviço e quintal com piso cerâmico. A garagem abriga dois carros cobertos e mais quatro descobertos. A pintura está bem conservada.
+
+Observação: Documentação em ordem.
+
+### Apartamento de 4 dormitórios e 200 m² no Bonfim (cód. APA00282)
+
+- venda R$ 890.000
+- 4 dormitórios, 1 suíte, 3 banheiros, 2 vagas, 200 m²
+- Local: Bonfim, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00282-apartamento-bonfim/
+
+Apartamento de 200 m² de área útil no Bonfim. A varanda acompanha toda a extensão da sala de visitas, que comporta até três ambientes. Há sala de jantar separada e cozinha ampla e planejada. Os ambientes recebem muita luz natural. São duas vagas privativas cobertas e um pequeno quarto de despejo.
+
+### Apartamento de 2 dormitórios e 65 m² no Castelo (cód. APA00279)
+
+- venda R$ 300.000
+- 2 dormitórios, 2 banheiros, 1 vaga, 65 m²
+- Local: Castelo, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00279-apartamento-castelo/
+
+Apartamento reformado no Castelo, a uma quadra do supermercado Pão de Açúcar. Fica no primeiro andar de um prédio sem elevador. Recebeu pintura nova e piso laminado. A sala é grande. São dois dormitórios com armários e um terceiro cômodo pequeno, que serve de escritório. Dois banheiros, um deles com box de vidro, cozinha com gabinete e despensa. A vaga é privativa e coberta, com portão eletrônico.
+
+Observação: O apartamento está alugado no momento.
+
+### Apartamento de 2 dormitórios e 69 m² no Jardim Paulicéia (cód. APA00267)
+
+- venda R$ 230.000
+- 2 dormitórios, 1 banheiro, 1 vaga, 69 m²
+- Local: Jardim Paulicéia, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00267-apartamento-jardim-pauliceia/
+
+Apartamento térreo reformado no Jardim Paulicéia, com piso laminado. A sala comporta dois ambientes. São dois dormitórios e um banheiro social reformado, com box de vidro. A cozinha é planejada, com fogão e gás encanado. Tem área de serviço e armário de limpeza.
+
+### Apartamento de 1 dormitório e 30 m² no Botafogo (cód. APA00257)
+
+- venda R$ 150.000
+- 1 dormitório, 1 banheiro, 30 m²
+- Local: Botafogo, Campinas (Rua Culto A Ciência, 407)
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00257-apartamento-botafogo/
+
+Quitinete com sacada na Rua Culto à Ciência, no Botafogo. Passou por reforma elétrica e hidráulica e recebeu pintura nova. A sala é grande, sem divisória, e o piso é frio em todo o imóvel. Banheiro social e cozinha com gabinete e armário modulado. Não tem vaga de garagem.
+
+### Casa de 3 dormitórios e 256 m² na Vila Teixeira (cód. CAS00250)
+
+- venda R$ 800.000
+- 3 dormitórios, 4 suítes, 4 banheiros, 1 vaga, 256 m²
+- Local: Vila Teixeira, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas00250-casa-vila-teixeira/
+
+Sobrado na Vila Teixeira. No térreo: garagem, sala de visitas, sala de TV, banheiro social e copa-cozinha planejada. No piso superior: hall, sala de estar e três dormitórios, dois com armários e um suíte. O quintal é todo fechado e tem churrasqueira, quarto de visitas, banheiro e uma parreira de uvas.
+
+Observação: Documentação completa.
+
+### Prédio Comercial de 397 m² no Jardim Chapadão (cód. SOB00231)
+
+- venda R$ 800.000
+- 2 banheiros, 397 m²
+- Local: Jardim Chapadão, Campinas (Rua Rafael Sales)
+- Página: https://aldeia-imoveis.onrender.com/imovel/sob00231-predio-comercial-jardim-chapadao/
+
+Sobrado de esquina na Rua Rafael Sales, no Jardim Chapadão, com vista livre e muita luz natural. Sala de visitas grande e sala de TV com varanda envidraçada em toda a extensão. São três dormitórios, banheiro social e banheiro privativo. Piso de tacos, cozinha grande com armário e área de serviço ampla.
+
+Observação: Desocupado, pronto para escritura e posse imediata. Precisa de reparos e reforma. O proprietário estuda contraproposta. Visitas somente com agendamento.
+
+### Apartamento de 2 dormitórios e 60 m² no Jardim Aurélia (cód. APA00230)
+
+- venda R$ 220.000
+- 2 dormitórios, 1 banheiro, 60 m²
+- Local: Jardim Aurélia, Campinas (Rua Otávio Neto, 167)
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00230-apartamento-jardim-aurelia/
+
+Apartamento no primeiro andar de um prédio sem elevador, perto do hipermercado Enxuto e do posto médico do Jardim Aurélia. Tem sala, dois dormitórios sem armários, banheiro social, cozinha com gabinete e área de serviço. O piso é cerâmico em todos os cômodos. Não tem vaga de garagem.
+
+Observação: Este apartamento não pode ser financiado. A escritura refere-se à parte ideal correspondente à unidade 12 do condomínio e pode ser registrada.
+
+### Casa de 4 dormitórios e 188 m² no Jardim Chapadão (cód. CAS00229)
+
+- locação R$ 5.000 por mês
+- 4 dormitórios, 1 suíte, 3 banheiros, 2 vagas, 188 m²
+- Local: Jardim Chapadão, Campinas (Rua Alferes João José, 192)
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas00229-casa-jardim-chapadao/
+
+Casa térrea em estilo colonial, com fachada de tijolo à vista, a uma quadra da Igreja do Rosário. O terreno tem 450 m² e a construção, 188 m². São duas salas (visita e jantar) e quatro dormitórios, dois com armários embutidos e piso de tacos. A suíte tem box, armários e closet. Cozinha planejada com despensa. O quintal é grande e tem banheiro completo, um quarto, lavanderia e área de descanso. Há também um jardim amplo.
+
+### Apartamento de 3 dormitórios e 122 m² no Bonfim (cód. APA00227)
+
+- locação R$ 2.200 por mês
+- 3 dormitórios, 1 suíte, 2 banheiros, 2 vagas, 122 m²
+- Local: Bonfim, Campinas (Rua Julio Ribeiro)
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00227-apartamento-bonfim/
+
+Apartamento de 122 m² com frente para o sol da manhã. A sala tem varanda e espaço para até três ambientes. São três dormitórios amplos com armários planejados, um deles suíte. Os banheiros da suíte e o social têm box de vidro, e há um terceiro banheiro de serviço. Cozinha planejada, área de serviço grande, gás canalizado e aquecedor a gás. Duas vagas privativas e cobertas. O prédio tem portaria 24 horas e salão de festas, e fica ao lado de bancos, hipermercados, farmácias, escolas e feira livre.
+
+### Casa de 3 dormitórios e 312 m² no Parque Alto do Taquaral (cód. CAS00220)
+
+- venda R$ 1.500.000
+- 3 dormitórios, 1 suíte, 3 banheiros, 2 vagas, 312 m²
+- Local: Parque Alto do Taquaral, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas00220-casa-parque-alto-do-taquaral/
+
+Sobrado de esquina no Parque Alto do Taquaral, com 15 metros de frente e 375 m² construídos. No térreo: sala de visitas para até três ambientes, sala de TV, lavabo, cozinha ampla, quarto e banheiro de serviço, despensa, duas lavanderias e uma sala grande que funciona como oficina. A garagem comporta quatro carros, dois deles cobertos. No piso superior: três suítes, sendo uma master com closet, uma sala que também serve de quarto, lavabo e um escritório grande com banheiro. A casa tem captação e tratamento de água da chuva e aquecedor solar.
+
+Observação: Documentação pronta para financiamento e uso de FGTS.
+
+### Casa de 3 dormitórios e 115 m² na Vila Costa e Silva (cód. CAS00213)
+
+- venda R$ 590.000
+- 3 dormitórios, 3 suítes, 4 banheiros, 2 vagas, 115 m²
+- Local: Vila Costa e Silva, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas00213-casa-vila-costa-e-silva/
+
+Casa na Vila Costa e Silva, perto do Shopping Dom Pedro. Tem sala de estar, cozinha, lavabo e três suítes. O quintal tem gazebo com churrasqueira. A garagem é coberta, para dois carros.
+
+Observação: O proprietário aceita caminhonete como parte do pagamento. Consulte os modelos aceitos.
+
+### Apartamento de 3 dormitórios e 149 m² no Bonfim (cód. APA00207)
+
+- venda R$ 500.000
+- 3 dormitórios, 1 suíte, 3 banheiros, 2 vagas, 149 m²
+- Local: Bonfim, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00207-apartamento-bonfim/
+
+Apartamento de 149 m² a duas quadras da Torre do Castelo. Tem sala de estar e sala de jantar, cozinha planejada e área de serviço com banheiro e quarto de serviço. São três dormitórios, um com armários e um suíte, mais o banheiro social. Duas vagas de garagem. O condomínio tem salão de festas e portaria 24 horas.
+
+### Apartamento de 3 dormitórios e 150 m² no Cambuí (cód. APA00200)
+
+- venda R$ 830.000
+- 3 dormitórios, 1 suíte, 3 banheiros, 2 vagas, 150 m²
+- Local: Cambuí, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00200-apartamento-cambui/
+
+Apartamento no Cambuí com sala grande para dois ambientes e sacada, sala de jantar e cozinha planejada. São três dormitórios, um deles suíte com closet. A área de serviço tem quarto e banheiro de serviço. O condomínio tem piscina, área gourmet com churrasqueira e forno a lenha, sauna, playground, quadra poliesportiva, academia e salão de festas, com portaria 24 horas. Duas vagas cobertas e privativas.
+
+Observação: Documentação pronta para financiamento. O proprietário aceita permuta por apartamento de dois dormitórios e menor valor no Guanabara, na região da Fonte São Paulo.
+
+### Apartamento de 2 dormitórios e 66 m² no Conjunto Habitacional Bandeirantes (cód. APA00192)
+
+- venda R$ 250.000; locação R$ 1.500 por mês
+- 2 dormitórios, 1 banheiro, 1 vaga, 66 m²
+- Local: Conjunto Habitacional Bandeirantes, Campinas (Rua Com. Jerônimo Campos Freire, 567)
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00192-apartamento-conjunto-habitacional-bandeirantes/
+
+Apartamento no Conjunto Habitacional Bandeirantes, perto do Shopping Unimart e do supermercado Enxuto. Tem sala de estar, sala de jantar, dois dormitórios com armários, cozinha planejada, área de serviço e banheiro com gabinete e box. A vaga de estacionamento é descoberta. O condomínio tem clube exclusivo para moradores, com piscina adulto e infantil, campo de futebol, quadra poliesportiva e seis quiosques de churrasco.
+
+Observação: Disponível para venda ou locação. Visitas com agendamento, de segunda a sexta, das 10h às 16h.
+
+### Casa de 2 dormitórios e 312 m² no Jardim Londres (cód. CAS00188)
+
+- venda R$ 450.000
+- 2 dormitórios, 1 suíte, 2 banheiros, 2 vagas, 312 m²
+- Local: Jardim Londres, Campinas (Rua Pelicano, 145)
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas00188-casa-jardim-londres/
+
+Casa com piscina na Rua Pelicano, no Jardim Londres. O terreno tem 312 m², todo plano, com 12 metros de frente, e a construção tem 112 m². A sala é ampla, para dois ambientes, com piso frio. São dois banheiros com box, um deles da suíte, e cozinha com armários. O quintal da frente tem piso cerâmico e comporta cerca de dez carros. Há uma área coberta grande para festas e área de serviço.
+
+Observação: Visitas com agendamento, de segunda a sexta, das 9h30 às 16h.
+
+### Casa Comercial de 393 m² no Jardim Chapadão (cód. CAS00185)
+
+- venda R$ 640.000
+- 6 banheiros, 3 vagas, 393 m²
+- Local: Jardim Chapadão, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas00185-casa-comercial-jardim-chapadao/
+
+Imóvel de uso misto no Jardim Chapadão. A loja tem 10 metros de frente, pé-direito de 4 metros e nenhuma coluna. No piso superior há uma casa com três salas, lavabo, cozinha grande, área de serviço, banheiro social e três dormitórios, um deles suíte. O piso inferior tem uma sala grande para refeitório e dois banheiros. Nos fundos, com entrada independente, há uma segunda casa com sala, dormitório, banheiro, cozinha e quintal.
+
+### Apartamento de 3 dormitórios e 135 m² no Bonfim (cód. APA00179)
+
+- venda R$ 440.000
+- 3 dormitórios, 2 banheiros, 1 vaga, 135 m²
+- Local: Bonfim, Campinas (Rua Luiz Gama)
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00179-apartamento-bonfim/
+
+Apartamento a três quadras do Balão do Castelo, com restaurantes, hipermercado, bancos, farmácias e feira livre na vizinhança. A sala é ampla, para dois ambientes. São três dormitórios, dois deles com armários planejados, banheiro social, banheiro de serviço, cozinha e área de serviço. O prédio tem dois elevadores, hall de entrada e salão de festas com cozinha e entrada independente. A vaga de garagem é privativa e coberta.
+
+Observação: O apartamento está parcialmente mobiliado.
+
+### Apartamento de 3 dormitórios e 60 m² no Jardim Indianópolis (cód. APA00176)
+
+- venda R$ 200.000
+- 3 dormitórios, 1 suíte, 2 banheiros, 1 vaga, 60 m²
+- Local: Jardim Indianópolis, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00176-apartamento-jardim-indianopolis/
+
+Apartamento no Jardim Indianópolis com sala para dois ambientes e móveis planejados na cozinha e na área de serviço. São três dormitórios com armários, um deles suíte, e dois banheiros com box de vidro. Está bem conservado. A vaga de garagem é privativa e coberta. O bairro é tranquilo.
+
+Observação: Documentação pronta para financiamento. Visitas com agendamento, de segunda a sexta.
+
+### Casa de 3 dormitórios e 248 m² no Jardim Eulina (cód. CAS00174)
+
+- venda R$ 650.000
+- 3 dormitórios, 1 suíte, 2 banheiros, 4 vagas, 248 m²
+- Local: Jardim Eulina, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas00174-casa-jardim-eulina/
+
+Casa no Jardim Eulina com sala de estar grande e sala de jantar com área de luz fechada em vidro. Cozinha planejada e três dormitórios amplos com armários embutidos, um deles suíte. Dois banheiros com box de vidro. A garagem comporta quatro carros, dois deles cobertos.
+
+Observação: O proprietário estuda permuta por terreno de menor valor, desde que bem localizado. Visitas com agendamento, de segunda a sexta.
+
+### Apartamento de 2 dormitórios e 74 m² no Jardim Maria Augusta, Taubaté (cód. APA00170)
+
+- venda R$ 350.000
+- 2 dormitórios, 1 suíte, 2 banheiros, 2 vagas, 74 m²
+- Local: Jardim Maria Augusta, Taubaté
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00170-apartamento-jardim-maria-augusta/
+
+Apartamento no Jardim Maria Augusta, em Taubaté. A sala comporta dois ambientes e tem sacada. Cozinha planejada, dois dormitórios com armários, banheiro privativo e banheiro social com box de vidro. Duas vagas cobertas e privativas.
+
+Observação: O apartamento está locado. Documentação pronta para financiamento. O proprietário aceita permuta por casa, chácara, apartamento ou barracão em Campinas e região.
+
+### Casa em Condomínio de 3 dormitórios e 89 m² no Jardim Chapadão (cód. CAS00160)
+
+- venda R$ 614.000
+- 3 dormitórios, 1 suíte, 3 banheiros, 2 vagas, 89 m²
+- Local: Jardim Chapadão, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas00160-casa-em-condominio-jardim-chapadao/
+
+Sobrado de 89 m² em condomínio no Jardim Chapadão, com 44 m² em cada andar e quintal de 30 m², maior que o das unidades padrão. Não tem vizinho de frente nem garagem na porta. O projeto prevê porcelanato e azulejo até o teto em lavabo, banheiros, cozinha e área gourmet, quintal gramado, fiação subterrânea e manta acústica entre as unidades. O condomínio tem piscina, academia, playground e praça.
+
+Observação: Venda de unidade adquirida na planta, com contrato de anuência da construtora. Consulte a Aldeia sobre a situação atual da obra e as condições de pagamento.
+
+### Apartamento de 1 dormitório e 50 m² no Bonfim (cód. APA00144)
+
+- locação R$ 1.500 por mês
+- 1 dormitório, 1 banheiro, 1 vaga, 50 m²
+- Local: Bonfim, Campinas (Rua Dr. Arnaldo de Carvalho)
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00144-apartamento-bonfim/
+
+Apartamento de um dormitório no Bonfim, com bancos, hipermercado, restaurantes e postos de combustível por perto. A sala comporta dois ambientes, tem frente nascente e dá para a rua. O piso é de assoalho de madeira em todo o imóvel. O dormitório tem armário, o banheiro tem box e há cozinha e área de serviço separadas. O prédio tem elevador e a vaga de garagem é privativa e coberta.
+
+### Apartamento de 2 dormitórios e 98 m² no Botafogo (cód. APA00142)
+
+- venda R$ 350.000
+- 2 dormitórios, 1 suíte, 3 banheiros, 1 vaga, 98 m²
+- Local: Botafogo, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00142-apartamento-botafogo/
+
+Apartamento de frente para a rua, a três quadras do Cartório Santa Cruz, com saída fácil para as rodovias. O piso é de tacos, bem conservado. A sala de visitas é ampla, para dois ambientes, e tem varanda. São dois dormitórios com armários e três banheiros com box: o da suíte, o social e o de serviço. A cozinha é grande, com armários planejados, e a área de serviço é separada.
+
+Observação: Documentação pronta para financiamento e uso de FGTS.
+
+### Apartamento de 2 dormitórios e 75 m² na Vila Industrial (cód. APA00115)
+
+- locação R$ 2.900 por mês
+- 2 dormitórios, 1 suíte, 2 banheiros, 2 vagas, 75 m²
+- Local: Vila Industrial, Campinas (Rua Januário Magna, 105)
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00115-apartamento-vila-industrial/
+
+Apartamento no sétimo andar, com frente nascente, na Vila Industrial. A sala é ampla, para dois ambientes, e a sacada está preparada para churrasqueira. São dois dormitórios com armários e piso laminado, um deles suíte. Os dois banheiros têm box de vidro. Cozinha planejada e área de serviço. Há aquecedor a gás nos banheiros e na cozinha, e infraestrutura pronta para três aparelhos de ar-condicionado. Gás, água e luz são individualizados. Duas vagas privativas, paralelas e cobertas. O prédio tem dois elevadores, salão de festas com cozinha, salão de jogos e piscina com vestiário.
+
+### Apartamento de 4 dormitórios e 130 m² no Bosque (cód. APA00109)
+
+- venda R$ 850.000
+- 4 dormitórios, 1 suíte, 4 banheiros, 2 vagas, 130 m²
+- Local: Bosque, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00109-apartamento-bosque/
+
+Apartamento ao lado do Bosque dos Jequitibás, com sacada de vista panorâmica. Sala para dois ambientes, copa, cozinha planejada e dependência de serviço. São quatro dormitórios com armários embutidos, um deles suíte, e quatro banheiros. Duas vagas cobertas e privativas. O condomínio tem piscina, quadra poliesportiva, academia e salão de festas.
+
+Observação: Documentação pronta para financiamento e uso de FGTS. Visitas de segunda a sexta, das 9h30 às 16h.
+
+### Apartamento de 3 dormitórios e 110 m² no Bosque (cód. APA00108)
+
+- venda R$ 480.000
+- 3 dormitórios, 1 suíte, 3 banheiros, 1 vaga, 110 m²
+- Local: Bosque, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00108-apartamento-bosque/
+
+Apartamento perto do Bosque dos Jequitibás, com mercado, escolas, restaurantes e feira livre na região. A sala tem vista da cidade. Copa, cozinha planejada, três dormitórios com armários (um suíte), banheiro social com box, área de serviço e banheiro de serviço. O piso é de carpete de madeira.
+
+Observação: Aceita financiamento.
+
+### Apartamento de 4 dormitórios e 160 m² no Bosque (cód. APA00102)
+
+- venda R$ 800.000
+- 4 dormitórios, 1 suíte, 4 banheiros, 2 vagas, 160 m²
+- Local: Bosque, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa00102-apartamento-bosque/
+
+Apartamento ao lado do Bosque dos Jequitibás, com sacada de vista panorâmica. Sala para dois ambientes, copa, cozinha planejada e dependência de serviço. São quatro dormitórios com armários embutidos, um deles suíte, e quatro banheiros. Duas vagas cobertas e privativas.
+
+Observação: Documentação pronta para financiamento e uso de FGTS.
+
+### Casa de 2 dormitórios e 250 m² no Taquaral (cód. CAS0088)
+
+- venda R$ 600.000
+- 2 dormitórios, 1 suíte, 1 banheiro, 1 vaga, 250 m²
+- Local: Taquaral, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas0088-casa-taquaral/
+
+Casa a uma quadra da Lagoa do Taquaral. Tem sala ampla, dois dormitórios, banheiro grande com box de vidro, copa e cozinha americana. A garagem é coberta e a área de serviço é grande. O quintal é coberto. Nos fundos há uma edícula com sala, dormitório e banheiro, além de um quarto de despejo.
+
+### Apartamento de 3 dormitórios e 70 m² no Jardim Pacaembu (cód. APA0086)
+
+- venda R$ 295.000
+- 3 dormitórios, 1 banheiro, 1 vaga, 70 m²
+- Local: Jardim Pacaembu, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa0086-apartamento-jardim-pacaembu/
+
+Apartamento no Conjunto Bandeirantes, perto do supermercado Enxuto. Tem sala de estar, sala de jantar, três dormitórios com armários, cozinha com armários, área de serviço e banheiro com gabinete e box. O condomínio tem clube exclusivo para moradores, com piscina adulto e infantil, campo de futebol, quadra poliesportiva e seis quiosques de churrasco, sem taxa adicional.
+
+Observação: Documentação pronta para financiamento.
+
+### Chácara de 1.050 m² na Estância das Águas, Monte Mor (cód. CHA0085)
+
+- venda R$ 230.000
+- 1 vaga, 1.050 m²
+- Local: Estância das Águas, Monte Mor
+- Página: https://aldeia-imoveis.onrender.com/imovel/cha0085-chacara-estancia-das-aguas/
+
+Terreno de 1.050 m² na Estância das Águas, em Monte Mor, medindo 35 por 30 metros. É todo plano e murado, sem benfeitorias, e fica a uma quadra do asfalto.
+
+Observação: Documentação em ordem.
+
+### Chácara de 2 dormitórios e 2.100 m² na Estância das Águas, Monte Mor (cód. CHA0084)
+
+- venda R$ 850.000
+- 2 dormitórios, 1 suíte, 3 banheiros, 1 vaga, 2.100 m²
+- Local: Estância das Águas, Monte Mor
+- Página: https://aldeia-imoveis.onrender.com/imovel/cha0084-chacara-estancia-das-aguas/
+
+Chácara de 2.100 m² na Estância das Águas, em Monte Mor. A casa tem dois dormitórios, sala com piso rebaixado, sala de jantar, cozinha modulada e varanda com churrasqueira e fogão a lenha. O piso é frio em todos os cômodos. A piscina mede 5 por 10 metros, com 1,40 m de profundidade e filtro. Tem sauna e um quintal grande, gramado, com árvores frutíferas.
+
+Observação: Documentação em dia. O imóvel já foi financiado antes e pode ser financiado de novo.
+
+### Casa de 3 dormitórios e 455 m² no Parque São Quirino (cód. CAS0082)
+
+- venda R$ 700.000
+- 3 dormitórios, 1 suíte, 2 banheiros, 1 vaga, 455 m²
+- Local: Parque São Quirino, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas0082-casa-parque-sao-quirino/
+
+Casa térrea na parte alta do Parque São Quirino, construída pelo proprietário em terreno de 455 m², com 255 m² de construção. Tem abrigo para dois carros lado a lado, sala de visitas ampla, sala de jantar e três dormitórios amplos: dois com armários e uma suíte com banheira. Banheiro social com box, cozinha planejada e área de serviço. Nos fundos há uma edícula com churrasqueira e quintal, e uma segunda casa com dois dormitórios, sala, cozinha e banheiro.
+
+Observação: Visitas com agendamento.
+
+### Apartamento de 3 dormitórios e 75 m² na Vila Teixeira (cód. APA0081)
+
+- venda R$ 400.000
+- 3 dormitórios, 1 suíte, 2 banheiros, 1 vaga, 75 m²
+- Local: Vila Teixeira, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa0081-apartamento-vila-teixeira/
+
+Apartamento na Vila Teixeira, perto do Shopping Unimart e com saída fácil para as rodovias. A sala em L tem dois ambientes e sacada. São três dormitórios com armários, um deles suíte, e banheiro social, ambos com box de vidro. Cozinha planejada e gás canalizado. O prédio tem elevador, salão de festas, salão de jogos, minicampo, academia e portaria 24 horas monitorada.
+
+Observação: O edifício ainda não tem habite-se, por isso o apartamento não pode ser financiado. Venda à vista ou com troca, sujeita a consulta ao proprietário.
+
+### Apartamento de 3 dormitórios e 68 m² na Vila São Bernardo (cód. APA0078)
+
+- venda R$ 270.000
+- 3 dormitórios, 1 banheiro, 1 vaga, 68 m²
+- Local: Vila São Bernardo, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa0078-apartamento-vila-sao-bernardo/
+
+Apartamento vago na Vila São Bernardo. Tem sala de visitas, três dormitórios (dois com armários), roupeiro, banheiro social com box, cozinha com armário e gabinete, gás encanado e área de serviço.
+
+Observação: Documentação pronta para financiamento e uso de FGTS.
+
+### Chácara de 750 m² no Santo Antônio, Jaguariúna (cód. CHA0075)
+
+- venda R$ 500.000
+- 750 m²
+- Local: Santo Antônio, Jaguariúna
+- Página: https://aldeia-imoveis.onrender.com/imovel/cha0075-chacara-santo-antonio/
+
+Chácara de 750 m² em Jaguariúna, a 37 km de Campinas. Não tem casa construída. É murada e gramada, com piscina e árvores frutíferas.
+
+### Sala Comercial de 89 m² no Centro (cód. SAL0074)
+
+- venda R$ 180.000; locação R$ 600 por mês
+- 2 banheiros, 1 vaga, 89 m²
+- Local: Centro, Campinas (Rua Jose de Alencar, 293)
+- Página: https://aldeia-imoveis.onrender.com/imovel/sal0074-sala-comercial-centro/
+
+Sala comercial de 89 m² no quinto andar da Rua José de Alencar, 293, entre as avenidas Moraes Salles e Aquidabã. A rua é tranquila, de mão única. A sala tem frente nascente, espaço para três ambientes, piso laminado novo, pintura nova e ar-condicionado. São dois banheiros, um deles privativo, e cozinha para café. O prédio tem dois elevadores e portaria fechada e monitorada. Uma vaga de garagem.
+
+Observação: Disponível para venda ou locação. Na locação, a garantia aceita é fiador pessoa física com imóvel quitado e registrado em Campinas ou na Região Metropolitana de Campinas.
+
+### Casa Comercial de 300 m² no Cambuí (cód. CAS0068)
+
+- venda R$ 1.430.000
+- 3 banheiros, 1 vaga, 300 m²
+- Local: Cambuí, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas0068-casa-comercial-cambui/
+
+Casa comercial térrea no Cambuí, com 300 m² e boa distribuição interna. São três cômodos, um deles suíte, três banheiros e uma vaga. Indicada para quem procura imóvel de investimento no bairro.
+
+### Casa Comercial de 355 m² no Jardim Chapadão (cód. CAS0065)
+
+- venda R$ 750.000
+- 4 banheiros, 1 vaga, 355 m²
+- Local: Jardim Chapadão, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas0065-casa-comercial-jardim-chapadao/
+
+Sobrado com 260 m² de área útil em avenida de grande movimento no Jardim Chapadão. O terreno tem 355 m², com 10 metros de frente. No térreo ficam o jardim, o abrigo para dois carros cobertos e dois descobertos, um escritório e um lavabo. No piso superior, a sala em L comporta até três ambientes e tem varanda em toda a frente. São três dormitórios amplos com armários, um deles suíte, e um banheiro social com banheira. Cozinha com armários, área de serviço grande e aquecimento a gás.
+
+Observação: Documentação pronta para financiamento e uso de FGTS.
+
+### Casa Residencial de 3 dormitórios e 320 m² no Jardim Chapadão (cód. CAS0062)
+
+- venda R$ 740.000
+- 3 dormitórios, 3 suítes, 4 banheiros, 3 vagas, 320 m²
+- Local: Jardim Chapadão, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/cas0062-casa-residencial-jardim-chapadao/
+
+Sobrado construído pelos proprietários em rua estritamente residencial do Jardim Chapadão, com acesso fácil às rodovias. No térreo ficam o abrigo coberto para três carros lado a lado, espaço descoberto para mais três e um escritório. No piso superior, a sala de visitas comporta três ambientes, tem varanda e piso de parquet. Há sala de almoço e três suítes amplas, todas com armários. A cozinha tem armários e gabinetes novos. O quintal tem churrasqueira e quarto de despejo. A pintura é nova.
+
+Observação: Documentação pronta para financiamento e uso de FGTS. Os proprietários podem aceitar terreno, automóvel ou apartamento de menor valor como parte do pagamento, desde que documentados.
+
+### Apartamento de 3 dormitórios e 85 m² no Sumaré, Caraguatatuba (cód. APA0053)
+
+- venda R$ 230.000
+- 3 dormitórios, 1 banheiro, 85 m²
+- Local: Sumaré, Caraguatatuba
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa0053-apartamento-sumare/
+
+Apartamento de frente, no segundo andar, no bairro Sumaré, em Caraguatatuba. Fica a quatro quadras do centro e tem padaria, hipermercado, farmácias e restaurantes por perto, com acesso fácil às outras praias. A sala de visitas é ampla. São três dormitórios, banheiro social com box, cozinha completa e área de serviço.
+
+Observação: Documentação pronta para financiamento e uso de FGTS. O proprietário estuda proposta com imóvel de menor valor em Campinas ou automóvel.
+
+### Apartamento de 3 dormitórios e 93 m² no Bonfim (cód. APA0050)
+
+- venda R$ 540.000
+- 3 dormitórios, 1 suíte, 3 banheiros, 1 vaga, 93 m²
+- Local: Bonfim, Campinas
+- Página: https://aldeia-imoveis.onrender.com/imovel/apa0050-apartamento-bonfim/
+
+Apartamento com frente nascente a quatro quadras do Castelo. A sala em L tem dois ambientes e varanda. São três dormitórios com armários, um deles suíte, cozinha planejada e área de serviço. O condomínio tem salão de festas, salão de jogos, churrasqueira e piscina, com portaria 24 horas monitorada.

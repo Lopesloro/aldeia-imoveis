@@ -1,0 +1,893 @@
+{
+ "APA00230": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9020838,
+  "lng": -47.0964224,
+  "precisao": "rua",
+  "total_no_site": 8
+ },
+ "APA00144": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8983961,
+  "lng": -47.082623,
+  "precisao": "rua",
+  "total_no_site": 14
+ },
+ "APA00179": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8946055,
+  "lng": -47.0728146,
+  "precisao": "rua",
+  "total_no_site": 30
+ },
+ "APA00207": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8808302,
+  "lng": -46.8274666,
+  "precisao": "bairro",
+  "total_no_site": 20
+ },
+ "APA00227": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8978628,
+  "lng": -47.0829781,
+  "precisao": "rua",
+  "total_no_site": 27
+ },
+ "APA00282": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8808302,
+  "lng": -46.8274666,
+  "precisao": "bairro",
+  "total_no_site": 16
+ },
+ "APA00319": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp"
+  ],
+  "lat": -22.8808302,
+  "lng": -46.8274666,
+  "precisao": "bairro",
+  "total_no_site": 5
+ },
+ "SAL00342": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp"
+  ],
+  "lat": -22.8986683,
+  "lng": -47.0859432,
+  "precisao": "rua",
+  "total_no_site": 7
+ },
+ "APA0050": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8808302,
+  "lng": -46.8274666,
+  "precisao": "bairro",
+  "total_no_site": 26
+ },
+ "APA00102": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8876835,
+  "lng": -47.0200364,
+  "precisao": "bairro",
+  "total_no_site": 35
+ },
+ "APA00108": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8876835,
+  "lng": -47.0200364,
+  "precisao": "bairro",
+  "total_no_site": 23
+ },
+ "APA00109": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8876835,
+  "lng": -47.0200364,
+  "precisao": "bairro",
+  "total_no_site": 43
+ },
+ "APA00142": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.900278,
+  "lng": -47.070833,
+  "precisao": "bairro",
+  "total_no_site": 19
+ },
+ "APA00257": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9014211,
+  "lng": -47.0681175,
+  "precisao": "rua",
+  "total_no_site": 17
+ },
+ "APA00312": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.900278,
+  "lng": -47.070833,
+  "precisao": "bairro",
+  "total_no_site": 20
+ },
+ "CAS00329": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.897538,
+  "lng": -47.0723063,
+  "precisao": "rua",
+  "total_no_site": 24
+ },
+ "APA00200": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.892222,
+  "lng": -47.049722,
+  "precisao": "bairro",
+  "total_no_site": 42
+ },
+ "CAS0068": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.892222,
+  "lng": -47.049722,
+  "precisao": "bairro",
+  "total_no_site": 23
+ },
+ "APA00279": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.889244,
+  "lng": -47.0735832,
+  "precisao": "bairro",
+  "total_no_site": 17
+ },
+ "SAL00334": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.902583,
+  "lng": -47.0686755,
+  "precisao": "rua",
+  "total_no_site": 12
+ },
+ "SAL0044": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9050869,
+  "lng": -47.0600751,
+  "precisao": "bairro",
+  "total_no_site": 10
+ },
+ "SAL0074": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9129563,
+  "lng": -47.0582591,
+  "precisao": "rua",
+  "total_no_site": 10
+ },
+ "TER00343": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8225928,
+  "lng": -47.0733157,
+  "precisao": "rua",
+  "total_no_site": 12
+ },
+ "APA00192": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9056391,
+  "lng": -47.059564,
+  "precisao": "cidade",
+  "total_no_site": 21
+ },
+ "APA00326": {
+  "fotos": [],
+  "lat": -22.8847536,
+  "lng": -47.0664017,
+  "precisao": "rua",
+  "total_no_site": 0
+ },
+ "CAS00160": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.888889,
+  "lng": -47.081944,
+  "precisao": "bairro",
+  "total_no_site": 8
+ },
+ "CAS00185": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.888889,
+  "lng": -47.081944,
+  "precisao": "bairro",
+  "total_no_site": 39
+ },
+ "CAS00229": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.886991,
+  "lng": -47.0763473,
+  "precisao": "rua",
+  "total_no_site": 21
+ },
+ "SOB00231": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.898159,
+  "lng": -47.082008,
+  "precisao": "rua",
+  "total_no_site": 13
+ },
+ "CAS00284": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.888889,
+  "lng": -47.081944,
+  "precisao": "bairro",
+  "total_no_site": 20
+ },
+ "CAS00288": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.888889,
+  "lng": -47.081944,
+  "precisao": "bairro",
+  "total_no_site": 16
+ },
+ "APA00345": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8923804,
+  "lng": -47.0804513,
+  "precisao": "rua",
+  "total_no_site": 15
+ },
+ "CAS00346": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.898525,
+  "lng": -47.0850599,
+  "precisao": "rua",
+  "total_no_site": 16
+ },
+ "CAS0062": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.888889,
+  "lng": -47.081944,
+  "precisao": "bairro",
+  "total_no_site": 34
+ },
+ "CAS0065": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.888889,
+  "lng": -47.081944,
+  "precisao": "bairro",
+  "total_no_site": 29
+ },
+ "BAR00321": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9056391,
+  "lng": -47.059564,
+  "precisao": "cidade",
+  "total_no_site": 19
+ },
+ "CAS00174": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8916592,
+  "lng": -47.1007817,
+  "precisao": "bairro",
+  "total_no_site": 30
+ },
+ "APA00176": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9056391,
+  "lng": -47.059564,
+  "precisao": "cidade",
+  "total_no_site": 17
+ },
+ "SAL00318": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp"
+  ],
+  "lat": -22.9056391,
+  "lng": -47.059564,
+  "precisao": "cidade",
+  "total_no_site": 7
+ },
+ "CAS00188": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9126448,
+  "lng": -47.1166249,
+  "precisao": "rua",
+  "total_no_site": 12
+ },
+ "APA0086": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9056391,
+  "lng": -47.059564,
+  "precisao": "cidade",
+  "total_no_site": 22
+ },
+ "APA00267": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9214274,
+  "lng": -47.1043182,
+  "precisao": "bairro",
+  "total_no_site": 20
+ },
+ "CAS00220": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9056391,
+  "lng": -47.059564,
+  "precisao": "cidade",
+  "total_no_site": 35
+ },
+ "CAS0082": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8668135,
+  "lng": -47.0342746,
+  "precisao": "bairro",
+  "total_no_site": 20
+ },
+ "CAS0088": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.880833,
+  "lng": -47.051667,
+  "precisao": "bairro",
+  "total_no_site": 42
+ },
+ "CAS00330": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9056391,
+  "lng": -47.059564,
+  "precisao": "cidade",
+  "total_no_site": 16
+ },
+ "CAS00213": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.8567607,
+  "lng": -47.0694473,
+  "precisao": "bairro",
+  "total_no_site": 33
+ },
+ "APA00115": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9106569,
+  "lng": -47.0761569,
+  "precisao": "rua",
+  "total_no_site": 14
+ },
+ "APA0078": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9056391,
+  "lng": -47.059564,
+  "precisao": "cidade",
+  "total_no_site": 14
+ },
+ "CAS00250": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9086581,
+  "lng": -47.087097,
+  "precisao": "bairro",
+  "total_no_site": 28
+ },
+ "APA0081": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.9086581,
+  "lng": -47.087097,
+  "precisao": "bairro",
+  "total_no_site": 20
+ },
+ "APA00340": {
+  "fotos": [
+   "1.webp"
+  ],
+  "lat": -23.6426555,
+  "lng": -45.4266035,
+  "precisao": "bairro",
+  "total_no_site": 1
+ },
+ "APA0053": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -23.6171558,
+  "lng": -45.4039866,
+  "precisao": "bairro",
+  "total_no_site": 25
+ },
+ "CHA0075": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.6825095,
+  "lng": -46.9781926,
+  "precisao": "bairro",
+  "total_no_site": 14
+ },
+ "CHA0084": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.945043,
+  "lng": -47.312182,
+  "precisao": "cidade",
+  "total_no_site": 26
+ },
+ "CHA0085": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -22.945043,
+  "lng": -47.312182,
+  "precisao": "cidade",
+  "total_no_site": 8
+ },
+ "APA00170": {
+  "fotos": [
+   "1.webp",
+   "2.webp",
+   "3.webp",
+   "4.webp",
+   "5.webp",
+   "6.webp",
+   "7.webp",
+   "8.webp"
+  ],
+  "lat": -23.0253723,
+  "lng": -45.5442469,
+  "precisao": "bairro",
+  "total_no_site": 25
+ }
+}
