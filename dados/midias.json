@@ -1,893 +1,7220 @@
 {
  "APA00230": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "51d4021d4c7825e7f3dad147759bca81"
+   },
+   {
+    "arq": "2.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "1a2c8c713896adb1de2078d923e255a5"
+   },
+   {
+    "arq": "3.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "dcbb68168443566720f2fe26a550caf5"
+   },
+   {
+    "arq": "4.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "31fe18809725d659c0829eec3c0c8811"
+   },
+   {
+    "arq": "5.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "1a4685ab9e45f4ba773d1b519ace356e"
+   },
+   {
+    "arq": "6.webp",
+    "w": 680,
+    "h": 907,
+    "hash": "8e77d003c50034ece1e4d725d1d3f909"
+   },
+   {
+    "arq": "7.webp",
+    "w": 680,
+    "h": 907,
+    "hash": "ba9501c9cdf811cc6747151eb6f068a0"
+   },
+   {
+    "arq": "8.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "5d4e51080733b83cd7acd596332e39c5"
+   }
   ],
   "lat": -22.9020838,
   "lng": -47.0964224,
   "precisao": "rua",
-  "total_no_site": 8
+  "total_no_site": 8,
+  "pequenas": []
  },
  "APA00144": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "24482c689ee94fcc60ae9e8c3fd6d6a8"
+   },
+   {
+    "arq": "2.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "ed9b763d1fb807b69e09332d1a2205bd"
+   },
+   {
+    "arq": "3.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "d2cb01543615c313b1b88232ba7d54b3"
+   },
+   {
+    "arq": "4.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "799cca77366afe4fc3fb85e1e4d29602"
+   },
+   {
+    "arq": "5.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "9ae3fe3cbddae6fe1e99e066d023650b"
+   },
+   {
+    "arq": "6.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "ddf6f27bfa7d7537969298b6b4ce1bf1"
+   },
+   {
+    "arq": "7.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "3581a002fef6598dab6997fd69ffd240"
+   },
+   {
+    "arq": "8.webp",
+    "w": 500,
+    "h": 667,
+    "hash": "92190ac5db84df022ae5be4925f751ab"
+   },
+   {
+    "arq": "9.webp",
+    "w": 500,
+    "h": 667,
+    "hash": "6e9ef20c90ef93c14ee9f58285b3a609"
+   },
+   {
+    "arq": "10.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "cbf8b460dbdf70a9bcda1461726c9830"
+   },
+   {
+    "arq": "11.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "3ab6a866b3d1098a71e94be643ca673c"
+   },
+   {
+    "arq": "12.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "220cda40448eb5b755a070ccb34379fb"
+   },
+   {
+    "arq": "13.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "c0a5dc7dcac933b710b8bdf5cb40328b"
+   },
+   {
+    "arq": "14.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "8c969ed005cd05987e4ff412017a2d1d"
+   }
   ],
   "lat": -22.8983961,
   "lng": -47.082623,
   "precisao": "rua",
-  "total_no_site": 14
+  "total_no_site": 14,
+  "pequenas": []
  },
  "APA00179": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "42b2f55232ac79a15d6a894d8a498fc4"
+   },
+   {
+    "arq": "2.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "519658fb641e02658f6ce31dc08cc65d"
+   },
+   {
+    "arq": "3.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "0721d419966cdc2eda1ab5f1c59bc656"
+   },
+   {
+    "arq": "4.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "ef5200e96e64074e826953a6fa6f0823"
+   },
+   {
+    "arq": "5.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "932a000f6b84cb4afae52e18e09a194b"
+   },
+   {
+    "arq": "6.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "92113de43c49e655d6767dd920a6d776"
+   },
+   {
+    "arq": "7.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "46731a5d3c62a2b0c6eeddc19368f640"
+   },
+   {
+    "arq": "8.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "e61b6611c1cc3b52f3c480370ae03fab"
+   },
+   {
+    "arq": "9.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "8024de5ce8b616b03508a4832bb6015f"
+   },
+   {
+    "arq": "10.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "24b3d498f62f11ba6064adbc13b1d58f"
+   },
+   {
+    "arq": "11.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "71a1114930678aa4d4bcff32a9d21adc"
+   },
+   {
+    "arq": "12.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "a90a415098be7b49b3cfa5d90f7a35c6"
+   },
+   {
+    "arq": "13.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "9f54cad575659a2736df902ca6688551"
+   },
+   {
+    "arq": "14.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "d56afad3b596d0cefe268ac513782d64"
+   },
+   {
+    "arq": "15.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "58c36ff9c197531bd6c7a69b0d6194e8"
+   },
+   {
+    "arq": "16.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "fdc17ee66c56809201c210e0caa8b99f"
+   },
+   {
+    "arq": "17.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "d75b574c73bf937e2ed6013b67489009"
+   },
+   {
+    "arq": "18.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "4572caee1bcc873c7214d2e511dbcf27"
+   },
+   {
+    "arq": "19.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "46300e2d64d96db5605a2bf0f4967aed"
+   },
+   {
+    "arq": "20.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "12a913fb21f5d93fffb58b1449bd20d0"
+   },
+   {
+    "arq": "21.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "6c6b7a0adc52117256b0b67f2424a4c3"
+   },
+   {
+    "arq": "22.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "1b295224fce2b2bf271359922d212e9f"
+   },
+   {
+    "arq": "23.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "ec17ba2c2e2f2211cbd8482be5a3c39b"
+   },
+   {
+    "arq": "24.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "7bd33cb46fbe9233d87b9f77d60d93c2"
+   },
+   {
+    "arq": "25.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "be1a58ce48ec75922f5ad1c859f74b26"
+   },
+   {
+    "arq": "26.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "6efe766d9bc7085116f4f4617a45ecc1"
+   },
+   {
+    "arq": "27.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "21cda45082648889a442f42120b3e418"
+   },
+   {
+    "arq": "28.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "9a14104b01974b9d3ce05885b7419778"
+   },
+   {
+    "arq": "29.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "f5e05a14ebb7b5ce058c1b9cbd203965"
+   },
+   {
+    "arq": "30.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "dce5e2b6b1bb006c10559718e2dcfc8e"
+   }
   ],
   "lat": -22.8946055,
   "lng": -47.0728146,
   "precisao": "rua",
-  "total_no_site": 30
+  "total_no_site": 30,
+  "pequenas": []
  },
  "APA00207": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "43834049883264a73af009b26158a3ed"
+   },
+   {
+    "arq": "2.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "7f55274931671ade4a0ecd69b0dc5a70"
+   },
+   {
+    "arq": "3.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "482e64346b8c7c3fa3a5a1d661dfbc04"
+   },
+   {
+    "arq": "4.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "f6620191c4e9969b865340b559159b8f"
+   },
+   {
+    "arq": "5.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "f568a9be7453b8daefa38896710a2273"
+   },
+   {
+    "arq": "6.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "fc33c9f8e60922afe4b4cb1ae9fccc7d"
+   },
+   {
+    "arq": "7.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "51e2a21f386d302b1da7373c7d73532d"
+   },
+   {
+    "arq": "8.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "8d2cd3a87a301ea935f53f38118d6a3d"
+   },
+   {
+    "arq": "9.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "5e7768d303b87ea6a53abbd42c888cae"
+   },
+   {
+    "arq": "10.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "6d7072bd8c723132c984cbbe856268d8"
+   },
+   {
+    "arq": "11.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "c6db2648c343a074482eb19e0c9661cd"
+   },
+   {
+    "arq": "12.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "3812a03669d4374cfc21f7e97bbd31cf"
+   },
+   {
+    "arq": "13.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "378fceabc42120c88c5c0b33f6fb9def"
+   },
+   {
+    "arq": "14.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "e5257b6b8b2c246381acff2a6db98272"
+   },
+   {
+    "arq": "15.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "ea4346c3f9a0d44200cff84cf6910e42"
+   },
+   {
+    "arq": "16.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "e194a47efec778e05402025954b780a9"
+   },
+   {
+    "arq": "17.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "e72cdad3ca4a84b291f2a8529bf80d4c"
+   },
+   {
+    "arq": "18.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "32c4981672ff6fb3406cb3422f338bd3"
+   },
+   {
+    "arq": "19.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "cc0d701468f57693de36a39bf8e11d68"
+   },
+   {
+    "arq": "20.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "1c4a01642624ad32faceb977c3f7ca48"
+   }
   ],
   "lat": -22.8808302,
   "lng": -46.8274666,
   "precisao": "bairro",
-  "total_no_site": 20
+  "total_no_site": 20,
+  "pequenas": []
  },
  "APA00227": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "62bcefe713aa05fcf57aa369fa866041"
+   },
+   {
+    "arq": "2.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "6ad0e46d8235534cbc389bb5817eff8e"
+   },
+   {
+    "arq": "3.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "09dfb4e0950d8864dbfbe891b68e38a7"
+   },
+   {
+    "arq": "4.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "26098cfd10b91e582f400abcb1042b6d"
+   },
+   {
+    "arq": "5.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "8264f45773373b6bb0b3dce39a3395b5"
+   },
+   {
+    "arq": "6.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "b101fd0916099cac7271c7ff4d6ba7d7"
+   },
+   {
+    "arq": "7.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "910786aa937443967c8e38df555b60f0"
+   },
+   {
+    "arq": "8.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "7b0b625016bdb87f1f0999e7ce281178"
+   },
+   {
+    "arq": "9.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "3de997073865d28607693508095c62b5"
+   },
+   {
+    "arq": "10.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "2c630f34218ca9c96ff5d1dfd8569836"
+   },
+   {
+    "arq": "11.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "171bf38cc1d57a6a742587e4aaaa54c1"
+   },
+   {
+    "arq": "12.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "e20f01474c7588d5794a3ee9748d9cce"
+   },
+   {
+    "arq": "13.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "5a1d8ccca19ba409fa4c4e1800285d02"
+   },
+   {
+    "arq": "14.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "50d3254cb724973edf594bfd4f6f4dff"
+   },
+   {
+    "arq": "15.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "72ab558d06e8f1a430b7b93d78c97a1d"
+   },
+   {
+    "arq": "16.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "98ba6bfe9eff5aced306328e08061a35"
+   },
+   {
+    "arq": "17.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "916326e17faaea131f8c960d2738d331"
+   },
+   {
+    "arq": "18.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "4bf7bc377bb54ff693fc39d021a0770d"
+   },
+   {
+    "arq": "19.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "7ca8592f1bd84aa55af79eb3311e6334"
+   },
+   {
+    "arq": "20.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "cd9988557a276d40ee1b320eea4cf72d"
+   },
+   {
+    "arq": "21.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "0cb8004acfff0dff44aaf7c17443a8fc"
+   },
+   {
+    "arq": "22.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "640ae139499c966f7f12bb7f7124d7a0"
+   },
+   {
+    "arq": "23.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "5ba187d29016c09d30a68d95d9e45b95"
+   },
+   {
+    "arq": "24.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "c950101d28964b400d3675a7ae408fa8"
+   },
+   {
+    "arq": "25.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "517aeee8096ebfe4623085eb933f4f9e"
+   },
+   {
+    "arq": "26.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "c72f8719681ad0590eca9cc18d74fe4b"
+   },
+   {
+    "arq": "27.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "0829e182ef41b8b23bd16672dd13503f"
+   }
   ],
   "lat": -22.8978628,
   "lng": -47.0829781,
   "precisao": "rua",
-  "total_no_site": 27
+  "total_no_site": 27,
+  "pequenas": []
  },
  "APA00282": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "a1074e66eecfc51a5cc43d48b148d6c3"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "1df9d27dcae4cd8e37cda0f39684d6b5"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "ef3d6e0b057da776754bf66c820da58b"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "b733b2f127474985a17f059c8a0e8bcb"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "075e2bb8f723a66970bb7606a556aa22"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "654487f51f693762b90558c59324ad4e"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "f719ec613bb7590c03c5abcf9e40225d"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "31db4be8e6cafe9f0df5b969b7284e36"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "86b3570f69143e035c30d41f8ceedeb9"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "e86d16099aaf3f6734df0863d7aa255f"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "f7bd3cae37c5369f1b2e03358ed48d8a"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "e8eb9ed8b7a21cb01b54a97d780479f5"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "b5e545577b110a308372e0717ad4cc20"
+   },
+   {
+    "arq": "14.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "30968d88b0ce7b9609b4359736617381"
+   },
+   {
+    "arq": "15.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "f5e69d5104282ae71ec66146180d368f"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "d0de3e76a1bdfc6ac2146e8a002e7b91"
+   }
   ],
   "lat": -22.8808302,
   "lng": -46.8274666,
   "precisao": "bairro",
-  "total_no_site": 16
+  "total_no_site": 16,
+  "pequenas": []
  },
  "APA00319": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "145f310ec5511bcfeb159a4dea0916a9"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "c2675bcd80cb8b3a1fed60b4e382571d"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "19a2dfd2177b5eb76144be68d179fb00"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "015d78c46cc566a564d5e6a89216bea6"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "7968fa0e7abeba0edffcff6563a8e5d5"
+   }
   ],
   "lat": -22.8808302,
   "lng": -46.8274666,
   "precisao": "bairro",
-  "total_no_site": 5
+  "total_no_site": 5,
+  "pequenas": []
  },
  "SAL00342": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "b3806a28fde641ce9d6846050090b8b1"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "b1e4ceabe47f00393034c0542e185c78"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "6d4e51670f880d61c25ef154f647df6e"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "e7a65a172fb2fa697972110224ee2047"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "e21caecefe7f46cd28a19874e2462754"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "a95d765d0cd8ff7de196eeba95ef11f8"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "daac4a541c759190d4158230da17fd94"
+   }
   ],
   "lat": -22.8986683,
   "lng": -47.0859432,
   "precisao": "rua",
-  "total_no_site": 7
+  "total_no_site": 7,
+  "pequenas": []
  },
  "APA0050": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "e2123af0784048fab055d5847dc658ce"
+   },
+   {
+    "arq": "2.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "6d6b8d97d4f4dc16cdd5a687b8371dba"
+   },
+   {
+    "arq": "3.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "30f7ce91bd5d2b79738573bee47e0e42"
+   },
+   {
+    "arq": "4.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "440bb6851d94c62080355136d35fa241"
+   },
+   {
+    "arq": "5.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "bf3aecbd588f133abd5303aba63370c3"
+   },
+   {
+    "arq": "6.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "ba326afbca3b1e30005934faf4e802b7"
+   },
+   {
+    "arq": "7.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "26b4868064f5aa9ce0bbc2a06b452012"
+   },
+   {
+    "arq": "8.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "ee8d81ccf42b9cfdf9b62cdc8e2faf44"
+   },
+   {
+    "arq": "9.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "5608784651eb359c3aaebb15351eb5ce"
+   },
+   {
+    "arq": "10.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "4cd841ffefaac5515782a50ca2041f54"
+   },
+   {
+    "arq": "11.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "0e53b26472c71a69cb0977b652ed4a70"
+   },
+   {
+    "arq": "12.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "fccdd3cf88010e1ad1122340d0b686d9"
+   },
+   {
+    "arq": "13.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "35e15e2365305e2572848d5882153a54"
+   },
+   {
+    "arq": "14.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "8891ffdafafc91bbb56229cac0ec1797"
+   },
+   {
+    "arq": "15.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "aae2b1eabc8cc19cf7c56d9a4a8b3bf2"
+   },
+   {
+    "arq": "16.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "1091e2f9fca49cc862b4c0a24ec45d1d"
+   },
+   {
+    "arq": "17.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "2b0a5377cda4fa2c4f57f22f9ee9f998"
+   },
+   {
+    "arq": "18.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "2ffabdc848716f51f279592894b74022"
+   },
+   {
+    "arq": "19.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "5bc861ba960544a4b5243ed1df908c58"
+   },
+   {
+    "arq": "20.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "030f53577ba31e44a1100b4bb329f6d3"
+   },
+   {
+    "arq": "21.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "facd484bf2a1504a7650876068b89d2c"
+   },
+   {
+    "arq": "22.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "31acb406ecaab09fd43d34b9a72927d3"
+   },
+   {
+    "arq": "23.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "78b05a2e0f46fabe206ff1fc95a7bb11"
+   },
+   {
+    "arq": "24.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "5b5d0c4f83b06e5d46c1bb9b6c795d07"
+   },
+   {
+    "arq": "25.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "2ffa98295a804269fc946d6d4fef5740"
+   },
+   {
+    "arq": "26.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "fea11f3b0ca101cef50f8fb2854af2e4"
+   }
   ],
   "lat": -22.8808302,
   "lng": -46.8274666,
   "precisao": "bairro",
-  "total_no_site": 26
+  "total_no_site": 26,
+  "pequenas": []
  },
  "APA00102": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "aecfcba30d77bfa1d5449ba82add9cff"
+   },
+   {
+    "arq": "2.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "10b5be777dddda872e01cbcbbf5fba92"
+   },
+   {
+    "arq": "3.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "73199b9f032896137b394f054a380fd0"
+   },
+   {
+    "arq": "4.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "a063ee6eab619f7b6c6d333a7b572fe2"
+   },
+   {
+    "arq": "5.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "c77c8b99d53e99872132c4e5f1b2bc67"
+   },
+   {
+    "arq": "6.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "80e170d4ee953cca9d452d6220e90507"
+   },
+   {
+    "arq": "7.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "ec66b057511fea0dcea042248771b429"
+   },
+   {
+    "arq": "8.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "395430d86ef6348c92349950e400c1cc"
+   },
+   {
+    "arq": "9.webp",
+    "w": 544,
+    "h": 726,
+    "hash": "52c53a6c51e046f505bcdcff09a0eff2"
+   },
+   {
+    "arq": "10.webp",
+    "w": 544,
+    "h": 726,
+    "hash": "635607c75f9d51922db0a16148f0875c"
+   },
+   {
+    "arq": "11.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "8f3e14374f738c1f76e3e74335449851"
+   },
+   {
+    "arq": "12.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "92badac930eb30b597c2ee9810945bca"
+   },
+   {
+    "arq": "13.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "f473b7e51447b5b68ff62d555ca82e22"
+   },
+   {
+    "arq": "14.webp",
+    "w": 544,
+    "h": 726,
+    "hash": "0bfec4f79de7bb1d27c0049039673545"
+   },
+   {
+    "arq": "15.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "e55618f1fc1e806eff575b63c001119c"
+   },
+   {
+    "arq": "16.webp",
+    "w": 544,
+    "h": 726,
+    "hash": "d2bdb97cd4e4010227b28db9ad2c5081"
+   },
+   {
+    "arq": "17.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "4137d083e40a00c78918d1ed7f2c3142"
+   },
+   {
+    "arq": "18.webp",
+    "w": 544,
+    "h": 726,
+    "hash": "9b2cb6c32c22c433454e628ff45e4286"
+   },
+   {
+    "arq": "19.webp",
+    "w": 544,
+    "h": 726,
+    "hash": "dd40d60e7ffefd43ca989778c1ea5713"
+   },
+   {
+    "arq": "20.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "03cf644357168d9d6dfbf477500c9be8"
+   },
+   {
+    "arq": "21.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "0461ebc7e0c304f4917eb69f72ecf05d"
+   },
+   {
+    "arq": "22.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "a8051be3b106e6947bd2af5cdd92e58e"
+   },
+   {
+    "arq": "23.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "afed22d41ab26fa3c48ecf9f7163b895"
+   },
+   {
+    "arq": "24.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "99f970b80bfff8b50781b8076fc3c84f"
+   },
+   {
+    "arq": "25.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "ca7a05701efbc70f04f10165a53fa3ca"
+   },
+   {
+    "arq": "26.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "cf43dc08c1b5bf07c45952b5add140c4"
+   },
+   {
+    "arq": "27.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "9f7f92b8f61055fd4889b0f556b07974"
+   },
+   {
+    "arq": "28.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "58d9097a4f929bf41bbefc8dc2ae03b7"
+   },
+   {
+    "arq": "29.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "1ecd74b618a0d5463eb9575972760d31"
+   },
+   {
+    "arq": "30.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "2ca66231b04c22ca729df6ee496ddac5"
+   },
+   {
+    "arq": "31.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "bbc77ae3eb320ea952ee9ea411cb8c7e"
+   },
+   {
+    "arq": "32.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "e75011d0e09c7bbefccf8002250b828f"
+   },
+   {
+    "arq": "33.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "357d180614a94445d3219fe26432d00e"
+   },
+   {
+    "arq": "34.webp",
+    "w": 726,
+    "h": 544,
+    "hash": "7b9218163307e896286ee4aadc878b12"
+   },
+   {
+    "arq": "35.webp",
+    "w": 544,
+    "h": 726,
+    "hash": "22ffd5f3300051c7c18954cd1870ee12"
+   }
   ],
   "lat": -22.8876835,
   "lng": -47.0200364,
   "precisao": "bairro",
-  "total_no_site": 35
+  "total_no_site": 35,
+  "pequenas": []
  },
  "APA00108": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "3314264e606dfadb75240e62602f5c7e"
+   },
+   {
+    "arq": "2.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "671272611cf6c9b178a210814a213df9"
+   },
+   {
+    "arq": "3.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "9b50a48c8d0386477d05868cce5b5264"
+   },
+   {
+    "arq": "4.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "2b3d42aac856fc21a896ea7ab13aebd7"
+   },
+   {
+    "arq": "5.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "3d7f8ffc24a3c9ae3bb4717efecf3538"
+   },
+   {
+    "arq": "6.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "e620ef89340d81852b68ea0196881f80"
+   },
+   {
+    "arq": "7.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "492256618f6652179e54e1044a331b97"
+   },
+   {
+    "arq": "8.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "5f6316a7596911c6548c47032fa872c5"
+   },
+   {
+    "arq": "9.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "195717b3e1d6b68af22504da76477cba"
+   },
+   {
+    "arq": "10.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "dc77c2c4f7d1beb08217d61407e7a5b7"
+   },
+   {
+    "arq": "11.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "098899c8b8fa70d5bde40df1025d1fe6"
+   },
+   {
+    "arq": "12.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "3a23982e2164805e524afdcbd7bfc7bf"
+   },
+   {
+    "arq": "13.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "d5a04bac5e785487d5cc38cf2cf25531"
+   },
+   {
+    "arq": "14.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "031534117c3b64acc03a569daa9b80c0"
+   },
+   {
+    "arq": "15.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "cf4f5b2d85340b95b22a97d261885ac0"
+   },
+   {
+    "arq": "16.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "024df7411b213ab30776b01d3fdeec57"
+   },
+   {
+    "arq": "17.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "4c0f29a662e6c58de257b3527c8c66d8"
+   },
+   {
+    "arq": "18.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "64d523243cc9b30d821da2b35ef2db87"
+   },
+   {
+    "arq": "19.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "55a6e3e12a309e24df1884988f3adf3d"
+   },
+   {
+    "arq": "20.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "712d6e5593c37e4bdf0a59ac086bcdd5"
+   },
+   {
+    "arq": "21.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "8c126cf5155ba4805a98cbb727d8ba5e"
+   },
+   {
+    "arq": "22.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "f6c2794d5df23867992a757ea9bb5628"
+   },
+   {
+    "arq": "23.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "b252b0a9079fa74f0dfa7075e74ac8ed"
+   }
   ],
   "lat": -22.8876835,
   "lng": -47.0200364,
   "precisao": "bairro",
-  "total_no_site": 23
+  "total_no_site": 23,
+  "pequenas": []
  },
  "APA00109": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "27eb36daa8ac4dbcc860546b7f543be9"
+   },
+   {
+    "arq": "2.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "ec00507259a027f2861d8d5a841fcf7c"
+   },
+   {
+    "arq": "3.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "e34452794663fd70382fed75c0725c3a"
+   },
+   {
+    "arq": "4.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "df23a229ab21cc587dba26dd6729a9d4"
+   },
+   {
+    "arq": "5.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "2a7d6e50a55debfac0c0cc413928ed73"
+   },
+   {
+    "arq": "6.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "22be94628ac698567f3da70e2f18a01d"
+   },
+   {
+    "arq": "7.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "10c791d8a03dee63f74e2ad2f84ec2ad"
+   },
+   {
+    "arq": "8.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "adbe645821d98f3e616d60583ce533b2"
+   },
+   {
+    "arq": "9.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "427d3c76e89d41db8cabf52a66542582"
+   },
+   {
+    "arq": "10.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "d63c5b8b1953e474da92c3477436feb9"
+   },
+   {
+    "arq": "11.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "0d4d47100b3d2f9067405e39fa85d76a"
+   },
+   {
+    "arq": "12.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "d1554a14711b0b0d59dc3ee755f3ec2d"
+   },
+   {
+    "arq": "13.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "0a9f1a6fb18ed5ae3ada0ad36da37a9e"
+   },
+   {
+    "arq": "14.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "53ea6d6c8d79a3ad7514dd3947cd5dbf"
+   },
+   {
+    "arq": "15.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "1b42a4f03d5f89f13518a5fdab7fcae1"
+   },
+   {
+    "arq": "16.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "e406d7cdc478b80385f5dc3a98cc0d88"
+   },
+   {
+    "arq": "17.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "f2a8f92bd3b7744c81e522ce3f4c5a67"
+   },
+   {
+    "arq": "18.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "db915cb6c0220a56f39208ae20c0cec0"
+   },
+   {
+    "arq": "19.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "c8303ef9d042c7b5ef3da3d4bb1a7668"
+   },
+   {
+    "arq": "20.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "716e759720506636776ee652f0d052de"
+   },
+   {
+    "arq": "21.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "4260f077f9ecc825f0a0368abdfb4aaa"
+   },
+   {
+    "arq": "22.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "782174249c0817d202fa0851c928f753"
+   },
+   {
+    "arq": "23.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "2fcecb2e3ded5a32b35855bca7a4e725"
+   },
+   {
+    "arq": "24.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "0a86d4e8f09bb379355cad6befaa68d9"
+   },
+   {
+    "arq": "25.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "6e7f4e5614e54e01d3cf1ccd33105ac2"
+   },
+   {
+    "arq": "26.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "8e8d22f06708a24bc926af90748acb28"
+   },
+   {
+    "arq": "27.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "38e71fd7aa64f92546695082896a50a4"
+   },
+   {
+    "arq": "28.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "b28ed4d9a8dd1f95c033dad0792c80f9"
+   },
+   {
+    "arq": "29.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "139f319784b00fc6e28d627f4bb8d4a1"
+   },
+   {
+    "arq": "30.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "479232ee0e35f418fb37034d65431090"
+   },
+   {
+    "arq": "31.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "10ac8f95108134f408484a6b0d8f7910"
+   },
+   {
+    "arq": "32.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "0fb5a7e78b5517f450d813b73c9a4a4e"
+   },
+   {
+    "arq": "33.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "34dfac7c21df741295b064415bb0dc20"
+   },
+   {
+    "arq": "34.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "2690d36619011df0f1a93ce05716683f"
+   },
+   {
+    "arq": "35.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "be05a1663f5c508eb6968c4413b894fb"
+   },
+   {
+    "arq": "36.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "76fa431a1461775770c13ac054b69341"
+   },
+   {
+    "arq": "37.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "e82a1b4c585db74c7aefbb9625fd6237"
+   },
+   {
+    "arq": "38.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "f3d3551186654989fe53b5f55037ec6a"
+   },
+   {
+    "arq": "39.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "98dab4312e455e1653b3326f9323de86"
+   },
+   {
+    "arq": "40.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "d1eac34f3cd5369832f68f7bcfa75b6a"
+   },
+   {
+    "arq": "41.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "4868a6e4688f4215a7d3fcadf353c6be"
+   },
+   {
+    "arq": "42.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "ceb0d9f16f36121ffaf5c6be0009a1fd"
+   },
+   {
+    "arq": "43.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "6937f889110301e616b941838850500a"
+   }
   ],
   "lat": -22.8876835,
   "lng": -47.0200364,
   "precisao": "bairro",
-  "total_no_site": 43
+  "total_no_site": 43,
+  "pequenas": []
  },
  "APA00142": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "7e2723461f271432e42e999b15a02a31"
+   },
+   {
+    "arq": "2.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "b8a4beb1df33cbed348e741db7a73056"
+   },
+   {
+    "arq": "3.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "6db6b2c1e34a2159f0bea860a237b41d"
+   },
+   {
+    "arq": "4.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "74024cc64124ba3ac691dcd1841b06da"
+   },
+   {
+    "arq": "5.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "a9c694e7ef786aa0ff1464a519d78a62"
+   },
+   {
+    "arq": "6.webp",
+    "w": 680,
+    "h": 907,
+    "hash": "2fc7c1c235b166bd83906c99369a7f21"
+   },
+   {
+    "arq": "7.webp",
+    "w": 680,
+    "h": 907,
+    "hash": "bdd1004f583f789fe657012907c860ce"
+   },
+   {
+    "arq": "8.webp",
+    "w": 680,
+    "h": 907,
+    "hash": "12755f70e7deb95eb133dff53a40fa66"
+   },
+   {
+    "arq": "9.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "02b4a1a2b2ce2269a878d7eec7c1a660"
+   },
+   {
+    "arq": "10.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "acba09ab7e5d1aeca8c329ba88886826"
+   },
+   {
+    "arq": "11.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "cdeaf4b5149b413445d3b845adbdc97f"
+   },
+   {
+    "arq": "12.webp",
+    "w": 680,
+    "h": 907,
+    "hash": "70134fe0386c135bf8e4c022c84bc480"
+   },
+   {
+    "arq": "13.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "ed26ecdb3ac3ac3262e7da47534f97a8"
+   },
+   {
+    "arq": "14.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "411b28b12a5f424b3ed185e8c936e690"
+   },
+   {
+    "arq": "15.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "34400e47bd9db5f52f1e2beec8243454"
+   },
+   {
+    "arq": "16.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "9cf9f4b90ad9ac058071862c9b85f782"
+   },
+   {
+    "arq": "17.webp",
+    "w": 680,
+    "h": 907,
+    "hash": "0862bea83ed8e68364e3a2a1730077b6"
+   },
+   {
+    "arq": "18.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "76bb8634f7111beaf53b322d8f98f5c6"
+   },
+   {
+    "arq": "19.webp",
+    "w": 907,
+    "h": 680,
+    "hash": "8fb86cfcc86f0d67f1e4ba3a3612008c"
+   }
   ],
   "lat": -22.900278,
   "lng": -47.070833,
   "precisao": "bairro",
-  "total_no_site": 19
+  "total_no_site": 19,
+  "pequenas": []
  },
  "APA00257": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "788c87ebfedd12275019489584408d00"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "aa5ccceea00d45038a1847619fb63647"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "6f856779b2a6649827978b2bbbebb3fb"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "140aae38684a7bc7e7245193a5e1f156"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "523462eb60ab52b2a9e739cff8e1147b"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "2dbd91a816f7a28f81197f5ebb23d3ee"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "0a2283c66ffba7735682d90cee7ab1de"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "006c5fd82129e898629a0af781695e25"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "e9774389f97f78b57b8153b9a8fbab99"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "bd8be3390acc522e0847d9370f5cd0d2"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "bb2b1d9b80bd71030498e1d5454012c9"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "08ac52dfc3f698640d24f8c99d0b1b9b"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "53023a83f512cd5064df67a076cf00aa"
+   },
+   {
+    "arq": "14.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "d9211a5a035a511755d353e1565c9586"
+   },
+   {
+    "arq": "15.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "eec9acbe33a5eff88577c0cb6f8e7fee"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "cc68ca4b47a91fcfb6a9945fe956168b"
+   },
+   {
+    "arq": "17.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "f080cd2a0805502ff90d7159f3320295"
+   }
   ],
   "lat": -22.9014211,
   "lng": -47.0681175,
   "precisao": "rua",
-  "total_no_site": 17
+  "total_no_site": 17,
+  "pequenas": []
  },
  "APA00312": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "53384a1ba72c371b0748ee04dc2217be"
+   },
+   {
+    "arq": "2.webp",
+    "w": 630,
+    "h": 1400,
+    "hash": "9ca040111eb2bd0b5640cc72a16ad7fc"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "b7c7d84c0e13c89e39eebcaf6ba74d80"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "3b3f21aee6be5856bf8c0ef68186a069"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "120c0478765c5e5fa9fe33031f2cec97"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "744c84f9b83c11bc7aeb254fc57fdd19"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "85e4a9215cde12e370aec5444c580664"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "de7b437fe9f660e76cf973dea3e092fa"
+   },
+   {
+    "arq": "9.webp",
+    "w": 630,
+    "h": 1400,
+    "hash": "d4c309fee7b825ae4cda949c23184b9b"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "2c04f59f0389a09a88df645d312b3302"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "b8f796ffcae33d296c581c204286fcba"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "b0e924864ef8768bc3c0a268965c651d"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "ec1f0a61d8b227888ad03fc7e37db629"
+   },
+   {
+    "arq": "14.webp",
+    "w": 630,
+    "h": 1400,
+    "hash": "7cdf0f223a767d794f81c04f50dbf035"
+   },
+   {
+    "arq": "15.webp",
+    "w": 630,
+    "h": 1400,
+    "hash": "bc0842582bcfa270fdf962ac96a84968"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "a229291237c4a7070ae8cee9180b32db"
+   },
+   {
+    "arq": "17.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "eda148092b516def6ffc8000486944f7"
+   },
+   {
+    "arq": "18.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "62befd8bcf83e35e1871217ebbdc7ca4"
+   },
+   {
+    "arq": "19.webp",
+    "w": 630,
+    "h": 1400,
+    "hash": "76f25f71107ffeffab2888666a0a2268"
+   },
+   {
+    "arq": "20.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "9d0806a64ef0a74fa871844a30c1be8f"
+   }
   ],
   "lat": -22.900278,
   "lng": -47.070833,
   "precisao": "bairro",
-  "total_no_site": 20
+  "total_no_site": 20,
+  "pequenas": []
  },
  "CAS00329": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "098901e06003312a690dc1e7f3eb53b3"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "abfa1aebdeb6d56ec2291790673b03a9"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "7bf47da4867aacc9f27b650b41d54590"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "00ef9687a2016faf7f3d8a15d5abff55"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "67814a7899e4b16e9a5a6a8f36d33655"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "c62e56048450cd955d5ccfd331c03e32"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "8d037cd9ca18583ed8a2e7825ed78530"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "ab3578390f36e5ecdec3e1d0e39ed695"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "7c0bdeebda80f1561defc4d3cb774c4d"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "188b6628d19269f8c67d18309d3bc074"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "7e37d09c4d60d0ee80d8244bfac711e3"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "6d39ea1b63f3f7a881730b7a0ea3683d"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "a060621a4c22fe078bf8c6eed44f0ca5"
+   },
+   {
+    "arq": "14.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "423f8a91d96673be59a70b3a81f5c42e"
+   },
+   {
+    "arq": "15.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "3e2cbad0405f1777dbc5105f45014d81"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "1857a0d94357d19d4d3bc5803f5f4184"
+   },
+   {
+    "arq": "17.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "1d9460a8931953c297ad07d848b3c67e"
+   },
+   {
+    "arq": "18.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "15efda9e5a79838ed2ffd19bee824dbe"
+   },
+   {
+    "arq": "19.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "c1e1c0843aac9f955748788dc3f3a024"
+   },
+   {
+    "arq": "20.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "d12bc97a8ecad0834b1d225fafd2e265"
+   },
+   {
+    "arq": "21.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "4209a0db040e10929658bd440a046fe4"
+   },
+   {
+    "arq": "22.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "22c97cedaec04dba0b37da439c4c5df9"
+   },
+   {
+    "arq": "23.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "22ff880b994fcb5c96ecb81b352ee80e"
+   },
+   {
+    "arq": "24.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "5975215db0b1e34818ea5c09d308a24f"
+   }
   ],
   "lat": -22.897538,
   "lng": -47.0723063,
   "precisao": "rua",
-  "total_no_site": 24
+  "total_no_site": 24,
+  "pequenas": []
  },
  "APA00200": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "0bd1a70c345ce7ad77cce94935037db3"
+   },
+   {
+    "arq": "2.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "906c6176abff32097647a15ce0ded52e"
+   },
+   {
+    "arq": "3.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "e363a655e0cf2fe031a4c437d2abbed0"
+   },
+   {
+    "arq": "4.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "3ff2aa4430dc60c2fd4286c9224a3ed2"
+   },
+   {
+    "arq": "5.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "75fd703e334a124aff51686a13eb149e"
+   },
+   {
+    "arq": "6.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "bb8d47f5a1ca82ea39eb878b0f933c5c"
+   },
+   {
+    "arq": "7.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "b54ea9698eb1160cd5c9e5bdc473cd14"
+   },
+   {
+    "arq": "8.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "befffd1405705b3462ad5472af5d6ea1"
+   },
+   {
+    "arq": "9.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "77fd07d68bc99ea28bfa29cc7d20f0bb"
+   },
+   {
+    "arq": "10.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "0cce09744d533a14491503866e3d954e"
+   },
+   {
+    "arq": "11.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "904b48f346907fd9e6f038b10d1e7959"
+   },
+   {
+    "arq": "12.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "5f033464f3fc23498d69ca7c3a518a7c"
+   },
+   {
+    "arq": "13.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "71b53fec3d1c7808da2210b1520367e1"
+   },
+   {
+    "arq": "14.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "77cc6e8df35747e50bfe36ab995a6d81"
+   },
+   {
+    "arq": "15.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "0f22ac1f608d3b105cd73764543a15c2"
+   },
+   {
+    "arq": "16.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "3e13bd321e054c9ff20d70da5a2f548b"
+   },
+   {
+    "arq": "17.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "d230f36c4484c193f37920c0895aed7b"
+   },
+   {
+    "arq": "18.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "ac007abe619bddfeeed0fef39315cab3"
+   },
+   {
+    "arq": "19.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "52830b45fc27ef66b8c9e692b03decb9"
+   },
+   {
+    "arq": "20.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "af39a50618520ea639335a51c3fb916a"
+   },
+   {
+    "arq": "21.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "f5ee2874c6178ab4eb3d7b7fe77aff75"
+   },
+   {
+    "arq": "22.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "79694eee751c957b26f1c626548addb8"
+   },
+   {
+    "arq": "23.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "4d2f582ad26683df7f6d12af6feaa788"
+   },
+   {
+    "arq": "24.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "bda3a97458376cc96ce9ab4e2439eb99"
+   },
+   {
+    "arq": "25.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "c5033662f3685c6695b1d02ed2860cd3"
+   },
+   {
+    "arq": "26.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "5ba28d020e0fe7c5285076bacddd24fa"
+   },
+   {
+    "arq": "27.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "bc45f17dc1637299f8d580a565303828"
+   },
+   {
+    "arq": "28.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "907bb48cdc0e2c7e72b932ea3e250977"
+   },
+   {
+    "arq": "29.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "b3a4421b7943bca2b73c1b2fd20fdad6"
+   },
+   {
+    "arq": "30.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "42afc1e0c828ffd8da90f954e9ae15da"
+   },
+   {
+    "arq": "31.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "b20c9ba0b31e198a09d8854d6d837c5d"
+   },
+   {
+    "arq": "32.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "1abc48d7e9c80ea3107846f877b16364"
+   },
+   {
+    "arq": "33.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "de4bfc209434fb95bcd4a56376e54522"
+   },
+   {
+    "arq": "34.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "accc96d183c7dfb7a11f8d34e86795d3"
+   },
+   {
+    "arq": "35.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "44df8348128f71c636113b73f1b86083"
+   },
+   {
+    "arq": "36.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "81984c7acd80ab6c007f42bc23720773"
+   },
+   {
+    "arq": "37.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "ca18d890de4a57fb019bbb58b2ab6fd9"
+   },
+   {
+    "arq": "38.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "90ba7389560d10f7f121a3537d99bb99"
+   },
+   {
+    "arq": "39.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "88457224ce874ce7004cdce5a08aea36"
+   },
+   {
+    "arq": "40.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "b6f4f09dc818a104b73d27612a207672"
+   },
+   {
+    "arq": "41.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "adbf23b5d0f43a31d59b9ac93cafe8ab"
+   },
+   {
+    "arq": "42.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "5ea0fa2a3e5e6582c6250803e892d1f4"
+   }
   ],
   "lat": -22.892222,
   "lng": -47.049722,
   "precisao": "bairro",
-  "total_no_site": 42
+  "total_no_site": 42,
+  "pequenas": []
  },
  "CAS0068": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "5671da5263f7132e4ee08af45b4e828d"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "9d02dad33419194e138ba59a0f5c8437"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "067fec032c5dd22be67117828fcd8e7b"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "43ac4a9541ef1b3a69f1b13268ef9878"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "30cf04b2cceded826c0f6f5ccc23e306"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "a481274c200dc42b35f97fa031736f52"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "c1264083090d1748185b223eef386f7d"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "537cd15cde94173f13116f2cec118a71"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "b4b10d2b9e5f71c81a817719af6b7112"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "3b733f5caa38b4f3d76f2a6a14ec7028"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1004,
+    "h": 1339,
+    "hash": "0df11e1fbbc2dbc7ce9f55b123405973"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "cf204738370c761901dd503f564153cb"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "7c4bbb0298ac7b6530f7344915ebe063"
+   },
+   {
+    "arq": "14.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "39305a33e079c068ef7ee03cb2e3b4f4"
+   },
+   {
+    "arq": "15.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "dc56504745c86dc0bc117cff74ef7116"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "1a1c452b628d419a3dfb43bf4a411b0c"
+   },
+   {
+    "arq": "17.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "0a4e6090f5bb69a033ea2d924040c41e"
+   },
+   {
+    "arq": "18.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "2c3b6cb70076a9e414ddb8e919d064fd"
+   },
+   {
+    "arq": "19.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "0a6f366b96628bcae20a5c62eb981d99"
+   },
+   {
+    "arq": "20.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "aa6e2a2182b264d9529d520733118e28"
+   },
+   {
+    "arq": "21.webp",
+    "w": 1004,
+    "h": 1339,
+    "hash": "bd7509dd1cc857fa5f39788df369c705"
+   },
+   {
+    "arq": "22.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "06489024c0cff4b5a391aa6d07f2d2df"
+   },
+   {
+    "arq": "23.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "7e367805d64809c20b45506d7f4c6ee8"
+   }
   ],
   "lat": -22.892222,
   "lng": -47.049722,
   "precisao": "bairro",
-  "total_no_site": 23
+  "total_no_site": 23,
+  "pequenas": []
  },
  "APA00279": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 500,
+    "h": 667,
+    "hash": "eb1b236190fe3ee7fe324ae8da8b8f63"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1140,
+    "h": 855,
+    "hash": "9e3f7bbbe9203337d11eef82b9b6aa15"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1140,
+    "h": 855,
+    "hash": "de4c1986b08697c5753f7778dc3b3659"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1140,
+    "h": 855,
+    "hash": "a6ba7017976d0eb21e8bfff7d3cbd6a1"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1140,
+    "h": 855,
+    "hash": "2ab4c0573ee0ed4abfcda955816295e0"
+   },
+   {
+    "arq": "6.webp",
+    "w": 855,
+    "h": 1140,
+    "hash": "4aa36db0eaa98a4a030c838b392e85ec"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1140,
+    "h": 855,
+    "hash": "38bbdcce89f689980f5b7b92e987c880"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1140,
+    "h": 855,
+    "hash": "0ec8bd48dea58053e846d5fcee8d1363"
+   },
+   {
+    "arq": "9.webp",
+    "w": 855,
+    "h": 1140,
+    "hash": "4dd441c2718b65368d8871161d43b3e3"
+   },
+   {
+    "arq": "10.webp",
+    "w": 855,
+    "h": 1140,
+    "hash": "e7bc55d4993ac90aefd9c4f3910324dc"
+   },
+   {
+    "arq": "11.webp",
+    "w": 855,
+    "h": 1140,
+    "hash": "9331d6af44919f41718b48f17bd7df04"
+   },
+   {
+    "arq": "12.webp",
+    "w": 855,
+    "h": 1140,
+    "hash": "a3eaad9d1b31e3cbb8b0ab0a9b3068ba"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1140,
+    "h": 855,
+    "hash": "ea79ea00209faaeb56fd7d2f1f0cce03"
+   },
+   {
+    "arq": "14.webp",
+    "w": 1140,
+    "h": 855,
+    "hash": "90eb30328f48f276666d81a8d145e588"
+   },
+   {
+    "arq": "15.webp",
+    "w": 1140,
+    "h": 855,
+    "hash": "aa61e5976ac0fd06ce1085515c910fb5"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1140,
+    "h": 855,
+    "hash": "f00091872f1410cab0f20360fc98cd84"
+   },
+   {
+    "arq": "17.webp",
+    "w": 1140,
+    "h": 855,
+    "hash": "6be73ff0faf23781b1ea6a69782479b4"
+   }
   ],
   "lat": -22.889244,
   "lng": -47.0735832,
   "precisao": "bairro",
-  "total_no_site": 17
+  "total_no_site": 17,
+  "pequenas": []
  },
  "SAL00334": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "aaa8e32e705eab3d78ea3bda88542fc9"
+   },
+   {
+    "arq": "2.webp",
+    "w": 321,
+    "h": 241,
+    "hash": "fad21f1e697904a5b7fb858b1c82aada"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "2fc1f76e3fd92aee4784054f583de4c8"
+   },
+   {
+    "arq": "4.webp",
+    "w": 241,
+    "h": 321,
+    "hash": "665fde25875ed6392cb9bf7f3b2e45cf"
+   },
+   {
+    "arq": "5.webp",
+    "w": 241,
+    "h": 321,
+    "hash": "33b24e0be5f7d2313a9f8ab51cb11df3"
+   },
+   {
+    "arq": "6.webp",
+    "w": 321,
+    "h": 241,
+    "hash": "5ee72544da5989ca259d4fbd12d165a0"
+   },
+   {
+    "arq": "7.webp",
+    "w": 321,
+    "h": 241,
+    "hash": "dd8a1daa9ac9d97a732f6a805bd405cc"
+   },
+   {
+    "arq": "8.webp",
+    "w": 321,
+    "h": 241,
+    "hash": "bc24eccc52ae64958c1ab07b31e63907"
+   },
+   {
+    "arq": "9.webp",
+    "w": 321,
+    "h": 241,
+    "hash": "9f70d7d47660303cf22747f0bd74cfae"
+   },
+   {
+    "arq": "10.webp",
+    "w": 321,
+    "h": 241,
+    "hash": "2a933c8a28a2ae79abd2c00403a0defe"
+   },
+   {
+    "arq": "11.webp",
+    "w": 321,
+    "h": 241,
+    "hash": "8fecff5848d9b96adc6712e52fdaef62"
+   },
+   {
+    "arq": "12.webp",
+    "w": 321,
+    "h": 241,
+    "hash": "d112f5ed45defc432c6224e5cb7c6756"
+   }
   ],
   "lat": -22.902583,
   "lng": -47.0686755,
   "precisao": "rua",
-  "total_no_site": 12
+  "total_no_site": 12,
+  "pequenas": []
  },
  "SAL0044": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "087ee2af16536ae5af28dcdfefbbfe01"
+   },
+   {
+    "arq": "2.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "1d25631dd3d41e3096012809df9bdf98"
+   },
+   {
+    "arq": "3.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "b563be50f31d56181d38bd60bfb55d0b"
+   },
+   {
+    "arq": "4.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "497ef85ba70135a8f28bed78a4abe8b0"
+   },
+   {
+    "arq": "5.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "1de35affed5d349fc200b0d55bec686b"
+   },
+   {
+    "arq": "6.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "8cedd2272fb2757efaf997066a11146e"
+   },
+   {
+    "arq": "7.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "8c0199abaded219a91730d7a81188a19"
+   },
+   {
+    "arq": "8.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "af6bccdd3c4c0706537f163ee8dbf70e"
+   },
+   {
+    "arq": "9.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "d71ea454265d032ff3e5e3139494afd6"
+   },
+   {
+    "arq": "10.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "dbfc53a083171d707100e56d0a3bcf76"
+   }
   ],
   "lat": -22.9050869,
   "lng": -47.0600751,
   "precisao": "bairro",
-  "total_no_site": 10
+  "total_no_site": 10,
+  "pequenas": []
  },
  "SAL0074": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "ff34e0453aa2b5060bd34b7d91e8a287"
+   },
+   {
+    "arq": "2.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "4e78d2426ba077e07b1c6a6dd83d1971"
+   },
+   {
+    "arq": "3.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "74ddc171de837a055c889a19bfbed26b"
+   },
+   {
+    "arq": "4.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "58f7c38f249dc651509254ab9ebfd238"
+   },
+   {
+    "arq": "5.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "d31b94ba3754eb88b055d2c3c5d13bae"
+   },
+   {
+    "arq": "6.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "c9dac7222e0e4f2bfe1972c3a0cd4bbc"
+   },
+   {
+    "arq": "7.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "77977b2f2843246e6878e893ee000737"
+   },
+   {
+    "arq": "8.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "d39ba19729f853cd9596e730e0755264"
+   },
+   {
+    "arq": "9.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "7777cab97caed73c23b655ede189e304"
+   },
+   {
+    "arq": "10.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "c32c2cc95a50c7bd2095a6ee067d8876"
+   }
   ],
   "lat": -22.9129563,
   "lng": -47.0582591,
   "precisao": "rua",
-  "total_no_site": 10
+  "total_no_site": 10,
+  "pequenas": []
  },
  "TER00343": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "0f869a2c915d8c6d68f7d9083d84f287"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "282cedea6eb9b9c4eb7ee8c64de5f352"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "b840197e1dd0e4245b8336b3fcdaa1b4"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "4db8d197a57c420a6ef3555b29dc848d"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "071fbfa81ed70b50475c6ec0d7521809"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "0b8041367ffd1818c3e25d957b321c70"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "f0b23425750649f5ddd772ea58401e18"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "46e56a81a88df837adddae5455c7d9b6"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "de443dd40b761600c982abe0755f91dc"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "0398529a11062d8d5eec86e7cd92b286"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "f7f37764f6fcebaecb4c3af1662b4db2"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "9c2501169cbac674cce8c4a63c317d3b"
+   }
   ],
   "lat": -22.8225928,
   "lng": -47.0733157,
   "precisao": "rua",
-  "total_no_site": 12
+  "total_no_site": 12,
+  "pequenas": []
  },
  "APA00192": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "6c7bd8f174372707ba19be4d8ea02de5"
+   },
+   {
+    "arq": "2.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "58e6b256625f2c6e5223cf9b6e398f92"
+   },
+   {
+    "arq": "3.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "cc6b6e498f9bd3651d030f28d03af43b"
+   },
+   {
+    "arq": "4.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "4578e9ae7ed2d18c0f6d5370f0be231d"
+   },
+   {
+    "arq": "5.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "38e89079332df49aaf0f45cf21bf7b6b"
+   },
+   {
+    "arq": "6.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "d5168b122d4651ef9a11c844e448d8db"
+   },
+   {
+    "arq": "7.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "bf1a6823cffdebc8cbcd82d6b52671ce"
+   },
+   {
+    "arq": "8.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "28d429fe5e1277963823446ecea39bad"
+   },
+   {
+    "arq": "9.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "688899b450ed8610387b9f64d754eaa2"
+   },
+   {
+    "arq": "10.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "c6d6c43dfcd195e7457e98e0a60a2e18"
+   },
+   {
+    "arq": "11.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "96cc7d6eed0df81a078c0984128fcb45"
+   },
+   {
+    "arq": "12.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "e95e989da93537a00d3f540838b46304"
+   },
+   {
+    "arq": "13.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "59876075150892acb6c3037cbba9df06"
+   },
+   {
+    "arq": "14.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "1900f1e01f7a4754bf573eca8dacc001"
+   },
+   {
+    "arq": "15.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "754491c23a9138820861e2d6f0db9b83"
+   },
+   {
+    "arq": "16.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "4f32293b461c4461586f25a2f712a4b7"
+   },
+   {
+    "arq": "17.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "d55f52eb2a795666885ba0a383b426b1"
+   },
+   {
+    "arq": "18.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "e0e86d0e09852fc0307513ae7dacab77"
+   },
+   {
+    "arq": "19.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "3bc0ab52712a137f1d379a587a76b95f"
+   },
+   {
+    "arq": "20.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "dfb3a0453b8a6a9439fc270088d02b05"
+   },
+   {
+    "arq": "21.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "6c1ea6f5c54517baad25987e8660e29e"
+   }
   ],
   "lat": -22.9056391,
   "lng": -47.059564,
   "precisao": "cidade",
-  "total_no_site": 21
+  "total_no_site": 21,
+  "pequenas": []
  },
  "APA00326": {
   "fotos": [],
   "lat": -22.8847536,
   "lng": -47.0664017,
   "precisao": "rua",
-  "total_no_site": 0
+  "total_no_site": 0,
+  "pequenas": []
  },
  "CAS00160": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "efe451561dc9f8bf069f3e949e2549df"
+   },
+   {
+    "arq": "2.webp",
+    "w": 640,
+    "h": 360,
+    "hash": "09970d5a1e6addedeca86421338d7cba"
+   },
+   {
+    "arq": "3.webp",
+    "w": 640,
+    "h": 344,
+    "hash": "472a963422d77e117d5f51cb8b0cadf3"
+   },
+   {
+    "arq": "4.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "e7b502fb0fe1bf0ac51066600a9d2dee"
+   },
+   {
+    "arq": "5.webp",
+    "w": 459,
+    "h": 705,
+    "hash": "cd74ba2558c635179d231ba69e6bc732"
+   },
+   {
+    "arq": "6.webp",
+    "w": 458,
+    "h": 640,
+    "hash": "e7bb46fbf61ee9afac3379bb44cf187e"
+   },
+   {
+    "arq": "7.webp",
+    "w": 663,
+    "h": 358,
+    "hash": "db4b9d16e57898beeec7199873c475dc"
+   },
+   {
+    "arq": "8.webp",
+    "w": 663,
+    "h": 497,
+    "hash": "9d418303aabc734b7b300f02c4c46f5d"
+   }
   ],
   "lat": -22.888889,
   "lng": -47.081944,
   "precisao": "bairro",
-  "total_no_site": 8
+  "total_no_site": 8,
+  "pequenas": []
  },
  "CAS00185": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "9fbd460f860411ef1ec8e2e407bb8e21"
+   },
+   {
+    "arq": "2.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "d4ed65fddca22eda4c4517e5eafa51d7"
+   },
+   {
+    "arq": "3.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "cf9c6911551919fc47f26be69172a5b1"
+   },
+   {
+    "arq": "4.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "51427ec3ba6d4b57ff6853b108732de5"
+   },
+   {
+    "arq": "5.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "41d1c16616fe3a50ae40259f37f0487b"
+   },
+   {
+    "arq": "6.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "93dbb200a2b4b459c287d13b179d3740"
+   },
+   {
+    "arq": "7.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "b1a6399445df2d99b65a9d220469a343"
+   },
+   {
+    "arq": "8.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "e1ccc78d4b36170c9b427a77b26cd3e1"
+   },
+   {
+    "arq": "9.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "71a6d1689ff9efe7817dd89cb0aaaaf3"
+   },
+   {
+    "arq": "10.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "328f27ef2d2f44bb140debd1b3134286"
+   },
+   {
+    "arq": "11.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "29c53fe3c8754a3c3dcf4feebaf5c035"
+   },
+   {
+    "arq": "12.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "1b28e5c7c2b0785853b3b089b098254a"
+   },
+   {
+    "arq": "13.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "688e4db1a68ef7e02d2a5a7f772bb4d4"
+   },
+   {
+    "arq": "14.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "23e98ae5abcffad3cf9d6487bbfcafad"
+   },
+   {
+    "arq": "15.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "c0b4c68cf92f024ef48052ae977e2ea5"
+   },
+   {
+    "arq": "16.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "461b08d0ee2718a7fba091c945f543bd"
+   },
+   {
+    "arq": "17.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "2976de74088a0a345ed50e49a608243b"
+   },
+   {
+    "arq": "18.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "87077583d2239c2df7374da76c3bf479"
+   },
+   {
+    "arq": "19.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "5ec811e459f74baf237f2297a420f1e0"
+   },
+   {
+    "arq": "20.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "97ec2a4439f66eb12d8764248a25bb53"
+   },
+   {
+    "arq": "21.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "6fd7f085ac1cb5e748d3ce69c1b68555"
+   },
+   {
+    "arq": "22.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "aa2f4b09d6c8f0d8a3189e08ed5adc6e"
+   },
+   {
+    "arq": "23.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "83f4b9ee406baeb482f08db4d6a550c9"
+   },
+   {
+    "arq": "24.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "ba9a744b37b52efdf302180a89c560c2"
+   },
+   {
+    "arq": "25.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "c34e7f661e39190152f490e6c27ed98d"
+   },
+   {
+    "arq": "26.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "46f23d8e43d17b7540f231180177b60c"
+   },
+   {
+    "arq": "27.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "92576e91c6c8c64575b2717a16d3fc91"
+   },
+   {
+    "arq": "28.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "d81824a30e34c40dfa0ee57f0a73be15"
+   },
+   {
+    "arq": "29.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "bcde0b862674e2a354a6334ca6d3f6ba"
+   },
+   {
+    "arq": "30.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "ec77b0d06fe9d4394af43f9487ec1547"
+   },
+   {
+    "arq": "31.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "439181eecf1b89b0054527ed300f3668"
+   },
+   {
+    "arq": "32.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "72d664d32744ad5dddc4921202c3ac01"
+   },
+   {
+    "arq": "33.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "99c62f59fc0e06e484ea3caacd771c38"
+   },
+   {
+    "arq": "34.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "7bb9b4ff79f8adbc056496921629c2cb"
+   },
+   {
+    "arq": "35.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "dc63f377e68cd52c8e27db42e41acc12"
+   },
+   {
+    "arq": "36.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "46e9bae516007687932831149c144e71"
+   },
+   {
+    "arq": "37.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "cd26553a07b955b79f303d5858bc38cb"
+   },
+   {
+    "arq": "38.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "7883cc57b6e8e00c69e74cdf8a2f3cfb"
+   },
+   {
+    "arq": "39.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "d21282901b6f72c201c57625636a08a5"
+   }
   ],
   "lat": -22.888889,
   "lng": -47.081944,
   "precisao": "bairro",
-  "total_no_site": 39
+  "total_no_site": 39,
+  "pequenas": []
  },
  "CAS00229": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "9095620f2c3d583ceddce2be4a8675af"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "3e334c951fdb36e445647f2723fbd5d5"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "83b101aef1c6644033b586be45ebd1f8"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "26f57c299cd9f34996dd3e840b7d2f61"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "905487f6e37e5d8de5e8b157e7ae2cb4"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "abbe5b7cdbb6482e5d20c666e14d5f1e"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "821fb9985ae5ac38dc86248ecb0f7e7e"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "94bd020bbe25f99dfd4b2c043cd7245e"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "d5b6b0d0d32d008b950bbf192f21276e"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "96dae858deabc93908fcba10c416cd14"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "ca24e1eddba274858d1d9fe9bc1d10d5"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "e804d2314708b173b3854e5fad038770"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "a569cf63b5311441515ca216ea60dacb"
+   },
+   {
+    "arq": "14.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "cc530bfac0ef3961b935a82faebde87c"
+   },
+   {
+    "arq": "15.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "940faae02fe6eff25fb655d0354427c3"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "290d70b24d5e74a11dfe81d71f3c87ca"
+   },
+   {
+    "arq": "17.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "d3b081094b6df4305f89224273eef3d0"
+   },
+   {
+    "arq": "18.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "0c3e90c8be3e8992e2101d192de60a40"
+   },
+   {
+    "arq": "19.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "8af80a4d2eac87351581160852c4c6b7"
+   },
+   {
+    "arq": "20.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "d021597d4bf08191f9ac3b6724d2ae63"
+   },
+   {
+    "arq": "21.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "c73ebccbaf2d03c3d87f8e15aaa73f96"
+   }
   ],
   "lat": -22.886991,
   "lng": -47.0763473,
   "precisao": "rua",
-  "total_no_site": 21
+  "total_no_site": 21,
+  "pequenas": []
  },
  "SOB00231": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 960,
+    "h": 540,
+    "hash": "a4df4149513dfa3fa902e13b3a56949d"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "d45a3279ab89e1932538dec329e883ee"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "91617354c4d2ed4805a4d90565742f90"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "3df2464b6973701d5f1d7a744f97a1cc"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "5bcb6e22c1addf416819869ccaf34adb"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "d0f94a294925f88d557789574689ba5c"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "28a4b7ad038562a67ab43dc4a35c55d9"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "a5a8869780a46c284b19d663806cc7f1"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "ee562bb4ec2977457df7550323c48366"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "d008617137c4b40de1db7b30d23a4021"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "55112f91b8400db66f865a1003707a0e"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "cc25d8c46ce6ec75253431cb58ee3476"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "08a78b3a609c361ff78e1f3757c1fd3d"
+   }
   ],
   "lat": -22.898159,
   "lng": -47.082008,
   "precisao": "rua",
-  "total_no_site": 13
+  "total_no_site": 13,
+  "pequenas": []
  },
  "CAS00284": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "74f77e12e6104f2a2e31e1e8ae9e7d70"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "a1a835cf4f4a896e3df4fbc4317324a0"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "98c9fb0065ffaa2cddae8531bceae3a1"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "7d1e1609d68b3c9ed7c3af4c57cc82b0"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "2d66c8ab4765b2af711cb4f37c205f7d"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "a280ff49134bd7258dec0e189e268580"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "9becbf75cec100f6627d033424075a41"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "667ca03a01f0004ed280f597e84d9064"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "2314e18aa7c57ade9c64da3728925652"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "85d7a6d69cba7da05127002a7afe5cd9"
+   },
+   {
+    "arq": "11.webp",
+    "w": 774,
+    "h": 1032,
+    "hash": "46c698c7b1838530154e210427704e40"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "4f34a9bebe9a43be27050e3cdff4dd26"
+   },
+   {
+    "arq": "13.webp",
+    "w": 774,
+    "h": 1032,
+    "hash": "d97911ad0695a9df95c035edffc44b93"
+   },
+   {
+    "arq": "14.webp",
+    "w": 774,
+    "h": 1032,
+    "hash": "585930b2027b94a834cf7486c9f31313"
+   },
+   {
+    "arq": "15.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "f80f7ba8a282de3a439825ded8b3ea08"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "1c4b24a562f68b84beac1457ac0197b3"
+   },
+   {
+    "arq": "17.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "51de90211b66356ec8d61ee8e8580cec"
+   },
+   {
+    "arq": "18.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "0751316734f36f96aa79a4e64814a91b"
+   },
+   {
+    "arq": "19.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "b07ef7b343a9c3c1c09c0bb9510e4984"
+   },
+   {
+    "arq": "20.webp",
+    "w": 1032,
+    "h": 774,
+    "hash": "67c96e3621dc04be9c82d9f9fa0b3ef5"
+   }
   ],
   "lat": -22.888889,
   "lng": -47.081944,
   "precisao": "bairro",
-  "total_no_site": 20
+  "total_no_site": 20,
+  "pequenas": []
  },
  "CAS00288": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "f3ebcb12677e22f925a01d872e59076e"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1050,
+    "h": 1400,
+    "hash": "8a92ff072e4409fc26cd8967bc1cca9a"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "0b237cfbd5bb5de0d7656fea5b32a183"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "95abfcb77e35ac9477a140b0b5b15bec"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1050,
+    "h": 1400,
+    "hash": "fc2e984d2499551122ab1da0e5cfa975"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1050,
+    "h": 1400,
+    "hash": "a40ad65df695ba4916aef4a8ce9fffbd"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "bb7b4d77127d8cf4bf457c0d07e14173"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1050,
+    "h": 1400,
+    "hash": "2f242dcf05cf4183aafcffc8e2d80977"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1050,
+    "h": 1400,
+    "hash": "7707cfe180bb62483a85f0db762e8ad8"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "adf73f91931badd0323c4ea63403f979"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1050,
+    "h": 1400,
+    "hash": "d6b7892e6708663d61a37e10187a3828"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1050,
+    "h": 1400,
+    "hash": "91e02acbb75b4ccb69a22cdea34b4045"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1050,
+    "h": 1400,
+    "hash": "96114af3e96b2ef95334230b3df5dc88"
+   },
+   {
+    "arq": "14.webp",
+    "w": 1050,
+    "h": 1400,
+    "hash": "27519a60155969b3a0ae0a9004c5fc48"
+   },
+   {
+    "arq": "15.webp",
+    "w": 1050,
+    "h": 1400,
+    "hash": "de1b2d0727bd66573ffefabfca34d095"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1050,
+    "h": 1400,
+    "hash": "98b479df540a3e7aefe9057b740164dd"
+   }
   ],
   "lat": -22.888889,
   "lng": -47.081944,
   "precisao": "bairro",
-  "total_no_site": 16
+  "total_no_site": 16,
+  "pequenas": []
  },
  "APA00345": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 720,
+    "h": 540,
+    "hash": "731dac804f8cbdd68f95029bb5ee3468"
+   },
+   {
+    "arq": "2.webp",
+    "w": 720,
+    "h": 540,
+    "hash": "5d167e6f673b0643555ba5c5b58f8f42"
+   },
+   {
+    "arq": "3.webp",
+    "w": 540,
+    "h": 720,
+    "hash": "b9cc822e6217bd52c9c2e3abc0826061"
+   },
+   {
+    "arq": "4.webp",
+    "w": 720,
+    "h": 540,
+    "hash": "e7c23bc985c3fa034db9746429d2e8eb"
+   },
+   {
+    "arq": "5.webp",
+    "w": 540,
+    "h": 720,
+    "hash": "075398978add89df2a53851b7ef41deb"
+   },
+   {
+    "arq": "6.webp",
+    "w": 540,
+    "h": 720,
+    "hash": "a225494a34b78193f23dbf3bc559d833"
+   },
+   {
+    "arq": "7.webp",
+    "w": 540,
+    "h": 720,
+    "hash": "e71afe8ae2384a46ed7429117bf62fdd"
+   },
+   {
+    "arq": "8.webp",
+    "w": 720,
+    "h": 540,
+    "hash": "a2400952f191083e54dd4a49c3e89e15"
+   },
+   {
+    "arq": "9.webp",
+    "w": 720,
+    "h": 540,
+    "hash": "988ce742c2e396442ae7a846e79009bd"
+   },
+   {
+    "arq": "10.webp",
+    "w": 540,
+    "h": 720,
+    "hash": "5730508a226127f426fb90979cd3990b"
+   },
+   {
+    "arq": "11.webp",
+    "w": 720,
+    "h": 540,
+    "hash": "a855458506346980ca4dd74946739cc0"
+   },
+   {
+    "arq": "12.webp",
+    "w": 540,
+    "h": 720,
+    "hash": "b79b7751c3c34cdf664d7f03d86e1515"
+   },
+   {
+    "arq": "13.webp",
+    "w": 540,
+    "h": 720,
+    "hash": "5ca5272cc55bb4ccd756017c9032c4c1"
+   },
+   {
+    "arq": "14.webp",
+    "w": 540,
+    "h": 720,
+    "hash": "39b9f225e1cb48c16f0126afef8085bd"
+   },
+   {
+    "arq": "15.webp",
+    "w": 540,
+    "h": 720,
+    "hash": "d8519f88a7c5b1cbb398b6c97651ba1f"
+   }
   ],
   "lat": -22.8923804,
   "lng": -47.0804513,
   "precisao": "rua",
-  "total_no_site": 15
+  "total_no_site": 15,
+  "pequenas": []
  },
  "CAS00346": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 917,
+    "h": 940,
+    "hash": "011118237938ca12d92f7da75c55cde8"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1080,
+    "h": 907,
+    "hash": "bb3b8a5b5a331033bfc93275d2b4ce63"
+   },
+   {
+    "arq": "3.webp",
+    "w": 929,
+    "h": 924,
+    "hash": "dffd5def4f671415825285b686f707f4"
+   },
+   {
+    "arq": "4.webp",
+    "w": 924,
+    "h": 871,
+    "hash": "29f43341967e6bbb69c49d4c8bbcde73"
+   },
+   {
+    "arq": "5.webp",
+    "w": 921,
+    "h": 907,
+    "hash": "cc0da8e2e73f7be9516c93eb15d520bc"
+   },
+   {
+    "arq": "6.webp",
+    "w": 917,
+    "h": 909,
+    "hash": "c969cf2b6f3b114fa9df4dcac0212c7f"
+   },
+   {
+    "arq": "7.webp",
+    "w": 894,
+    "h": 893,
+    "hash": "c08f967565f715e5e7a784c2ef009d5f"
+   },
+   {
+    "arq": "8.webp",
+    "w": 818,
+    "h": 957,
+    "hash": "1c1941217bd21fab1714641c87d327c5"
+   },
+   {
+    "arq": "9.webp",
+    "w": 888,
+    "h": 964,
+    "hash": "fc54943fae5252bf01af993802ec3bfc"
+   },
+   {
+    "arq": "10.webp",
+    "w": 823,
+    "h": 941,
+    "hash": "9887ef63eb90633a5c82a4bbc57a02ee"
+   },
+   {
+    "arq": "11.webp",
+    "w": 903,
+    "h": 933,
+    "hash": "e7a1eaff22eee449fe5d818eb0bbb319"
+   },
+   {
+    "arq": "12.webp",
+    "w": 999,
+    "h": 949,
+    "hash": "f38ab91dc6d43f637f04f3a3f6922d22"
+   },
+   {
+    "arq": "13.webp",
+    "w": 917,
+    "h": 895,
+    "hash": "fa45ac15955811b486515dd4004739cc"
+   },
+   {
+    "arq": "14.webp",
+    "w": 914,
+    "h": 947,
+    "hash": "4cad18b8987ab5c0139688d0c0ac026a"
+   },
+   {
+    "arq": "15.webp",
+    "w": 985,
+    "h": 877,
+    "hash": "d065271ef2eb7d29db7193bb0b6ffdf9"
+   },
+   {
+    "arq": "16.webp",
+    "w": 916,
+    "h": 922,
+    "hash": "03fb7636537199a505f374dc40235ca8"
+   }
   ],
   "lat": -22.898525,
   "lng": -47.0850599,
   "precisao": "rua",
-  "total_no_site": 16
+  "total_no_site": 16,
+  "pequenas": []
  },
  "CAS0062": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "45638e899fb10e740752d5fc187091dc"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "fabf8915e6a07dc828e4e502cb792869"
+   },
+   {
+    "arq": "3.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "4682626b3f48e24599165cecd50eaf1b"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "cdfad541e9709e34c488663ed48a2f6f"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "e9dba0dd18de1025e7294a21f3d18c0e"
+   },
+   {
+    "arq": "6.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "2e180fd928238fcd52cd5b72ba72a3b0"
+   },
+   {
+    "arq": "7.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "ceeaadb3fd7cb87dea96f66e595214a8"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "dfd4ffbd8ccfce27067ab6bfa0926723"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "515e00e100b24265e75fa9b52490ac56"
+   },
+   {
+    "arq": "10.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "523b889d09e569052d3a866d78181700"
+   },
+   {
+    "arq": "11.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "e26869cdcf9f921bb403a78363f4585c"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "1291fad554d96de3060c5f218b6bea6c"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "221bfc996b951f49c45dadbfc4fccbac"
+   },
+   {
+    "arq": "14.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "46e1ae290082f1ec54fa8051533b23d2"
+   },
+   {
+    "arq": "15.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "6198f3154f34dcb2c01f95e9cc2e585c"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "cdc0425732236ac0dcabb278686b01a6"
+   },
+   {
+    "arq": "17.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "4cf856e74e52b5b899b1047e9af38683"
+   },
+   {
+    "arq": "18.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "963ee8cb8655ce04c206b1b22ae182a0"
+   },
+   {
+    "arq": "19.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "f00d33dc0eac9c9b652df561d89f5b4b"
+   },
+   {
+    "arq": "20.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "49c24e23b993d2a487223d1f76100a7e"
+   },
+   {
+    "arq": "21.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "4286c601949b466d1634cc9737db0bfd"
+   },
+   {
+    "arq": "22.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "57722848eebed7447c4d27c3516a9c18"
+   },
+   {
+    "arq": "23.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "46908d29934bd036c8fd2ad16e25e766"
+   },
+   {
+    "arq": "24.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "402c102d334006aaf98c8248b46ee74c"
+   },
+   {
+    "arq": "25.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "60adc4de6113fb32b29fb0a5c9545f03"
+   },
+   {
+    "arq": "26.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "1c418d294ef9ca74cd3f7af1d2e7e805"
+   },
+   {
+    "arq": "27.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "24ba234fb567cc8dd22e57faa7541477"
+   },
+   {
+    "arq": "28.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "f8ecd14ee629ec93c5a7adaf46d226d4"
+   },
+   {
+    "arq": "29.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "504dbd288b003a8493ecc4d132349f0e"
+   },
+   {
+    "arq": "30.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "331a3207dd0937ceecc38911aa94960e"
+   },
+   {
+    "arq": "31.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "27ea1c9c9951e69cd3e483347e1747a9"
+   },
+   {
+    "arq": "32.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "e5fbbe35d827d301c2cdace77e7fa73b"
+   },
+   {
+    "arq": "33.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "a02d7692371336ce2d35461f68918648"
+   },
+   {
+    "arq": "34.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "351792bd19aa8038a013e582c8016065"
+   }
   ],
   "lat": -22.888889,
   "lng": -47.081944,
   "precisao": "bairro",
-  "total_no_site": 34
+  "total_no_site": 34,
+  "pequenas": []
  },
  "CAS0065": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 250,
+    "h": 184,
+    "hash": "b0edd5a22dfd43713b99f17f787c5c68"
+   },
+   {
+    "arq": "2.webp",
+    "w": 250,
+    "h": 184,
+    "hash": "edcc870ef1b9c33fa1070be5206708e8"
+   }
   ],
   "lat": -22.888889,
   "lng": -47.081944,
   "precisao": "bairro",
-  "total_no_site": 29
+  "total_no_site": 29,
+  "pequenas": [
+   "3e0686a17cfcff673d7bf17ec84caaba",
+   "9387163e4588795c27e79d3e8ba01fd3",
+   "7d64de63789690d9e96e73741235cbab",
+   "18286396fb062634fa1c96f7e6f0bbe4",
+   "91852c76fe3492d1bc5c0cbba80ee719",
+   "af0cc914a03a51424034fc4c833e0a34",
+   "df21243570163aebbe01bb5755871e7b",
+   "e8283bfe8005d2de0e787fb2b026c762",
+   "890c51eb4dcce1ca1958a54ba04810b9",
+   "68434d108ee9e7f19d66de26b7518d53",
+   "55d5e5ce7e155ff1d9ec879fa25c3a2e",
+   "7b25003fa9eff11151b61c2f8558f115",
+   "386baad0bd7bf7b524c87e94ed58bdfc",
+   "51796ee633c6bde773ea87498b3a7b68",
+   "96645608c1b416e17f798f80201855d9",
+   "88e184b7ba1ec3740bc80e337e2fc3ce",
+   "3db013937b59b1e9cca0a2b7576b4353",
+   "5bf5bc8ce0fb2b9bb60eea0932381e2a",
+   "bab0ff77f7c2da35de33c3532bb444e0",
+   "73c1339c40195ac893de625644f88662",
+   "9b4b88da644bbe83efe62a6f632bea53",
+   "4e529029652311184d2bf48ceed3263a",
+   "b7ebb259e56889a6fe806aaa9084edcf",
+   "f8fb213965fe49996e738c5676a63814",
+   "72e877843919d9f3b1c15c83dd775e05",
+   "0749ec76a6b09d688e17ae4a66805c76",
+   "3bb1fcc07f3e7473ccf196a4a0bca22f"
+  ]
  },
  "BAR00321": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "71417562c3056469f3e73b67f14b0171"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "2449c4593aec8a11e95497b54c96e062"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "0ecb6ecdf19adb6631d19b70e8ceeb8e"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "ea99e7923f1da4be75e640878298d81c"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "0d14304578e5115aa9ac4f219be34e60"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "f4fffdfcf5ed4d9c374fbbbf0ad2a49c"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "5a1564defa745b3219b17ba8fa10f5d6"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "bd54d7b4eab594e3258035cfe93ed16f"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "b248936ee4482b35529ef3b8b84e2f83"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "83f0219f984de7c202b2b5c666378906"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "1e939cda2f91c75c5009b206f1a0ba7a"
+   },
+   {
+    "arq": "12.webp",
+    "w": 470,
+    "h": 627,
+    "hash": "d0a43da7759f1e0d0d9199ead1010a2f"
+   },
+   {
+    "arq": "13.webp",
+    "w": 470,
+    "h": 627,
+    "hash": "7ed29fb27125251021b981bfb51081f1"
+   },
+   {
+    "arq": "14.webp",
+    "w": 470,
+    "h": 627,
+    "hash": "9391a5c54fd90b527f7c93b1c671127e"
+   },
+   {
+    "arq": "15.webp",
+    "w": 470,
+    "h": 627,
+    "hash": "5ff4bcd6e723416541616b2844e50f8b"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "c10f778ff0bf672c0186d7608effb7d2"
+   },
+   {
+    "arq": "17.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "8ae94149a629b8b190c49a5f6b34b3db"
+   },
+   {
+    "arq": "18.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "dcb7adeb853845e3d1947a8ad456c782"
+   },
+   {
+    "arq": "19.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "dce648ae4abe2c99d8a51bdface530e7"
+   }
   ],
   "lat": -22.9056391,
   "lng": -47.059564,
   "precisao": "cidade",
-  "total_no_site": 19
+  "total_no_site": 19,
+  "pequenas": []
  },
  "CAS00174": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "76e2a57b873e6a9f6922aa2ea8eb8977"
+   },
+   {
+    "arq": "2.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "dbfc2bd24b2d6a1c562146a0609189d3"
+   },
+   {
+    "arq": "3.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "012ab600f826695d873d7cbec25c9cdf"
+   },
+   {
+    "arq": "4.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "ad8a03f124fd15f9fe82807ed93cb8cc"
+   },
+   {
+    "arq": "5.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "32274e1b9d7ca19bc4d5f715d7d3bd12"
+   },
+   {
+    "arq": "6.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "79c28180f70db7e2ebf85b93c4187de7"
+   },
+   {
+    "arq": "7.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "283251a6227890af4f844437e0015e90"
+   },
+   {
+    "arq": "8.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "b16524fd44e345205b19329a5593b2ac"
+   },
+   {
+    "arq": "9.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "f7eaacfb12f0266a7fa938df3111e623"
+   },
+   {
+    "arq": "10.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "c0f1afe6086b2b114f3656e0a3bbb442"
+   },
+   {
+    "arq": "11.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "b62d988c871da25138ddef62a2c206fd"
+   },
+   {
+    "arq": "12.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "468f3745d320f064c2689ded9ac8b7e9"
+   },
+   {
+    "arq": "13.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "fe3b85113b4ffa4ad06bb90abe0a39bd"
+   },
+   {
+    "arq": "14.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "5a95099852c624c3805a47c342007921"
+   },
+   {
+    "arq": "15.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "11c5103486471a4bd8c158a366d99ce8"
+   },
+   {
+    "arq": "16.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "c6f5d356753ea21976616e27db3d41ea"
+   },
+   {
+    "arq": "17.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "500d7b4e2c7ad915bc36778b4e0f59cb"
+   },
+   {
+    "arq": "18.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "eee3ca0385c9eac0cf8f04d2e96c37cf"
+   },
+   {
+    "arq": "19.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "419edbec73766bb19594b2b872abc0c3"
+   },
+   {
+    "arq": "20.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "d654ba525344e98c140e5e75e0ad587a"
+   },
+   {
+    "arq": "21.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "e9bae0e24afe1e61dfbc8e87023ab207"
+   },
+   {
+    "arq": "22.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "03ec9190f48a98e7dec40239e55f0423"
+   },
+   {
+    "arq": "23.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "e127a2956509d083711970535dcd0237"
+   },
+   {
+    "arq": "24.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "cdef586c112c8a648eb0ef9265022565"
+   },
+   {
+    "arq": "25.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "fcfa4a6cd02fcca6523313fcd6bda841"
+   },
+   {
+    "arq": "26.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "7107fa6929a8728669e27268dbc982e3"
+   },
+   {
+    "arq": "27.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "1acd2ada6186bcb60f8ab7d7f5cf4735"
+   },
+   {
+    "arq": "28.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "8fccbe33ef6fe11c991c2f175fb7b2f9"
+   },
+   {
+    "arq": "29.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "f8f5c261ea7ef34cb50843c2defeca5e"
+   },
+   {
+    "arq": "30.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "87b460bdd6269872b7535aa6db456cb4"
+   }
   ],
   "lat": -22.8916592,
   "lng": -47.1007817,
   "precisao": "bairro",
-  "total_no_site": 30
+  "total_no_site": 30,
+  "pequenas": []
  },
  "APA00176": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "f5c8d55162222f20f1352a30ee623be4"
+   },
+   {
+    "arq": "2.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "97830902eeef8d16c50d1b0619c9029f"
+   },
+   {
+    "arq": "3.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "72de9a78d5a0907cb133602dc70b4da6"
+   },
+   {
+    "arq": "4.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "e100546b33a6a9041ffaeb1c0bac4e06"
+   },
+   {
+    "arq": "5.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "70f848dbe6d9fff5a33c9cae8c84f3d6"
+   },
+   {
+    "arq": "6.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "759eb797da5ac1cb44be67735c775da6"
+   },
+   {
+    "arq": "7.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "24be628c998f534da20496d276d86b4e"
+   },
+   {
+    "arq": "8.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "fe4ad9a5c3b39d8f85aeaf52ad336bfd"
+   },
+   {
+    "arq": "9.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "4f65def3cce6f7f6e9d1e1a172c7dda6"
+   },
+   {
+    "arq": "10.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "351ae4ab60b3b2fb0119c7e0d4537034"
+   },
+   {
+    "arq": "11.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "6730083785a01227cf6041ad8aa464d9"
+   },
+   {
+    "arq": "12.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "1e9f6b9245cf0ff7f92ebb44516b240a"
+   },
+   {
+    "arq": "13.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "111d6c05e45fc7a765f1e042135ab9aa"
+   },
+   {
+    "arq": "14.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "3118e69cf3a6b0d6dd5ad16621d59cd0"
+   },
+   {
+    "arq": "15.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "04bc42602ed97056a5880c675f8c1587"
+   },
+   {
+    "arq": "16.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "bd6a7f28b84bcbd550056a52c19438a1"
+   },
+   {
+    "arq": "17.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "a620d47b5f7ccba8f51f8c16c04a529d"
+   }
   ],
   "lat": -22.9056391,
   "lng": -47.059564,
   "precisao": "cidade",
-  "total_no_site": 17
+  "total_no_site": 17,
+  "pequenas": []
  },
  "SAL00318": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "4c9723f249666ddc7d578c0152257700"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "4270c756bacfda6bcbf8275736818159"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "20a166c78cb63f2a2134a97455466c36"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "b2a9b9cbd298c58722114d135678a860"
+   },
+   {
+    "arq": "5.webp",
+    "w": 787,
+    "h": 1400,
+    "hash": "5b5cd470214993d51dbf7ff23e8a8e5f"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "d18eb52ec85517ac7cf2fbe41f4de272"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "d621bd109cc1f832ac231fce99f310e2"
+   }
   ],
   "lat": -22.9056391,
   "lng": -47.059564,
   "precisao": "cidade",
-  "total_no_site": 7
+  "total_no_site": 7,
+  "pequenas": []
  },
  "CAS00188": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "bf52c165c2534900e6675e37a18eeabd"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "a9d2606fe3599b7b4428bc2ff4658fe7"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "fdf3fea6571dc0df13d2f79b306e8ff4"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "b53c984c99222eaf550b8b6027a18485"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "fbdbecc78c556cb790ac1f7feba4a680"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "951d6bf884d92ead5f5f6178704d0d50"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "e71796ada39a7dbf151f141436c13dab"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "1967020de117268a7273409997e0bbb4"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "e23a31e04cd66f5c9d68b84af27902ad"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "9348582b8cc2d02bfd553e391925d882"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "38b9de1235509399f287cf6f3b53efb3"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "2a3005626485fec8a86df07b7f1f63c7"
+   }
   ],
   "lat": -22.9126448,
   "lng": -47.1166249,
   "precisao": "rua",
-  "total_no_site": 12
+  "total_no_site": 12,
+  "pequenas": []
  },
  "APA0086": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "cc1e393e59ad1e56b40c7e54865e0924"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "ea0246ad7f7bfefe1e4eb53bb8b92f89"
+   },
+   {
+    "arq": "3.webp",
+    "w": 972,
+    "h": 1296,
+    "hash": "fce5964078ce351cf62287c7fe904ded"
+   },
+   {
+    "arq": "4.webp",
+    "w": 972,
+    "h": 1296,
+    "hash": "1f1d4b21b0745b2c38106ca6abde210b"
+   },
+   {
+    "arq": "5.webp",
+    "w": 972,
+    "h": 1296,
+    "hash": "e17a74f0d42c10ad2067a8d4da3c92ac"
+   },
+   {
+    "arq": "6.webp",
+    "w": 972,
+    "h": 1296,
+    "hash": "c45b800738d65fa78affe2810d07d24c"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "fa2ceab4a296d5ea06a3ecceea032d02"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "b5c319c7b362b7b89d86867968687706"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "3f0354b33ad11374c51b07927c535f4e"
+   },
+   {
+    "arq": "10.webp",
+    "w": 972,
+    "h": 1296,
+    "hash": "21c516aa3d03c1d328efe5ad3a860c90"
+   },
+   {
+    "arq": "11.webp",
+    "w": 972,
+    "h": 1296,
+    "hash": "8e47b2a3391edebdce193eb23982b6ba"
+   },
+   {
+    "arq": "12.webp",
+    "w": 972,
+    "h": 1296,
+    "hash": "3736872d37add0e0ed9086aef32d1122"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "01fc1786b1c574bdc3faf1489abdf8fb"
+   },
+   {
+    "arq": "14.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "4bed99dcfb77384aeb33acc68a4c5723"
+   },
+   {
+    "arq": "15.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "197cbb3bb71182bfe931645b6f869d91"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "658dbd2c67bee0424ffc419db7cce1c6"
+   },
+   {
+    "arq": "17.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "ad2c12be77a74fc248eb4c29416db53e"
+   },
+   {
+    "arq": "18.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "da624d75f3100c8f897e7ca49aec3909"
+   },
+   {
+    "arq": "19.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "8e52ccf8a1f09ace7220aa7710e67844"
+   },
+   {
+    "arq": "20.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "3bc8b92f1c85c6f5d6806f1e1cdec422"
+   },
+   {
+    "arq": "21.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "8afa823e218d63b4dbc510606e73ac15"
+   },
+   {
+    "arq": "22.webp",
+    "w": 972,
+    "h": 1296,
+    "hash": "37cad4cff19377746ae38257b7862a71"
+   }
   ],
   "lat": -22.9056391,
   "lng": -47.059564,
   "precisao": "cidade",
-  "total_no_site": 22
+  "total_no_site": 22,
+  "pequenas": []
  },
  "APA00267": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "2f327fef53b546e1c83c8568c0167126"
+   },
+   {
+    "arq": "2.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "75baafa7173f7993c95bd03d8265a43e"
+   },
+   {
+    "arq": "3.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "580b82187ef9a2d88cb0cccbcd3c7b6e"
+   },
+   {
+    "arq": "4.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "256352db34bcb82a4e0e77c9634ea5c8"
+   },
+   {
+    "arq": "5.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "c891605b62d161f144f64d5bccc94a60"
+   },
+   {
+    "arq": "6.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "0df1c5eb1769eef8bb8c4d54ad6e8181"
+   },
+   {
+    "arq": "7.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "2d015e946b3f7691aa93568da5d40461"
+   },
+   {
+    "arq": "8.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "af54ca0dfcb92b6b31aa034ee25ff3c5"
+   },
+   {
+    "arq": "9.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "130c66e517cf1c5ae18e82fad6416eb5"
+   },
+   {
+    "arq": "10.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "08d0ea8b07b59689e6c33927a5fa0d3c"
+   },
+   {
+    "arq": "11.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "6dc370f2260ad8c064426a7e13adce74"
+   },
+   {
+    "arq": "12.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "92825fa4ec53cbad3f47f3049025a31f"
+   },
+   {
+    "arq": "13.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "452cb1d60b94f14943366dd5fcdddb86"
+   },
+   {
+    "arq": "14.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "849a01f07ea850a17925cc5454c1ecf7"
+   },
+   {
+    "arq": "15.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "3f194d396f2e6424018617842012e293"
+   },
+   {
+    "arq": "16.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "4a5ac8e3f8ad9d411af6daee521bdb02"
+   },
+   {
+    "arq": "17.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "b86857623e9033082936cc0e9ef67d3b"
+   },
+   {
+    "arq": "18.webp",
+    "w": 739,
+    "h": 985,
+    "hash": "a9633be9b8d50ed094255149da30fdfb"
+   },
+   {
+    "arq": "19.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "07f14c5b2c662040e3ee1f87a453e720"
+   },
+   {
+    "arq": "20.webp",
+    "w": 985,
+    "h": 739,
+    "hash": "c5138f10bed8a928a3bbbb81ea7c601d"
+   }
   ],
   "lat": -22.9214274,
   "lng": -47.1043182,
   "precisao": "bairro",
-  "total_no_site": 20
+  "total_no_site": 20,
+  "pequenas": []
  },
  "CAS00220": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "05432fa48f20cf169a1290f03b094417"
+   },
+   {
+    "arq": "2.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "2c7ccb1e8b03916901bdea843328f03c"
+   },
+   {
+    "arq": "3.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "7b86ecbf2416b86b3a8c8376225d3e14"
+   },
+   {
+    "arq": "4.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "a5d7a807ed04590d958087abd0ee529c"
+   },
+   {
+    "arq": "5.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "b0b676ef687eb6d1c140c00cb98fbb0a"
+   },
+   {
+    "arq": "6.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "0d6089e4d1f62bc2a8e539081592f451"
+   },
+   {
+    "arq": "7.webp",
+    "w": 193,
+    "h": 257,
+    "hash": "ba5eca336ea2aebce10d2e9f9ead6719"
+   },
+   {
+    "arq": "8.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "0b4574acfe0ec62e331429719d30f147"
+   },
+   {
+    "arq": "9.webp",
+    "w": 193,
+    "h": 257,
+    "hash": "120f26cdfa39e15744f2b9cdd9419b9c"
+   },
+   {
+    "arq": "10.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "307fb64eae4b36aabc2b283ff02285c8"
+   },
+   {
+    "arq": "11.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "237ead060ebbe796f5ab05f3fff464b6"
+   },
+   {
+    "arq": "12.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "ec65c0749fc62ed3e87d105f862e9bb3"
+   },
+   {
+    "arq": "13.webp",
+    "w": 193,
+    "h": 257,
+    "hash": "8e24af3de6c134d093144b00fdbf564c"
+   },
+   {
+    "arq": "14.webp",
+    "w": 193,
+    "h": 257,
+    "hash": "9f99b289efd38e563de61456decb2c1d"
+   },
+   {
+    "arq": "15.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "2b71970fb856b348ec0bec19b065342f"
+   },
+   {
+    "arq": "16.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "5fb7cbc73685d0baae0f4bc888997880"
+   },
+   {
+    "arq": "17.webp",
+    "w": 193,
+    "h": 257,
+    "hash": "513b160d4d3b96c8fa83d2ec87fc0f76"
+   },
+   {
+    "arq": "18.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "113b20b04e2019f47ea986811395ee35"
+   },
+   {
+    "arq": "19.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "8a17f5b2360d8fbc205d1410fa647403"
+   },
+   {
+    "arq": "20.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "3030e9b09593f1299a18243ca9557f1f"
+   },
+   {
+    "arq": "21.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "6ad73f2c3ba80621e93151d63bcd7a82"
+   },
+   {
+    "arq": "22.webp",
+    "w": 193,
+    "h": 257,
+    "hash": "a2772f30c2a36953339a2d362fc87a86"
+   },
+   {
+    "arq": "23.webp",
+    "w": 193,
+    "h": 257,
+    "hash": "a1c2eb1b74c0ed174707f61e68cf91ce"
+   },
+   {
+    "arq": "24.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "d297fada15d10eb926f22403c2e0a419"
+   },
+   {
+    "arq": "25.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "4dd676bc5390c0599e9aec4c9776e259"
+   },
+   {
+    "arq": "26.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "d64d1d4269b11436ebf8e7588d388280"
+   },
+   {
+    "arq": "27.webp",
+    "w": 193,
+    "h": 257,
+    "hash": "3d6b0fe29eec5965cdca2b581fe2c616"
+   },
+   {
+    "arq": "28.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "bd6cfbefd20a7f6e2241ee14c387a120"
+   },
+   {
+    "arq": "29.webp",
+    "w": 193,
+    "h": 257,
+    "hash": "aa5be1c6b03787ae38c281e83219d03c"
+   },
+   {
+    "arq": "30.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "4fa8bdce4c2f36a1da0b3925ea8ac4db"
+   },
+   {
+    "arq": "31.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "a7aa2ced06d9fef11085b963eeeb6801"
+   },
+   {
+    "arq": "32.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "2cc3b29d03889291d7c75ca93726b5b1"
+   },
+   {
+    "arq": "33.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "dc5331de7922cfd151e06459590a823d"
+   },
+   {
+    "arq": "34.webp",
+    "w": 257,
+    "h": 193,
+    "hash": "6428ea7b36bf904da73a3a62adb571cd"
+   },
+   {
+    "arq": "35.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "4b79b3adb4ac1aa03c91b372db0b68b1"
+   }
   ],
   "lat": -22.9056391,
   "lng": -47.059564,
   "precisao": "cidade",
-  "total_no_site": 35
+  "total_no_site": 35,
+  "pequenas": []
  },
  "CAS0082": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "0806bff2c1fe1c2f60efe55d99a32295"
+   },
+   {
+    "arq": "2.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "1e500da13e4238c0ac18f82db5db7436"
+   },
+   {
+    "arq": "3.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "7cf3251b31465e2ebb9251b4f4cc3fcd"
+   },
+   {
+    "arq": "4.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "c6e9a13453bd57e5182b991134b78642"
+   },
+   {
+    "arq": "5.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "6be21a21a7dd0fdca4c79b4a9a46f99f"
+   },
+   {
+    "arq": "6.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "453a8f1e9b2b71ac5736821ba09b1796"
+   },
+   {
+    "arq": "7.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "1ad33b43910f4bcaed6dd7aec3220a1d"
+   },
+   {
+    "arq": "8.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "3169e1a452e646df9a3f90efcec26ceb"
+   },
+   {
+    "arq": "9.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "8c7e4622135a5f137769181b64d60d49"
+   },
+   {
+    "arq": "10.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "3f7fa2cb3a1e5e8e24bef46c003543a3"
+   },
+   {
+    "arq": "11.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "baf1d9e16121571d3251e1fa5e7c5a0d"
+   },
+   {
+    "arq": "12.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "8eba2f417dd53516c3cd5f0bb8225e0b"
+   },
+   {
+    "arq": "13.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "7aa6635f4e0a3695edc7ab2df50fa8c9"
+   },
+   {
+    "arq": "14.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "362b6133b1cbeee1d2f9fa780c730a46"
+   },
+   {
+    "arq": "15.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "10bbf8986a8021dda540ecd515cb4675"
+   },
+   {
+    "arq": "16.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "0bf176089558ee7275a3b3d22e28fd57"
+   },
+   {
+    "arq": "17.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "a70e4e269f647848e1b239dd58fce3f6"
+   },
+   {
+    "arq": "18.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "f9892ac83e1e480be6f1704b619aacaf"
+   },
+   {
+    "arq": "19.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "149f5347395c9c0df9a92978e3a46437"
+   },
+   {
+    "arq": "20.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "ec055b6635fb7b26edb2fad17ecf383c"
+   }
   ],
   "lat": -22.8668135,
   "lng": -47.0342746,
   "precisao": "bairro",
-  "total_no_site": 20
+  "total_no_site": 20,
+  "pequenas": []
  },
  "CAS0088": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "e6d0744890e7a25bbf74eb92e9e25edd"
+   },
+   {
+    "arq": "2.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "63307ce3b70e5bb587bab3f6073adc9d"
+   },
+   {
+    "arq": "3.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "d19b7cb2b012a00cbb6a6082615572b9"
+   },
+   {
+    "arq": "4.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "41500db450ab88fed9f236195eec66c5"
+   },
+   {
+    "arq": "5.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "f973dba267da4b69ef18b7355197bd0c"
+   },
+   {
+    "arq": "6.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "82c8a5593f91cce4e6dcbad72b6c042d"
+   },
+   {
+    "arq": "7.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "01ba16faf71814e1e03f0a70b01bb4b9"
+   },
+   {
+    "arq": "8.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "556a5b6db250ebdab272deae7e9041c6"
+   },
+   {
+    "arq": "9.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "f1ba0175374f081202357bce8037ce71"
+   },
+   {
+    "arq": "10.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "11c0c876ae8e4b528a5b157030874612"
+   },
+   {
+    "arq": "11.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "8b4b49e5b71ac9396f4b3874f1d0ea54"
+   },
+   {
+    "arq": "12.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "af4ba3925a0ed8409135daafc84db4b3"
+   },
+   {
+    "arq": "13.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "b773e1f60b6d10ecb25b8535696994e9"
+   },
+   {
+    "arq": "14.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "56f720e74a6d504966619bd9f8aac9d5"
+   },
+   {
+    "arq": "15.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "bb258fa99c42f76bce5b794947aa0a1b"
+   },
+   {
+    "arq": "16.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "1a2dac64866038d1470bdb1211cca9a1"
+   },
+   {
+    "arq": "17.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "c6a536566c8012bc135c4cc510ab3941"
+   },
+   {
+    "arq": "18.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "7782935e071b80b7ce0bcc7207dc587d"
+   },
+   {
+    "arq": "19.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "f9215fe79c96ec52d6f46b3ea54afc20"
+   },
+   {
+    "arq": "20.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "0a1511066113c1d15885a136f1c1f135"
+   },
+   {
+    "arq": "21.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "54f55658d730278a9def73fb70c57779"
+   },
+   {
+    "arq": "22.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "2a265cdd8fb4c684cd47636ad52dfd6a"
+   },
+   {
+    "arq": "23.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "e94a35e27143c59e964d1817ae391555"
+   },
+   {
+    "arq": "24.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "f47191f305a50f24630308c62a286951"
+   },
+   {
+    "arq": "25.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "aa1d35e6627ea4e7d995d9c8751224ce"
+   },
+   {
+    "arq": "26.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "3882a61bd34b3e2f4ba416255295920d"
+   },
+   {
+    "arq": "27.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "2de136bd573f726e069526a6c1db5a71"
+   },
+   {
+    "arq": "28.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "dbc1f22d470a4ef708a7fd3e9dac1a14"
+   },
+   {
+    "arq": "29.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "7132c412cd24b96c5bd312e8d1b05b88"
+   },
+   {
+    "arq": "30.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "df2a5da7888a95807e382e0ebdd8b9fe"
+   },
+   {
+    "arq": "31.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "e92aa1a920dd9b5f69e91f2d55aff789"
+   },
+   {
+    "arq": "32.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "7fbb395e83d3b04b0e7981c67ad2a5a7"
+   },
+   {
+    "arq": "33.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "970a67d32d8d77cb517cd9e7b3c0daf6"
+   },
+   {
+    "arq": "34.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "87324136916937a6dfe645b829d24713"
+   },
+   {
+    "arq": "35.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "5c989fa271ed7412dc65925d2734357f"
+   },
+   {
+    "arq": "36.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "41388bbc94af75b141287764c1a5857d"
+   },
+   {
+    "arq": "37.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "518145c62472f0fd4de18959d93b5ad5"
+   },
+   {
+    "arq": "38.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "bd453c4a298ac471cef539a098af4df3"
+   },
+   {
+    "arq": "39.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "4bb55c9d966d4ae6565277674cfd6d93"
+   },
+   {
+    "arq": "40.webp",
+    "w": 583,
+    "h": 778,
+    "hash": "6f8f0f32d3a7ae55b73165e727f85c35"
+   },
+   {
+    "arq": "41.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "0995cf549bd705f9f78b00e4cd0c40a5"
+   },
+   {
+    "arq": "42.webp",
+    "w": 778,
+    "h": 583,
+    "hash": "5dbab4aa0652624a3acc0800f529f0d7"
+   }
   ],
   "lat": -22.880833,
   "lng": -47.051667,
   "precisao": "bairro",
-  "total_no_site": 42
+  "total_no_site": 42,
+  "pequenas": []
  },
  "CAS00330": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "1368e328a91c461a06764d3499027c25"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "c91260c8296d50185ce1112a8d6980ef"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "7e68868093c517d5a8c8026c28568570"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "d575fb5a7f18671395f8c4f015e01b97"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "552531183226c2735d8858587157101b"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "99aefa94b6e29dab9d99f9e326d4af27"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "694a3c46d0b0b4aa4b42ac1bf0f717c6"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "80f065d9b266ad19ed34b5818f2b3f9d"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "8cd8d12a5a844b1753242d12d41604b7"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "e966909975418e72fa04bb30b5a04645"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "8d5a0fc352a275118055ae951d46c1c3"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "2e0643611536538a1c7d602957e98d9c"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "091eb99d552da19b35253080125ac4d4"
+   },
+   {
+    "arq": "14.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "c70d50d3fb37b7578019c8b37cc62a60"
+   },
+   {
+    "arq": "15.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "74201a2577912a9852103fe7eb4cd056"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1000,
+    "h": 900,
+    "hash": "be95031813e17fa89036b2007a9688cb"
+   }
   ],
   "lat": -22.9056391,
   "lng": -47.059564,
   "precisao": "cidade",
-  "total_no_site": 16
+  "total_no_site": 16,
+  "pequenas": []
  },
  "CAS00213": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "559e2773b69599fa253c9c3d77164702"
+   },
+   {
+    "arq": "2.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "23ebd244f9662f9e81e5be75770a8616"
+   },
+   {
+    "arq": "3.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "b110cf6f85e9fe45f2c131768a4566e6"
+   },
+   {
+    "arq": "4.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "901163f63c6490d728d58137746a5248"
+   },
+   {
+    "arq": "5.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "f0ac5c02a22488a89062f93cd61d5ab5"
+   },
+   {
+    "arq": "6.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "b0306fee86d42e3b629b192726fff0f4"
+   },
+   {
+    "arq": "7.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "4b40dca8cf298724168057158506da20"
+   },
+   {
+    "arq": "8.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "ced7a6861e2bc52ddf614ce40b8d11e1"
+   },
+   {
+    "arq": "9.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "26fda53c7bbcd65e39ad11065b703f14"
+   },
+   {
+    "arq": "10.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "7b0e1fd96b0878e87e50f6804593880e"
+   },
+   {
+    "arq": "11.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "94c656c18c0bf3139efe5b7f5b26d150"
+   },
+   {
+    "arq": "12.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "322bf78dc42422e807c3332b7c141d38"
+   },
+   {
+    "arq": "13.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "9078a513578ba2b0fc18f63bfaf79e2c"
+   },
+   {
+    "arq": "14.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "a07679131cb0c52ccabc50af7993ee1e"
+   },
+   {
+    "arq": "15.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "e76a58508ab936731741094c8162ef0f"
+   },
+   {
+    "arq": "16.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "b94b616edd9a1d2d6c125400e87ccb98"
+   },
+   {
+    "arq": "17.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "ff61ae90393672efbf6af4f1adeabfd7"
+   },
+   {
+    "arq": "18.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "3defbf8d4f244c25df60b4a26b2f062f"
+   },
+   {
+    "arq": "19.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "04daffdcf19711b699bd600ad0131a97"
+   },
+   {
+    "arq": "20.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "2ff17d99d55760c77d29bc036f3557dc"
+   },
+   {
+    "arq": "21.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "0c7bfa08b19804f5e91c2cec679ec32c"
+   },
+   {
+    "arq": "22.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "d466f48b036ee06d1ed0c8d5b44c86b5"
+   },
+   {
+    "arq": "23.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "b7d6e793edcae1b84f8159dffe595928"
+   },
+   {
+    "arq": "24.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "7a13771f45d88f0d3c3d604d22477df8"
+   },
+   {
+    "arq": "25.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "f11b6302d621d7ee8f5c6d932ff27ed5"
+   },
+   {
+    "arq": "26.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "516c87e7c79e183a79511ddc6e4923ac"
+   },
+   {
+    "arq": "27.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "64d83a4355a7c8c476c95b69124a1188"
+   },
+   {
+    "arq": "28.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "09b54fd011a0ba34504585519ee18672"
+   },
+   {
+    "arq": "29.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "ea0b19ec83a271ba24bba483c353d2ff"
+   },
+   {
+    "arq": "30.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "c43ca3c729f400001105ed27126881ab"
+   },
+   {
+    "arq": "31.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "bc53e9dd6e2c79d82f6d0e79217b3d24"
+   },
+   {
+    "arq": "32.webp",
+    "w": 603,
+    "h": 804,
+    "hash": "1f626884a21a4e4482e205007e4eb724"
+   },
+   {
+    "arq": "33.webp",
+    "w": 804,
+    "h": 603,
+    "hash": "126730b4706e261badd125b7b28b298b"
+   }
   ],
   "lat": -22.8567607,
   "lng": -47.0694473,
   "precisao": "bairro",
-  "total_no_site": 33
+  "total_no_site": 33,
+  "pequenas": []
  },
  "APA00115": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 336,
+    "h": 448,
+    "hash": "725fe2f8395d8f6dbdbce3938bcc2c46"
+   },
+   {
+    "arq": "2.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "776c6ad6b53300bd9362067aca580326"
+   },
+   {
+    "arq": "3.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "417e68c818f2d8aeab4366ae482c6643"
+   },
+   {
+    "arq": "4.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "dfc3dcc0c0cc3aba4a68fe7b6687588b"
+   },
+   {
+    "arq": "5.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "0249673d5b259a463fdc1b28b9a3df94"
+   },
+   {
+    "arq": "6.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "d29a75dbaf199f7ff50cbd3f00bac9dd"
+   },
+   {
+    "arq": "7.webp",
+    "w": 336,
+    "h": 448,
+    "hash": "4c3469ed26b6e7bf314fd525fdd8aecc"
+   },
+   {
+    "arq": "8.webp",
+    "w": 336,
+    "h": 448,
+    "hash": "3e55d725c8f3e48e260d33bf22fab51d"
+   },
+   {
+    "arq": "9.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "3c0a51c512e8018ff9bae96878ffc6ac"
+   },
+   {
+    "arq": "10.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "336070a0ff54fe9d4852571e35507938"
+   },
+   {
+    "arq": "11.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "cafabcf30511911eec88f65a7fa561c6"
+   },
+   {
+    "arq": "12.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "4ff5ab800a5f6ef0b1a3b15f4c246a8b"
+   },
+   {
+    "arq": "13.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "02e4ed8f70914e825e28978d2b518b8c"
+   },
+   {
+    "arq": "14.webp",
+    "w": 448,
+    "h": 336,
+    "hash": "f6e6df7d71121826e7722cdc8ceb36fb"
+   }
   ],
   "lat": -22.9106569,
   "lng": -47.0761569,
   "precisao": "rua",
-  "total_no_site": 14
+  "total_no_site": 14,
+  "pequenas": []
  },
  "APA0078": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "08e6901989180bd71c9f24fbc30de8ea"
+   },
+   {
+    "arq": "2.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "9392e502eba5b1321dccdb1a76f08c36"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "6d9aab69109af748d40fe13398e0b53c"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "c9a3594e6473b01088a1424dabd76e09"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "807c8dc2b4bc7c3ead33566947ac8061"
+   },
+   {
+    "arq": "6.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "59bdaf0aad728e1767c3fbf49b3a653e"
+   },
+   {
+    "arq": "7.webp",
+    "w": 576,
+    "h": 768,
+    "hash": "4a175fd01ac0314be9c93016078dde42"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "c663823c4d83a7da06553c9eac95d802"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "d2d3934013af65b48dc1367deb352775"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "6a35ed2fb57885c0ff0cd9e97f2e1db6"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "77d40f520660136db057c2c22ca90f5e"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "48f6939b254844a088d435b40af2070f"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "aaec977552dfadeae5465a52384a3f07"
+   },
+   {
+    "arq": "14.webp",
+    "w": 1024,
+    "h": 768,
+    "hash": "cdc6fb914be09841d64227d8330afa14"
+   }
   ],
   "lat": -22.9056391,
   "lng": -47.059564,
   "precisao": "cidade",
-  "total_no_site": 14
+  "total_no_site": 14,
+  "pequenas": []
  },
  "CAS00250": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "cd202695461475c1e6ee3ebdf1b6a4cc"
+   },
+   {
+    "arq": "2.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "cb507ce9d65cd2742e43dbcc05910049"
+   },
+   {
+    "arq": "3.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "be4d8988f451ea516b879f73ec94fda0"
+   },
+   {
+    "arq": "4.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "43557ba160fdbdbf7c3ba459f1d91650"
+   },
+   {
+    "arq": "5.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "5c9035a6d7e78b30c0e5024eda361cb8"
+   },
+   {
+    "arq": "6.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "c04c7cacbddd1b710a4bbf34cfdfb350"
+   },
+   {
+    "arq": "7.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "afe4f7d95fdf2dbeb574fcf3bc2c1856"
+   },
+   {
+    "arq": "8.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "4ffa04e5f6681c74fb18e74250da456a"
+   },
+   {
+    "arq": "9.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "71ed6ba5a3cb6590cb34d333c7cd4ef3"
+   },
+   {
+    "arq": "10.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "bd8ced356b9c67d7404e41265ecf8195"
+   },
+   {
+    "arq": "11.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "2d1e43900776bfdd673770ed4f8e1375"
+   },
+   {
+    "arq": "12.webp",
+    "w": 700,
+    "h": 933,
+    "hash": "ce76d58f6bc75184b1c6e683a4bc5d7a"
+   },
+   {
+    "arq": "13.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "3182e10971ff9b2e5d308808778911c0"
+   },
+   {
+    "arq": "14.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "bd457d3e068bff3b6e99db7ed3021b5f"
+   },
+   {
+    "arq": "15.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "d41601f934cd1bd6886905976e8c2d27"
+   },
+   {
+    "arq": "16.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "0a6162aa3ebc1536543bb4f09b078592"
+   },
+   {
+    "arq": "17.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "04814da5ae98a467d66cd44b77d92bb2"
+   },
+   {
+    "arq": "18.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "31fa557fa988b1b63908dc4bc85b8d85"
+   },
+   {
+    "arq": "19.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "31f563b94cc514ed2de76f161f5d6490"
+   },
+   {
+    "arq": "20.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "15ea1ecfde1585e95fb58108870df146"
+   },
+   {
+    "arq": "21.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "befa12ec810004b8e84986e9212969bd"
+   },
+   {
+    "arq": "22.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "7cdae58749bc9a0c7f131c46650942bf"
+   },
+   {
+    "arq": "23.webp",
+    "w": 700,
+    "h": 933,
+    "hash": "d768be903611cf0e424029c929b1d680"
+   },
+   {
+    "arq": "24.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "906b280d4b6ccf736ec9d28e0bcda92c"
+   },
+   {
+    "arq": "25.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "831f6016abcd5653acbd7c67006429d0"
+   },
+   {
+    "arq": "26.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "b309b008f7b1bda651e3c16d520fd66e"
+   },
+   {
+    "arq": "27.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "f7e6aa7ad8044138f8fe002ae7b4c603"
+   },
+   {
+    "arq": "28.webp",
+    "w": 933,
+    "h": 700,
+    "hash": "7ef1c43b37ef90fa09eda6f9c5d0b3a1"
+   }
   ],
   "lat": -22.9086581,
   "lng": -47.087097,
   "precisao": "bairro",
-  "total_no_site": 28
+  "total_no_site": 28,
+  "pequenas": []
  },
  "APA0081": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "6903e868bd78c633c4e5f5ac9148aebd"
+   },
+   {
+    "arq": "2.webp",
+    "w": 500,
+    "h": 667,
+    "hash": "2a362327107804ba80660dbb5e71e08f"
+   },
+   {
+    "arq": "3.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "8151a681612d424b2119e408238c91e1"
+   },
+   {
+    "arq": "4.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "1cd447795d12fa72ecad562ee2f10210"
+   },
+   {
+    "arq": "5.webp",
+    "w": 500,
+    "h": 667,
+    "hash": "4e8e2b012980daab849545bf5455f062"
+   },
+   {
+    "arq": "6.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "fe830cb0d73342f3c035f140f3d2a372"
+   },
+   {
+    "arq": "7.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "4ee59b09fcbf39719b3a908baee0f3eb"
+   },
+   {
+    "arq": "8.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "8f64111042d65be0cc74b7a9a4b9db12"
+   },
+   {
+    "arq": "9.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "0658fe9fb1dfeafd324189da23eb75c6"
+   },
+   {
+    "arq": "10.webp",
+    "w": 500,
+    "h": 667,
+    "hash": "3c80c5dd6ce9c1985503da556e9ffdaf"
+   },
+   {
+    "arq": "11.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "fcfc288ac92cee5912d57af4df9f91a9"
+   },
+   {
+    "arq": "12.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "a1aa6ad83f33afaba24c269a32a060cd"
+   },
+   {
+    "arq": "13.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "9294cb9caa7beb946ef68b9d052d5a26"
+   },
+   {
+    "arq": "14.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "31fe6913d8206c76082b17bb1bc96af8"
+   },
+   {
+    "arq": "15.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "6a9656253e0f5fb92f5f60e2482d5225"
+   },
+   {
+    "arq": "16.webp",
+    "w": 500,
+    "h": 667,
+    "hash": "261e7db4ed1eee45382d5ccddd412ddb"
+   },
+   {
+    "arq": "17.webp",
+    "w": 500,
+    "h": 667,
+    "hash": "d7d48241829f6437d7169895061dcc2d"
+   },
+   {
+    "arq": "18.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "450950f31254edce72c656168b7d65d7"
+   },
+   {
+    "arq": "19.webp",
+    "w": 500,
+    "h": 667,
+    "hash": "35795e4cd019537dd3fce195fdd9a398"
+   },
+   {
+    "arq": "20.webp",
+    "w": 500,
+    "h": 375,
+    "hash": "2420d700113ddb77d16698291f80012b"
+   }
   ],
   "lat": -22.9086581,
   "lng": -47.087097,
   "precisao": "bairro",
-  "total_no_site": 20
+  "total_no_site": 20,
+  "pequenas": []
  },
  "APA00340": {
   "fotos": [
-   "1.webp"
+   {
+    "arq": "1.webp",
+    "w": 447,
+    "h": 447,
+    "hash": "e26783ef019d7b8dee7d8f326b5bd280"
+   }
   ],
   "lat": -23.6426555,
   "lng": -45.4266035,
   "precisao": "bairro",
-  "total_no_site": 1
+  "total_no_site": 1,
+  "pequenas": []
  },
  "APA0053": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "1a31b86a8e8d20d2b97f0d6c542dfc34"
+   },
+   {
+    "arq": "2.webp",
+    "w": 432,
+    "h": 768,
+    "hash": "7e55bc40da86d1b9be436d3652867a35"
+   },
+   {
+    "arq": "3.webp",
+    "w": 432,
+    "h": 768,
+    "hash": "feb7e9504ea2276da5d15038b48858d3"
+   },
+   {
+    "arq": "4.webp",
+    "w": 432,
+    "h": 768,
+    "hash": "6491950a261e1ac8953f9a339da38670"
+   },
+   {
+    "arq": "5.webp",
+    "w": 432,
+    "h": 768,
+    "hash": "513ab83fa368bff3e6a5f214a79a8666"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "676f30574f2d3b898334fc3e150e840e"
+   },
+   {
+    "arq": "7.webp",
+    "w": 432,
+    "h": 768,
+    "hash": "3f7bb455776c73e60b8c49656de1dbcc"
+   },
+   {
+    "arq": "8.webp",
+    "w": 432,
+    "h": 768,
+    "hash": "bbd76a773ad8edc1c27f9417a0370ae3"
+   },
+   {
+    "arq": "9.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "3e4b99b28a4051f58316318f5c282fed"
+   },
+   {
+    "arq": "10.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "ac1657e2a0f7d4bce13aba9bcb4f8cd2"
+   },
+   {
+    "arq": "11.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "f464975a902eb11c1216ae7010d815e1"
+   },
+   {
+    "arq": "12.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "be41a05231ad564e344c4350d656d697"
+   },
+   {
+    "arq": "13.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "f13a55719bb8e023daa5de21973d9477"
+   },
+   {
+    "arq": "14.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "cb0d8635d55f9c6e7cdabffdaeb981cd"
+   },
+   {
+    "arq": "15.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "d64c771770bf9e014850554e50093753"
+   },
+   {
+    "arq": "16.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "b42d891bb50970681c5acd1a5e7d2777"
+   },
+   {
+    "arq": "17.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "d776986ae83313d1639f22c2ff6a6028"
+   },
+   {
+    "arq": "18.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "a0b14c89e747fb528d5d3dc48dcdfc9f"
+   },
+   {
+    "arq": "19.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "e9fc607992c19a247826a68c446d051e"
+   },
+   {
+    "arq": "20.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "f4415771086cd0a597433804433750f9"
+   },
+   {
+    "arq": "21.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "5afb982a3024b790c1687dfcc2518702"
+   },
+   {
+    "arq": "22.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "1706465ea6c451fc9e6650f8bb67e02d"
+   },
+   {
+    "arq": "23.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "a8491a470ad1dcde210ca5bcb99d30b6"
+   },
+   {
+    "arq": "24.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "f170088fac100e4c4257b22d57c1b5ab"
+   },
+   {
+    "arq": "25.webp",
+    "w": 1024,
+    "h": 576,
+    "hash": "51f6c905f6781d64cea2a158e0c9cc0d"
+   }
   ],
   "lat": -23.6171558,
   "lng": -45.4039866,
   "precisao": "bairro",
-  "total_no_site": 25
+  "total_no_site": 25,
+  "pequenas": []
  },
  "CHA0075": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "e0b26b43a8a71be923ccbb09fbf26f8b"
+   },
+   {
+    "arq": "2.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "4aa3e155a2352e1aba5c57a2947b0318"
+   },
+   {
+    "arq": "3.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "4c6115d084ad26fef89c1b979ff68e82"
+   },
+   {
+    "arq": "4.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "596fa74b6509a380921d99aceead6ae0"
+   },
+   {
+    "arq": "5.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "457fe5c127b27e56ed83738be097127f"
+   },
+   {
+    "arq": "6.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "8fe29c42e44dcf4e9feb867fbaa4bdc3"
+   },
+   {
+    "arq": "7.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "77a4506af3412329da144fdcf6b2ed8f"
+   },
+   {
+    "arq": "8.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "381b3da1bb51f7a0e6c09d27cca04ae0"
+   },
+   {
+    "arq": "9.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "8c78f2341c3bb68a5c80ba02bd237e35"
+   },
+   {
+    "arq": "10.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "70426294c73e634f2d6e5e35b6cb4006"
+   },
+   {
+    "arq": "11.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "bcad1150cec808a4df4c31d65c1125a3"
+   },
+   {
+    "arq": "12.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "62e102fb1b940ed8b81434683721c7da"
+   },
+   {
+    "arq": "13.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "6274e4fed5fbb7d176e956ef7f359cca"
+   },
+   {
+    "arq": "14.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "86b9d9915a0aac0743212ea412cde3c4"
+   }
   ],
   "lat": -22.6825095,
   "lng": -46.9781926,
   "precisao": "bairro",
-  "total_no_site": 14
+  "total_no_site": 14,
+  "pequenas": []
  },
  "CHA0084": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 124,
+    "h": 70,
+    "hash": "58812bd7e23c55ecd108593a29caadba"
+   },
+   {
+    "arq": "2.webp",
+    "w": 70,
+    "h": 124,
+    "hash": "3050aa40e5d0a3e2cd6ccd3402cd8640"
+   },
+   {
+    "arq": "3.webp",
+    "w": 124,
+    "h": 70,
+    "hash": "62417c21ce2c8469890af9c6e813a072"
+   },
+   {
+    "arq": "4.webp",
+    "w": 496,
+    "h": 279,
+    "hash": "a344e201f017ddfd2ccb5d5ae98dcae6"
+   },
+   {
+    "arq": "5.webp",
+    "w": 496,
+    "h": 279,
+    "hash": "5a90cd7cbc7550b434967bfa2a50eb36"
+   },
+   {
+    "arq": "6.webp",
+    "w": 496,
+    "h": 279,
+    "hash": "ea6795096c9cbc3a15e1b9003ad7cfb4"
+   },
+   {
+    "arq": "7.webp",
+    "w": 70,
+    "h": 124,
+    "hash": "62d1f110075bf7ddf6aa8c8ecc2985bf"
+   },
+   {
+    "arq": "8.webp",
+    "w": 124,
+    "h": 70,
+    "hash": "c2363c406a90532a0dcd87736d701b9d"
+   },
+   {
+    "arq": "9.webp",
+    "w": 124,
+    "h": 70,
+    "hash": "e7b07f708f84e9821a5bc2e081410f15"
+   },
+   {
+    "arq": "10.webp",
+    "w": 124,
+    "h": 70,
+    "hash": "da0bacffc2e632526b9e6ddfbe8637a8"
+   },
+   {
+    "arq": "11.webp",
+    "w": 124,
+    "h": 70,
+    "hash": "ea5a2d7ee7486fc727e50d1c69942a11"
+   },
+   {
+    "arq": "12.webp",
+    "w": 496,
+    "h": 279,
+    "hash": "8e7e425104008b0681c740f0bb781311"
+   },
+   {
+    "arq": "13.webp",
+    "w": 496,
+    "h": 279,
+    "hash": "41633154f190c7f97f376dedc5be671e"
+   },
+   {
+    "arq": "14.webp",
+    "w": 124,
+    "h": 70,
+    "hash": "ab1f23ee0cfdbaba8582bd0f41748ce8"
+   },
+   {
+    "arq": "15.webp",
+    "w": 124,
+    "h": 70,
+    "hash": "ed447c4c74d3d55b84e33df14f8b1344"
+   },
+   {
+    "arq": "16.webp",
+    "w": 70,
+    "h": 124,
+    "hash": "fca620e27f88bb96d15a3f79ad816705"
+   },
+   {
+    "arq": "17.webp",
+    "w": 124,
+    "h": 70,
+    "hash": "8245fc4de10eedccf3ea32494e1442b7"
+   },
+   {
+    "arq": "18.webp",
+    "w": 496,
+    "h": 279,
+    "hash": "db6909696eabc900dbc1a287068d8963"
+   },
+   {
+    "arq": "19.webp",
+    "w": 496,
+    "h": 279,
+    "hash": "2a132cc269ae57f33aa3dec6b3a8292d"
+   },
+   {
+    "arq": "20.webp",
+    "w": 496,
+    "h": 279,
+    "hash": "2dbe0e53a8334c48af9ffb69f7b74a47"
+   },
+   {
+    "arq": "21.webp",
+    "w": 496,
+    "h": 279,
+    "hash": "e0ec946d24eecc7bb99b8e8a6b8f2c47"
+   },
+   {
+    "arq": "22.webp",
+    "w": 496,
+    "h": 279,
+    "hash": "42df4d4e3f9291843eecbb5cb60ac141"
+   },
+   {
+    "arq": "23.webp",
+    "w": 279,
+    "h": 496,
+    "hash": "ec4f7fbd72c68a6205a2eba7d99a7679"
+   },
+   {
+    "arq": "24.webp",
+    "w": 279,
+    "h": 496,
+    "hash": "26c99000ad7ef9b3b7421809e817b72a"
+   },
+   {
+    "arq": "25.webp",
+    "w": 496,
+    "h": 279,
+    "hash": "a3b221365b82943f5609e5283b2a24ea"
+   },
+   {
+    "arq": "26.webp",
+    "w": 124,
+    "h": 70,
+    "hash": "9c3192b5f5c2bd7a7ff24a61fe3eea49"
+   }
   ],
   "lat": -22.945043,
   "lng": -47.312182,
   "precisao": "cidade",
-  "total_no_site": 26
+  "total_no_site": 26,
+  "pequenas": []
  },
  "CHA0085": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "d24aa7ee6f107aa91ba3286586ed85e2"
+   },
+   {
+    "arq": "2.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "445a88aedeabe5443b4103d2edd1cc05"
+   },
+   {
+    "arq": "3.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "32ef198f736db2c8bc2ba8146c541c0e"
+   },
+   {
+    "arq": "4.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "f626fd25f3820a941deef62f1dae12a2"
+   },
+   {
+    "arq": "5.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "7ccf0d916ba05dd9137b998a713125d9"
+   },
+   {
+    "arq": "6.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "b99022e150feb845466acc87c80c0b07"
+   },
+   {
+    "arq": "7.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "15e57e1c9762731cc09940efa0479da5"
+   },
+   {
+    "arq": "8.webp",
+    "w": 1296,
+    "h": 972,
+    "hash": "aa9080d9ea5e25ae73ec033454847f91"
+   }
   ],
   "lat": -22.945043,
   "lng": -47.312182,
   "precisao": "cidade",
-  "total_no_site": 8
+  "total_no_site": 8,
+  "pequenas": []
  },
  "APA00170": {
   "fotos": [
-   "1.webp",
-   "2.webp",
-   "3.webp",
-   "4.webp",
-   "5.webp",
-   "6.webp",
-   "7.webp",
-   "8.webp"
+   {
+    "arq": "1.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "a7cd8b1606f5728e5be2628eee59b5ea"
+   },
+   {
+    "arq": "2.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "99f8e3dbfe4bff3df78bdc6b7c378ed4"
+   },
+   {
+    "arq": "3.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "7fe496cad7d7e777322bbf70833ebfab"
+   },
+   {
+    "arq": "4.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "411af4c8806cfab6ced58c1cddfd6df2"
+   },
+   {
+    "arq": "5.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "5cf829bce47591f3a7a4cb07c7ecb3d5"
+   },
+   {
+    "arq": "6.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "d424859100a81c6528dcee38489ad102"
+   },
+   {
+    "arq": "7.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "53eaad3e4615969b3c9a6a8d92ea2397"
+   },
+   {
+    "arq": "8.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "7deba0c3b35e724501c86b1ca8c19a16"
+   },
+   {
+    "arq": "9.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "6883ba4318bb5bbd97c56827d4a90fa4"
+   },
+   {
+    "arq": "10.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "5f6cebe46deb87fb95756362666c8299"
+   },
+   {
+    "arq": "11.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "b1406f216391bf92121e0183967e7a4e"
+   },
+   {
+    "arq": "12.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "42550c0bba748d4bdc34d4a33601bbd4"
+   },
+   {
+    "arq": "13.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "b7dc0e2a60745f29141ddd890fbb351c"
+   },
+   {
+    "arq": "14.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "2b3f8708751908f1bd6cb08ac4013666"
+   },
+   {
+    "arq": "15.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "f4b642902ed1c37c8cbacf15276a4a47"
+   },
+   {
+    "arq": "16.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "7d6f2c4fd97b69c5da2ea27ae7bb9ac1"
+   },
+   {
+    "arq": "17.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "72e133d5e5da9f7d43972f9d50649962"
+   },
+   {
+    "arq": "18.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "e074ee798eed9bcea4a2abf2c42f4b8b"
+   },
+   {
+    "arq": "19.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "3ad1837d171d8da3652646dedb24db1d"
+   },
+   {
+    "arq": "20.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "e941819391624f40ba9dd8db172d5143"
+   },
+   {
+    "arq": "21.webp",
+    "w": 480,
+    "h": 640,
+    "hash": "e3ef901555eb2446a84f36b507248ca2"
+   },
+   {
+    "arq": "22.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "4d67eade9696c785893a6bbff04e4cc2"
+   },
+   {
+    "arq": "23.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "1f9b9f56f72862251bcefa47b554e482"
+   },
+   {
+    "arq": "24.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "42ee9fd762f6fcb547b96e7d6a8d1443"
+   },
+   {
+    "arq": "25.webp",
+    "w": 640,
+    "h": 480,
+    "hash": "52089c3ae3531b870a0cb8e5c528db16"
+   }
   ],
   "lat": -23.0253723,
   "lng": -45.5442469,
   "precisao": "bairro",
-  "total_no_site": 25
+  "total_no_site": 25,
+  "pequenas": []
  }
 }

@@ -5,7 +5,7 @@ from collections import Counter
 # Enquanto for demonstração, nada é indexado. Trocar para True só com o domínio do cliente.
 PUBLICADO = False
 SITE_URL = "https://aldeia-imoveis.onrender.com"
-VERSAO = "6"
+VERSAO = "8"
 
 EMPRESA = {
     "nome": "Aldeia Imóveis",
@@ -92,16 +92,36 @@ def preco_card(it, modo=""):
     return "".join(partes)
 
 
-def foto(it, n=0, capa=False):
+def foto(it, n=0, capa=False, mini=False):
     if not it["fotos"]:
         return ""
-    return "/assets/imoveis/%s/%s" % (it["codigo"], "c.webp" if capa else it["fotos"][n])
+    if capa:
+        return "/assets/imoveis/%s/c.webp" % it["codigo"]
+    arq = it["fotos"][n]["arq"]
+    if mini:
+        arq = arq.replace(".webp", "m.webp")
+    return "/assets/imoveis/%s/%s" % (it["codigo"], arq)
+
+
+def wa_href(texto):
+    """Link de WhatsApp com a mensagem pronta. O número entra em tempo de execução, por config.js."""
+    from urllib.parse import quote
+    return "https://wa.me/?text=" + quote(texto, safe="")
+
+
+def wa_link(rotulo, texto, classe="", extra=""):
+    return ('<a class="%s" href="%s" target="_blank" rel="noopener" data-wa data-wa-msg="%s" '
+            'data-evento="Contact" data-canal="whatsapp"%s>%s</a>') % (classe, wa_href(texto), e(texto), extra, rotulo)
+
+
+MSG_GERAL = "Olá, Aldeia. Vim pelo site e gostaria de atendimento."
+MSG_BUSCA = "Olá, Aldeia. Procuro um imóvel que não encontrei no site. Posso dizer o que preciso?"
 
 
 def card(it, modo="", h="h3"):
     alt = "%s, %s" % (it["titulo"], it["cidade"])
     if it["fotos"]:
-        img = '<img src="%s" alt="%s" width="640" height="427" loading="lazy" decoding="async">' % (foto(it, capa=True), e(alt))
+        img = '<img src="%s" alt="%s" width="720" height="480" loading="lazy" decoding="async">' % (foto(it, capa=True), e(alt))
     else:
         img = '<div class="sem-foto"><span>Fotos sob consulta</span></div>'
     titulo = it["tipo"] + (" de " + plural(it["quartos"], "dormitório", "dormitórios") if it["quartos"] else "")
@@ -132,6 +152,7 @@ class Contexto:
         self.tipos = Counter(i["tipo"] for i in itens)
         self.cidades = Counter(i["cidade"] for i in itens)
         self.financiaveis = [i for i in itens if i["financiavel"] and i["venda"]]
+        self.corrompidas = {i["codigo"]: [0] * i["corrompidas"] for i in itens if i["corrompidas"]}
 
 
 def titulo_seo(it):
@@ -154,22 +175,23 @@ def cabecalho_secao(eyebrow, titulo, link=None, tag="h2"):
         olho, tag, titulo, tag, regua(), acao)
 
 
-def formulario(assunto, mensagem="", titulo="Fale com a Aldeia", extra="", botao="Enviar mensagem", cod=""):
+def formulario(assunto, mensagem, titulo="Fale com a Aldeia", extra="", cod=""):
+    """Formulário que monta a mensagem e abre o WhatsApp. Sem JavaScript, o botão vira link direto."""
     return (
-        '<form class="form" data-form data-assunto="{assunto}" data-cod="{cod}" novalidate>'
+        '<form class="form" data-form data-assunto="{assunto}" data-cod="{cod}" action="https://wa.me/" method="get" target="_blank" novalidate>'
         '<h2 class="form-titulo">{titulo}</h2>'
-        '<label>Nome<input type="text" name="nome" autocomplete="name" required></label>'
-        '<label>Telefone<input type="tel" name="telefone" autocomplete="tel" inputmode="tel" required></label>'
-        '<label>E-mail <span class="opc">opcional</span><input type="email" name="email" autocomplete="email"></label>'
         '{extra}'
-        '<label>Mensagem<textarea name="mensagem" rows="4">{mensagem}</textarea></label>'
-        '<button class="btn btn-cheio" type="submit" data-evento="Lead">{botao}</button>'
-        '<p class="form-nota">Ao enviar, você concorda com a <a href="/privacidade/">política de privacidade</a>. '
-        'A Aldeia responde no horário de atendimento: {horario_min}.</p>'
+        '<label>Seu nome <span class="opc">opcional</span><input type="text" name="nome" autocomplete="name"></label>'
+        '<label>Mensagem<textarea name="text" rows="6" data-msg required>{mensagem}</textarea></label>'
+        '<button class="btn btn-cheio" type="submit">Enviar pelo WhatsApp</button>'
+        '<p class="form-nota">A mensagem abre pronta no WhatsApp: você revisa e envia. A Aldeia responde de segunda a sexta, '
+        'das 9h às 12h e das 13h30 às 17h. Se preferir, ligue para <a href="tel:{tel}" data-evento="Contact" data-canal="telefone">{tel_txt}</a> '
+        'ou escreva para <a href="mailto:{email}" data-evento="Contact" data-canal="email">{email}</a>. '
+        'Veja a <a href="/privacidade/">política de privacidade</a>.</p>'
         '<p class="form-ok" data-form-ok hidden role="status"></p>'
         '</form>'
-    ).format(assunto=e(assunto), cod=e(cod), titulo=e(titulo), extra=extra, mensagem=e(mensagem), botao=e(botao),
-             horario_min="segunda a sexta, 9h às 12h e 13h30 às 17h")
+    ).format(assunto=e(assunto), cod=e(cod), titulo=e(titulo), extra=extra, mensagem=e(mensagem),
+             tel=EMPRESA["tel1_link"], tel_txt=EMPRESA["tel1"], email=EMPRESA["email"])
 
 
 def jsonld(obj):
@@ -225,9 +247,8 @@ def pagina(titulo, descricao, caminho, corpo, hero=False, pagina_id="", ld=None,
     leaflet_js = ('<script src="/assets/vendor/leaflet.min.js" defer></script>'
                   if mapa else "")
     if barra is None:
-        barra = ('<a href="tel:{t}" data-evento="Contact" data-canal="telefone">Ligar</a>'
-                 '<a href="/contato/" data-wa-troca data-evento="Contact" data-canal="mensagem">Mensagem</a>'
-                 '<a href="/comprar/">Buscar imóvel</a>').format(t=E["tel1_link"])
+        barra = ('<a href="tel:%s" data-evento="Contact" data-canal="telefone">Ligar</a>' % E["tel1_link"]
+                 + wa_link("WhatsApp", MSG_GERAL, "barra-forte") + '<a href="/comprar/">Buscar imóvel</a>')
     return """<!doctype html>
 <html lang="pt-BR">
 <head>

@@ -11,8 +11,9 @@ FALHAS = [
     ("A página de financiamento está vazia", "Só existe o título \"Simuladores de Financiamento\". Nenhum link, nenhum simulador."),
     ("O Google não recebe mapa do site", "robots.txt e sitemap.xml respondem erro 404. O título das páginas começa com um hífen solto."),
     ("Nenhuma medição instalada", "Sem Pixel da Meta, sem Google Analytics, sem Tag Manager. Não dá para saber qual imóvel é mais visto nem de onde vem o contato."),
-    ("Não há WhatsApp", "Os canais são telefone fixo, e-mail e um chat próprio. Nenhum botão leva para o WhatsApp."),
+    ("Não há WhatsApp", "Os canais são telefone fixo, e-mail e um chat próprio. Os dois números publicados, (19) 3241-6444 e (19) 2121-6444, não têm conta no WhatsApp."),
     ("As descrições estão em caixa alta", "55 dos 57 anúncios, com valores de IPTU de 2020 a 2024 misturados ao texto."),
+    ("__FOTOS__",),
     ("35 imóveis não têm endereço", "O campo de localização está vazio. No mapa, eles não aparecem no lugar certo."),
     ("Campos preenchidos errado", "Sala comercial com \"1 dormitório\", terreno com \"2 vagas\", casa comercial com \"10 dormitórios\"."),
     ("A paginação não tem fim", "O endereço /index/page/778/ responde como se existisse. Para o Google, é conteúdo duplicado sem limite."),
@@ -35,14 +36,16 @@ NOVO = [
     "Página para o proprietário que quer vender ou alugar, que hoje não existe.",
     "Página de administração de locação, com o boleto a um toque.",
     "Simulador de financiamento SAC e Price, com link para os bancos.",
-    "Formulário em toda ficha de imóvel, já com o código preenchido.",
+    "Todas as fotos de cada anúncio, no tamanho original, com setas, contador e tela cheia.",
+    "Mensagem pronta para o WhatsApp em toda ficha: código, tipo, bairro e valor do imóvel já escritos.",
+    "Quem quer vender ou alugar também sai do site direto para o WhatsApp, com a mensagem montada.",
     "Espaço pronto para Pixel da Meta, Google Analytics e Tag Manager, com aviso de cookies conforme a LGPD.",
     "Dados estruturados para Google e assistentes de IA: imobiliária, cada imóvel, perguntas frequentes.",
     "sitemap.xml, robots.txt, llms.txt e a carteira em JSON.",
 ]
 
 PENDENTE = [
-    ("Número de WhatsApp de atendimento", "O botão já existe no código. Entra no ar assim que o número for informado."),
+    ("Número de WhatsApp de atendimento", "Todo o site já monta a mensagem pronta. Falta só o número de destino. Dá para ativar o WhatsApp Business no próprio fixo (19) 3241-6444, com verificação por ligação."),
     ("Texto completo do institucional", "O que vem depois de \"Advocacia pr\"."),
     ("Ano de fundação", "O site diz 42 anos. Precisamos do ano para não envelhecer o texto."),
     ("Logo em arquivo vetorial", "O logo usado foi recortado de uma imagem de 163 px de altura. Em tela grande ele perde nitidez."),
@@ -62,8 +65,13 @@ def _par(rotulo, antes, depois, alt):
 
 
 def corpo_apresentacao(ctx):
+    corrompidas = sum(len(v) for v in ctx.corrompidas.values())
+    lista = [f for f in FALHAS if f[0] != "__FOTOS__"]
+    if corrompidas:
+        lista.insert(11, ("%d fotos estão corrompidas no servidor" % corrompidas,
+                          "O arquivo original tem cerca de 43 px de largura e aparece esticado. Acontece em %s." % ", ".join(sorted(ctx.corrompidas))))
     falhas = "".join("<tr><th scope=\"row\">%d</th><td><strong>%s</strong><span>%s</span></td></tr>" % (n, e(t), e(d))
-                     for n, (t, d) in enumerate(FALHAS, 1))
+                     for n, (t, d) in enumerate(lista, 1))
     pend = "".join("<li><strong>%s</strong>%s</li>" % (e(t), e(d)) for t, d in PENDENTE)
     return """
 <section class="lista-topo">
@@ -122,14 +130,14 @@ def corpo_apresentacao(ctx):
   <div class="cont estreito">
     {cab_c}
     <p>Os imóveis desta versão foram copiados do site atual em 15 de novembro de 2026. Imóvel vendido ou alugado depois dessa data ainda aparece aqui.</p>
-    <p>Dois anúncios ficaram de fora: o de teste (APA00340) e a sala repetida (SAL0044). Os outros {n} estão publicados com as fotos da própria Aldeia, até oito por imóvel.</p>
+    <p>Dois anúncios ficaram de fora: o de teste (APA00340) e a sala repetida (SAL0044). Os outros {n} estão publicados com todas as fotos da própria Aldeia: {nfotos} imagens.</p>
     <p>O site está fechado para o Google enquanto for demonstração. A abertura para buscadores e assistentes de IA já está escrita e entra junto com o domínio.</p>
   </div>
 </section>
-""".format(n_bruto=len(ctx.itens) + 2, n=len(ctx.itens), regua=regua(),
+""".format(n_bruto=len(ctx.itens) + 2, n=len(ctx.itens), nfotos=sum(len(i["fotos"]) for i in ctx.itens), regua=regua(),
            p1=_par("Página inicial no computador", "antes-home.webp", "depois-home.webp", "página inicial"),
            p2=_par("Página inicial no celular", "antes-celular.webp", "depois-celular.webp", "página inicial no celular"),
            p3=_par("Ficha de imóvel", "antes-imovel.webp", "depois-imovel.webp", "ficha do apartamento APA00345"),
            mantido="".join("<li>%s</li>" % e(x) for x in MANTIDO), novo="".join("<li>%s</li>" % e(x) for x in NOVO),
-           cab_f=cabecalho_secao("Diagnóstico", "%d falhas do site atual" % len(FALHAS)), falhas=falhas, pend=pend,
+           cab_f=cabecalho_secao("Diagnóstico", "%d falhas do site atual" % len(lista)), falhas=falhas, pend=pend,
            cab_c=cabecalho_secao("Limites", "O que esta demonstração ainda não é"))

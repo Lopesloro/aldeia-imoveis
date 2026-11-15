@@ -92,6 +92,43 @@ for p in fichas:
     checar("data-form" in h, n + ": sem formulário de contato")
     checar("data-galeria" in h, n + ": sem galeria")
 
+# 4b. Todas as fotos do site atual foram trazidas, e cada ficha mostra todas
+midias = json.load(open(os.path.join(RAIZ, "dados", "midias.json"), encoding="utf-8"))
+total_site = total_novo = 0
+for cod, m in midias.items():
+    if cod in ("APA00340", "SAL0044"):
+        continue
+    total_site += m.get("total_no_site", 0)
+    total_novo += len(m["fotos"])
+    # foto cujo original no servidor tem menos de 120 px é miniatura corrompida: fica fora, mas é contada
+    checar(len(m["fotos"]) + len(m.get("pequenas", [])) == m.get("total_no_site", 0),
+           "%s: %d fotos no site atual, %d no novo e %d corrompidas" % (cod, m.get("total_no_site", 0), len(m["fotos"]), len(m.get("pequenas", []))))
+    for f in m["fotos"]:
+        base_f = os.path.join(PUB, "assets", "imoveis", cod, f["arq"])
+        checar(os.path.exists(base_f) and os.path.exists(base_f.replace(".webp", "m.webp")), "%s: arquivo de foto ausente %s" % (cod, f["arq"]))
+        checar(max(f["w"], f["h"]) >= 120, "%s: foto %s pequena demais (%dx%d)" % (cod, f["arq"], f["w"], f["h"]))
+for p in fichas:
+    h = ler(p)
+    cod = re.search(r'data-imovel="([^"]+)"', h).group(1)
+    n = len(midias[cod]["fotos"])
+    checar(len(re.findall(r"data-gal-ir=", h)) == n, rel(p) + ": galeria deveria ter %d miniaturas" % n)
+    checar("object-fit" not in h, rel(p) + ": estilo inline na galeria")
+
+# 4c. Contato de compra, aluguel e anúncio sai pelo WhatsApp, com mensagem pronta
+for p in todas:
+    h = ler(p)
+    n = rel(p)
+    for form in re.findall(r"<form[^>]*data-form.*?</form>", h, flags=re.S):
+        checar("Enviar pelo WhatsApp" in form, n + ": formulário sem botão de WhatsApp")
+        checar('name="text"' in form and re.search(r"<textarea[^>]*>\s*\S", form) is not None, n + ": formulário sem mensagem pronta")
+        checar('type="email"' not in form, n + ": formulário ainda pede e-mail")
+    for a in re.findall(r"<a[^>]*data-wa[^>]*>", h):
+        checar("https://wa.me/" in a and "text=" in a, n + ": link de WhatsApp sem mensagem pronta")
+for p in fichas:
+    h = ler(p)
+    cod = re.search(r'data-imovel="([^"]+)"', h).group(1)
+    checar(re.search(r"<textarea[^>]*>[^<]*" + cod, h) is not None, rel(p) + ": mensagem pronta sem o código do imóvel")
+
 # 5. Demonstração fechada para buscadores
 if os.path.exists(os.path.join(PUB, "robots.txt")):
     checar("Disallow: /" in ler(os.path.join(PUB, "robots.txt")), "robots.txt da demonstração deveria bloquear tudo")

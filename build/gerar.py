@@ -118,7 +118,7 @@ def normalizar():
             "condominio": dinheiro(b["condominio"]), "iptu": dinheiro(b["iptu"]),
             "rua": rua_de(b["endereco"], bairro_bruto),
             "texto": d.get("texto", ""), "obs": d.get("obs", ""),
-            "fotos": m.get("fotos", []), "lat": m.get("lat"), "lng": m.get("lng"),
+            "fotos": m.get("fotos", []), "corrompidas": len(m.get("pequenas", [])), "lat": m.get("lat"), "lng": m.get("lng"),
             "precisao": m.get("precisao"),
         }
         if tipo in SEM_COMODOS:

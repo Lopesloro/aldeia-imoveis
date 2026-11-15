@@ -7,10 +7,13 @@ window.ALDEIA = {
   gtmId: '',              // ex.: 'GTM-XXXXXXX'       (Google Tag Manager; se usar GTM, deixe ga4Id vazio)
   googleAdsId: '',        // ex.: 'AW-123456789'
 
-  // Contato. Com o WhatsApp preenchido, formulários e a barra do celular passam a abrir a conversa.
-  whatsapp: '',           // só números, com 55 e DDD. ex.: '5519999999999'
+  // WhatsApp de atendimento: só números, com 55 e DDD. ex.: '5519999999999'
+  // Formulários, barra do celular e botões já montam a mensagem pronta e abrem este número.
+  // Vazio = o WhatsApp abre com a mensagem pronta e o visitante escolhe o contato (serve só para demonstração).
+  // Em 15/11/2026 os fixos (19) 3241-6444 e (19) 2121-6444 não tinham conta no WhatsApp.
+  whatsapp: '',
   emailContato: 'aldeia@aldeia.com.br',
 
-  // Endpoint próprio para receber os formulários (CRM, imo7 ou API de Conversões). Vazio = e-mail/WhatsApp.
+  // Endpoint próprio que recebe uma cópia de cada lead (CRM, imo7 ou API de Conversões). Vazio = desligado.
   endpointLead: ''
 };

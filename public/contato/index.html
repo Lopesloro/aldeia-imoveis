@@ -20,7 +20,7 @@
 <link rel="preload" href="/assets/fontes/playfair-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fontes/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/vendor/leaflet.min.css">
-<link rel="stylesheet" href="/assets/css/site.css?v=6">
+<link rel="stylesheet" href="/assets/css/site.css?v=8">
 <script>document.documentElement.className='js'</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "RealEstateAgent", "@id": "https://aldeia-imoveis.onrender.com/#aldeia", "name": "Aldeia Imóveis", "legalName": "Aldeia Consultoria, Vendas e Administração de Imóveis Ltda.", "url": "https://aldeia-imoveis.onrender.com/", "image": "https://aldeia-imoveis.onrender.com/assets/marca/og.png", "logo": "https://aldeia-imoveis.onrender.com/assets/marca/aldeia-verde.png", "telephone": ["+551932416444", "+551921216444"], "email": "aldeia@aldeia.com.br", "identifier": {"@type": "PropertyValue", "name": "CRECI-SP", "value": "3716-J"}, "address": {"@type": "PostalAddress", "streetAddress": "Av. Dr. Alberto Sarmento, 684", "addressLocality": "Campinas", "addressRegion": "SP", "postalCode": "13070-711", "addressCountry": "BR"}, "geo": {"@type": "GeoCoordinates", "latitude": -22.8942445, "longitude": -47.0786245}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "12:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "13:30", "closes": "17:00"}], "areaServed": [{"@type": "City", "name": "Campinas"}], "knowsAbout": ["venda de imóveis", "locação de imóveis", "administração de imóveis"]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "https://aldeia-imoveis.onrender.com/"}, {"@type": "ListItem", "position": 2, "name": "Contato", "item": "https://aldeia-imoveis.onrender.com/contato/"}]}</script>
@@ -50,7 +50,7 @@
   <div class="cont">
     <nav class="migalhas" aria-label="Você está em"><a href="/">Início</a><span class="sep" aria-hidden="true">/</span><span aria-current="page">Contato</span></nav>
     <h1 class="pg-titulo">Fale com a Aldeia</h1>
-    <p class="lead">Atendimento de segunda a sexta, das 9h às 12h e das 13h30 às 17h, por telefone, e-mail ou na sede.</p>
+    <p class="lead">Atendimento de segunda a sexta, das 9h às 12h e das 13h30 às 17h, por WhatsApp, telefone, e-mail ou na sede.</p>
   </div>
 </section>
 <section class="sec sec-lista">
@@ -65,7 +65,7 @@
       <div id="mapa" class="mapa" data-mapa-ponto data-lat="-22.8942445" data-lng="-47.0786245" data-zoom="16" data-rotulo="Aldeia Imóveis"></div>
       <a class="btn btn-linha" href="https://www.google.com/maps/dir/?api=1&amp;destination=-22.8942445,-47.0786245" target="_blank" rel="noopener" data-evento="Rota">Traçar rota até a sede</a>
     </div>
-    <aside class="ficha-lado"><form class="form" data-form data-assunto="Contato pelo site" data-cod="" novalidate><h2 class="form-titulo">Envie uma mensagem</h2><label>Nome<input type="text" name="nome" autocomplete="name" required></label><label>Telefone<input type="tel" name="telefone" autocomplete="tel" inputmode="tel" required></label><label>E-mail <span class="opc">opcional</span><input type="email" name="email" autocomplete="email"></label><label>Assunto<select name="assunto_sel" data-assunto-sel><option value="duvida">Dúvida sobre um imóvel</option><option value="procuro">Procuro um imóvel que não está no site</option><option value="anunciar">Quero anunciar meu imóvel</option><option value="locacao">Sou inquilino ou proprietário da Aldeia</option></select></label><label>Mensagem<textarea name="mensagem" rows="4"></textarea></label><button class="btn btn-cheio" type="submit" data-evento="Lead">Enviar mensagem</button><p class="form-nota">Ao enviar, você concorda com a <a href="/privacidade/">política de privacidade</a>. A Aldeia responde no horário de atendimento: segunda a sexta, 9h às 12h e 13h30 às 17h.</p><p class="form-ok" data-form-ok hidden role="status"></p></form></aside>
+    <aside class="ficha-lado"><form class="form" data-form data-assunto="Contato pelo site" data-cod="" action="https://wa.me/" method="get" target="_blank" novalidate><h2 class="form-titulo">Envie uma mensagem</h2><label>Assunto<select name="assunto_sel" data-assunto-sel><option value="duvida" data-msg="Olá, Aldeia. Tenho uma dúvida sobre um imóvel do site.">Dúvida sobre um imóvel</option><option value="procuro" data-msg="Olá, Aldeia. Procuro um imóvel que não encontrei no site. Posso dizer o que preciso?">Procuro um imóvel que não está no site</option><option value="anunciar" data-msg="Olá, Aldeia. Quero anunciar meu imóvel com vocês.">Quero anunciar meu imóvel</option><option value="locacao" data-msg="Olá, Aldeia. Sou cliente da locação e preciso de atendimento.">Sou inquilino ou proprietário da Aldeia</option></select></label><label>Seu nome <span class="opc">opcional</span><input type="text" name="nome" autocomplete="name"></label><label>Mensagem<textarea name="text" rows="6" data-msg required>Olá, Aldeia. Tenho uma dúvida sobre um imóvel do site.</textarea></label><button class="btn btn-cheio" type="submit">Enviar pelo WhatsApp</button><p class="form-nota">A mensagem abre pronta no WhatsApp: você revisa e envia. A Aldeia responde de segunda a sexta, das 9h às 12h e das 13h30 às 17h. Se preferir, ligue para <a href="tel:+551932416444" data-evento="Contact" data-canal="telefone">(19) 3241-6444</a> ou escreva para <a href="mailto:aldeia@aldeia.com.br" data-evento="Contact" data-canal="email">aldeia@aldeia.com.br</a>. Veja a <a href="/privacidade/">política de privacidade</a>.</p><p class="form-ok" data-form-ok hidden role="status"></p></form></aside>
   </div>
 </section>
 
@@ -96,14 +96,14 @@
     <a class="credito" href="https://blueshieldpro.com.br/" target="_blank" rel="noopener" aria-label="Site desenvolvido por BlueShieldPro, abre em nova aba"><span>Desenvolvido por</span><img src="/assets/marca/blueshieldpro.svg" alt="BlueShieldPro" width="236" height="56" loading="lazy"></a>
   </div>
 </footer>
-<nav class="barra-acao" aria-label="Contato rápido"><a href="tel:+551932416444" data-evento="Contact" data-canal="telefone">Ligar</a><a href="/contato/" data-wa-troca data-evento="Contact" data-canal="mensagem">Mensagem</a><a href="/comprar/">Buscar imóvel</a></nav>
+<nav class="barra-acao" aria-label="Contato rápido"><a href="tel:+551932416444" data-evento="Contact" data-canal="telefone">Ligar</a><a class="barra-forte" href="https://wa.me/?text=Ol%C3%A1%2C%20Aldeia.%20Vim%20pelo%20site%20e%20gostaria%20de%20atendimento." target="_blank" rel="noopener" data-wa data-wa-msg="Olá, Aldeia. Vim pelo site e gostaria de atendimento." data-evento="Contact" data-canal="whatsapp">WhatsApp</a><a href="/comprar/">Buscar imóvel</a></nav>
 <div class="consent" data-consent hidden>
   <p>Usamos cookies de medição para saber quais imóveis são mais vistos. <a href="/privacidade/">Saiba mais</a></p>
   <div><button type="button" class="btn btn-linha btn-p" data-consent-nao>Recusar</button><button type="button" class="btn btn-cheio btn-p" data-consent-sim>Aceitar</button></div>
 </div>
-<script src="/assets/js/config.js?v=6"></script>
-<script src="/assets/js/medicao.js?v=6" defer></script>
+<script src="/assets/js/config.js?v=8"></script>
+<script src="/assets/js/medicao.js?v=8" defer></script>
 <script src="/assets/vendor/leaflet.min.js" defer></script>
-<script src="/assets/js/site.js?v=6" defer></script>
+<script src="/assets/js/site.js?v=8" defer></script>
 </body>
 </html>

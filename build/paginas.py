@@ -1,6 +1,7 @@
 """Construtores de página. Cada função devolve o HTML completo."""
 import json
-from base import (EMPRESA as E, SITE_URL, e, slug, reais, area, plural, specs, selo, foto, card, regua,
+from base import (EMPRESA as E, SITE_URL, e, slug, reais, area, plural, specs, selo, foto, card, regua, wa_link,
+                  MSG_GERAL, MSG_BUSCA,
                   cabecalho_secao, formulario, pagina, migalhas, ld_migalhas, titulo_seo)
 
 
@@ -143,7 +144,7 @@ def pg_home(ctx):
   <div class="cont objecao-txt">
     <h2>Não achou o que procurava?</h2>
     <p>Nem todo imóvel está no site. Diga o bairro, o tipo e o valor que cabe no seu orçamento, e um corretor da Aldeia procura para você.</p>
-    <a class="btn btn-claro" href="/contato/?assunto=procuro">Pedir uma busca</a>
+    {wa_busca}
   </div>
 </section>
 
@@ -159,6 +160,7 @@ def pg_home(ctx):
   </div>
 </section>
 """.format(
+        wa_busca=wa_link("Pedir uma busca pelo WhatsApp", MSG_BUSCA, "btn btn-claro"),
         anos=E["anos"], foto_qs=foto(ctx.por_cod["CAS00229"]), op_tipos=_op_tipos(ctx.itens), op_bairros=_op_bairros(ctx.itens), op_quartos=OP_QUARTOS,
         p1=painel("Tempo de mercado", "%d anos" % E["anos"], "de mercado imobiliário em Campinas", foto(ctx.por_cod["APA00227"])),
         p2=painel("Carteira de hoje", plural(nt, "imóvel", "imóveis"), "%d à venda e %d para alugar" % (nv, nl), foto(ctx.por_cod["APA00282"])),
@@ -239,7 +241,7 @@ def pg_listagem(ctx, modo):
     <div class="vazio" data-vazio hidden>
       <h2>Nenhum imóvel com esses filtros</h2>
       <p>A carteira muda toda semana e nem tudo está publicado. Diga o que procura e um corretor da Aldeia retorna no horário de atendimento.</p>
-      <a class="btn btn-cheio" href="/contato/?assunto=procuro">Pedir uma busca</a>
+      {wa_vazio}
     </div>
     <aside class="legit">
       <p><strong>{razao}</strong> CRECI {creci}</p>
@@ -248,6 +250,7 @@ def pg_listagem(ctx, modo):
   </div>
 </section>
 """.format(migalhas=migalhas([("Início", "/"), (h1, caminho)]), h1=h1, n=len(itens), abas=abas, modo=modo,
+           wa_vazio=wa_link("Pedir uma busca pelo WhatsApp", MSG_BUSCA, "btn btn-cheio", " data-wa-filtros"),
            transacao=transacao, op_tipos=_op_tipos(itens), op_bairros=_op_bairros(itens), op_quartos=OP_QUARTOS.replace("Dormitórios", "Qualquer"),
            preco=preco, ordem="".join('<option value="%s">%s</option>' % o for o in ordem), mapa=mapa,
            cards="".join(card(i, modo, h="h2") for i in itens), razao=E["razao"], creci=E["creci"], rua=E["rua"],
@@ -266,15 +269,24 @@ def pg_ficha(ctx, it):
     lista = ("Imóveis à venda", "/comprar/") if it["venda"] else ("Imóveis para alugar", "/alugar/")
     trilha = [("Início", "/"), lista, ("%s %s" % (it["tipo"], it["codigo"]), it["url"])]
     alt_base = "%s, %s, %s" % (it["tipo"], it["bairro"], it["cidade"])
-    if it["fotos"]:
-        principal = '<button type="button" class="gal-principal" data-gal-abrir="0"><img src="%s" alt="%s, foto 1 de %d" width="1200" height="800" fetchpriority="high" data-gal-img></button>' % (
-            foto(it, 0), e(alt_base), len(it["fotos"]))
-        minis = "".join('<button type="button" class="gal-mini" data-gal-ir="%d"%s><img src="%s" alt="%s, foto %d" width="1200" height="800" loading="lazy"></button>' % (
-            n, ' aria-current="true"' if n == 0 else "", foto(it, n), e(alt_base), n + 1) for n in range(len(it["fotos"])))
-        galeria = '<div class="gal" data-galeria data-fotos=\'%s\'>%s<div class="gal-minis">%s</div></div>' % (
-            json.dumps([foto(it, n) for n in range(len(it["fotos"]))]), principal, minis)
+    nf = len(it["fotos"])
+    if nf:
+        f0 = it["fotos"][0]
+        minis = "".join(
+            '<button type="button" class="gal-mini" data-gal-ir="%d"%s><img src="%s" alt="%s, foto %d de %d" width="360" height="%d" loading="lazy" decoding="async"></button>' % (
+                n, ' aria-current="true"' if n == 0 else "", foto(it, n, mini=True), e(alt_base), n + 1, nf,
+                round(360 * f["h"] / f["w"]) if f["w"] else 240)
+            for n, f in enumerate(it["fotos"]))
+        setas = ('<button type="button" class="gal-seta gal-ant" data-gal-ant aria-label="Foto anterior"><i class="seta seta-e"></i></button>'
+                 '<button type="button" class="gal-seta gal-prox" data-gal-prox aria-label="Próxima foto"><i class="seta seta-d"></i></button>') if nf > 1 else ""
+        galeria = (
+            '<div class="gal" data-galeria data-fotos=\'%s\'><div class="gal-palco">'
+            '<button type="button" class="gal-principal" data-gal-abrir="0" aria-label="Ampliar foto"><img src="%s" alt="%s, foto 1 de %d" width="%d" height="%d" fetchpriority="high" data-gal-img></button>'
+            '%s<span class="gal-cont"><span data-gal-cont>1</span> de %d fotos</span></div>'
+            '<div class="gal-minis" data-gal-minis>%s</div></div>'
+        ) % (json.dumps([foto(it, n) for n in range(nf)]), foto(it, 0), e(alt_base), nf, f0["w"], f0["h"], setas, nf, minis)
     else:
-        galeria = '<div class="gal" data-galeria data-fotos="[]"><div class="sem-foto sem-foto-g"><span>As fotos deste imóvel ainda não foram publicadas. Peça pelo formulário ao lado.</span></div></div>'
+        galeria = '<div class="gal" data-galeria data-fotos="[]"><div class="sem-foto sem-foto-g"><span>A Aldeia ainda não publicou fotos deste imóvel. Peça pelo WhatsApp ao lado.</span></div></div>'
 
     valores = ""
     if it["venda"]:
@@ -300,7 +312,14 @@ def pg_ficha(ctx, it):
     chave = "venda" if it["venda"] else "locacao"
     parecidos = [i for i in ctx.itens if i["codigo"] != it["codigo"] and i["fotos"] and i[chave]]
     parecidos.sort(key=lambda i: (i["tipo"] != it["tipo"], i["bairro"] != it["bairro"], abs(i[chave] - it[chave])))
-    msg = "Olá. Quero saber mais sobre o imóvel código %s (%s). Podem me retornar?" % (it["codigo"], it["titulo"])
+    partes_valor = []
+    if it["venda"]:
+        partes_valor.append("à venda por " + reais(it["venda"]))
+    if it["locacao"]:
+        partes_valor.append("para alugar por %s por mês" % reais(it["locacao"]))
+    msg = "Olá, Aldeia. Tenho interesse no imóvel cód. %s: %s, %s. Gostaria de agendar uma visita." % (
+        it["codigo"], it["titulo"], " ou ".join(partes_valor))
+    wa_ficha = wa_link("Chamar no WhatsApp", msg, "btn btn-cheio", ' data-wa-pagina')
     corpo = """
 <article class="ficha">
   <div class="cont">
@@ -317,7 +336,7 @@ def pg_ficha(ctx, it):
         <h2 class="sub">Sobre o imóvel</h2>
         <p class="ficha-texto">{texto}</p>
         {obs}
-        <div class="ficha-acoes">{simular}<a class="btn btn-linha" href="tel:{tel}" data-evento="Contact" data-canal="telefone">Ligar {tel_txt}</a></div>
+        <div class="ficha-acoes">{wa_ficha}{simular}<a class="btn btn-linha" href="tel:{tel}" data-evento="Contact" data-canal="telefone">Ligar {tel_txt}</a></div>
         <h2 class="sub">Localização</h2>
         <p class="ficha-local">{local}</p>
         {mapa}
@@ -338,7 +357,8 @@ def pg_ficha(ctx, it):
 """.format(migalhas=migalhas(trilha), galeria=galeria, selo=selo(it), cod=it["codigo"], h1=e(h1), regua=regua(),
            local=e(local), valores=valores, ficha=ficha, texto=e(it["texto"]), obs=obs, simular=simular,
            tel=E["tel1_link"], tel_txt=E["tel1"], mapa=mapa,
-           form=formulario("Interesse no imóvel " + it["codigo"], msg, titulo="Quero visitar este imóvel", botao="Tenho interesse", cod=it["codigo"]),
+           wa_ficha=wa_ficha,
+           form=formulario("Interesse no imóvel " + it["codigo"], msg, titulo="Quero visitar este imóvel", cod=it["codigo"]),
            horario=E["horario"], creci=E["creci"],
            cab=cabecalho_secao("Parecidos", "Outros imóveis para comparar", (lista[1], "Ver a lista completa")),
            parecidos="".join(card(i, "v" if it["venda"] else "l") for i in parecidos[:3]))
@@ -365,13 +385,14 @@ def pg_ficha(ctx, it):
     ld = [ld_migalhas(trilha),
           {"@context": "https://schema.org", "@type": "RealEstateListing", "name": h1, "url": SITE_URL + it["url"],
            "description": it["texto"], "identifier": it["codigo"],
-           "image": [SITE_URL + foto(it, n) for n in range(len(it["fotos"]))] or None,
+           "image": [SITE_URL + foto(it, n) for n in range(min(len(it["fotos"]), 12))] or None,
            "offers": ofertas, "about": sobre, "provider": {"@id": SITE_URL + "/#aldeia"}}]
     ld[1] = {k: v for k, v in ld[1].items() if v}
     desc = "%s. %s" % (h1, it["texto"])
     desc = desc if len(desc) <= 158 else desc[:155].rsplit(" ", 1)[0] + "..."
     attrs = ' data-imovel="%s" data-valor="%d" data-tipo-imovel="%s"' % (it["codigo"], it["venda"] or it["locacao"] or 0, e(it["tipo"]))
-    barra = ('<a href="tel:%s" data-evento="Contact" data-canal="telefone">Ligar</a><a href="#interesse" class="barra-forte">Tenho interesse</a>' % E["tel1_link"])
+    barra = ('<a href="tel:%s" data-evento="Contact" data-canal="telefone">Ligar</a>' % E["tel1_link"]
+             + wa_link("Tenho interesse", msg, "barra-forte", ' data-wa-pagina'))
     return pagina(titulo_seo(it), desc, it["url"], corpo, pagina_id="ficha", ld=ld, attrs=attrs,
                   imagem=foto(it, 0) or None, mapa=bool(it["lat"]), barra=barra)
 
@@ -400,9 +421,9 @@ def _sem_tags(s):
 
 def pg_anunciar(ctx):
     it = ctx.por_cod["BAR00321"]
-    extra = ('<label>O que você quer fazer<select name="finalidade"><option>Vender</option><option>Alugar</option><option>Vender ou alugar</option></select></label>'
-             '<label>Tipo do imóvel<input type="text" name="tipo" placeholder="Apartamento, casa, sala, terreno"></label>'
-             '<label>Bairro e cidade<input type="text" name="bairro"></label>')
+    extra = ('<label>O que você quer fazer<select name="finalidade" data-linha="Quero"><option>Vender</option><option>Alugar</option><option>Vender ou alugar</option></select></label>'
+             '<label>Tipo do imóvel<input type="text" name="tipo" data-linha="Tipo" placeholder="Apartamento, casa, sala, terreno"></label>'
+             '<label>Bairro e cidade<input type="text" name="bairro" data-linha="Local"></label>')
     faq, ld_faq = _faq([
         ("Em quais cidades a Aldeia anuncia?", "A maior parte da carteira fica em Campinas. Hoje o site também tem imóveis em %s." % ", ".join(c for c in ctx.cidades if c != "Campinas")),
         ("Quem acompanha as visitas?", "As visitas são agendadas e acompanhadas pela Aldeia, de segunda a sexta, no horário de atendimento."),
@@ -419,14 +440,14 @@ def pg_anunciar(ctx):
       <h2 class="sec-titulo">Do primeiro contato ao contrato</h2>
       {regua}
       <ol class="passos">
-        <li><strong>Você descreve o imóvel.</strong> Pelo formulário, por telefone ou na sede, no Castelo.</li>
+        <li><strong>Você descreve o imóvel.</strong> Pelo WhatsApp, por telefone ou na sede, no Castelo.</li>
         <li><strong>A Aldeia publica o anúncio.</strong> Com fotos, metragem, valor de condomínio e IPTU, e a situação da documentação.</li>
         <li><strong>As visitas são agendadas.</strong> Um corretor acompanha cada interessado, de segunda a sexta.</li>
         <li><strong>A proposta chega até você.</strong> Venda, permuta ou locação: a decisão é sua.</li>
         <li><strong>O contrato sai pela Aldeia.</strong> Na locação, o imóvel passa a ser administrado pela imobiliária.</li>
       </ol>
       <h2 class="sub">O que ajuda a vender mais rápido</h2>
-      <p>Os anúncios da carteira que informam documentação pronta para financiamento e FGTS são {nfin} hoje. Quem compra financiado filtra por isso. Se a sua escritura e o seu IPTU estão em ordem, diga no formulário.</p>
+      <p>Os anúncios da carteira que informam documentação pronta para financiamento e FGTS são {nfin} hoje. Quem compra financiado filtra por isso. Se a sua escritura e o seu IPTU estão em ordem, diga na mensagem.</p>
       <h2 class="sub">Perguntas de quem anuncia</h2>
       {faq}
     </div>
@@ -434,7 +455,7 @@ def pg_anunciar(ctx):
   </div>
 </section>
 """.format(regua=regua(), nfin=len(ctx.financiaveis), faq=faq,
-           form=formulario("Quero anunciar meu imóvel", "", titulo="Conte sobre o seu imóvel", extra=extra, botao="Enviar para avaliação"))
+           form=formulario("Quero anunciar meu imóvel", "Olá, Aldeia. Quero anunciar meu imóvel com vocês.", titulo="Conte sobre o seu imóvel", extra=extra))
     return pagina("Anunciar imóvel em Campinas | Aldeia Imóveis",
                   "Venda ou alugue seu imóvel em Campinas com a Aldeia, imobiliária com %d anos de mercado e sede própria no Castelo. CRECI %s." % (E["anos"], E["creci"]),
                   "/anunciar/", corpo, hero=True, pagina_id="anunciar", ld=[ld_faq, ld_migalhas([("Início", "/"), ("Anunciar imóvel", "/anunciar/")])])
@@ -610,15 +631,18 @@ def pg_sobre(ctx):
 
 
 def pg_contato(ctx):
-    extra = ('<label>Assunto<select name="assunto_sel" data-assunto-sel><option value="duvida">Dúvida sobre um imóvel</option>'
-             '<option value="procuro">Procuro um imóvel que não está no site</option><option value="anunciar">Quero anunciar meu imóvel</option>'
-             '<option value="locacao">Sou inquilino ou proprietário da Aldeia</option></select></label>')
+    assuntos = [("duvida", "Dúvida sobre um imóvel", "Olá, Aldeia. Tenho uma dúvida sobre um imóvel do site."),
+                ("procuro", "Procuro um imóvel que não está no site", MSG_BUSCA),
+                ("anunciar", "Quero anunciar meu imóvel", "Olá, Aldeia. Quero anunciar meu imóvel com vocês."),
+                ("locacao", "Sou inquilino ou proprietário da Aldeia", "Olá, Aldeia. Sou cliente da locação e preciso de atendimento.")]
+    extra = '<label>Assunto<select name="assunto_sel" data-assunto-sel>%s</select></label>' % "".join(
+        '<option value="%s" data-msg="%s">%s</option>' % (v, e(m), e(n)) for v, n, m in assuntos)
     corpo = """
 <section class="lista-topo">
   <div class="cont">
     {migalhas}
     <h1 class="pg-titulo">Fale com a Aldeia</h1>
-    <p class="lead">Atendimento de segunda a sexta, das 9h às 12h e das 13h30 às 17h, por telefone, e-mail ou na sede.</p>
+    <p class="lead">Atendimento de segunda a sexta, das 9h às 12h e das 13h30 às 17h, por WhatsApp, telefone, e-mail ou na sede.</p>
   </div>
 </section>
 <section class="sec sec-lista">
@@ -639,7 +663,7 @@ def pg_contato(ctx):
 """.format(migalhas=migalhas([("Início", "/"), ("Contato", "/contato/")]), t1=E["tel1"], t1l=E["tel1_link"], t2=E["tel2"],
            t2l=E["tel2_link"], email=E["email"], rua=E["rua"], bairro=E["bairro"], cidade=E["cidade"], uf=E["uf"],
            cep=E["cep"], referencia=E["referencia"], boleto=E["boleto"], lat=E["lat"], lng=E["lng"],
-           form=formulario("Contato pelo site", "", titulo="Envie uma mensagem", extra=extra))
+           form=formulario("Contato pelo site", assuntos[0][2], titulo="Envie uma mensagem", extra=extra))
     ld = [ld_migalhas([("Início", "/"), ("Contato", "/contato/")]),
           {"@context": "https://schema.org", "@type": "ContactPage", "name": "Contato", "url": SITE_URL + "/contato/", "about": {"@id": SITE_URL + "/#aldeia"}}]
     return pagina("Contato | Aldeia Imóveis, Castelo, Campinas",
@@ -661,8 +685,8 @@ def pg_privacidade(ctx):
     <h2 class="sub">Quem responde pelos dados</h2>
     <p>{razao}, CRECI {creci}, com sede na {rua}, {bairro}, {cidade}/{uf}. Contato: <a href="mailto:{email}">{email}</a> ou {t1}.</p>
     <h2 class="sub">O que é coletado</h2>
-    <p>Nos formulários: nome, telefone, e-mail (se você informar) e a mensagem. Esses dados servem para a Aldeia responder ao seu pedido e não são vendidos nem repassados a terceiros.</p>
-    <p>Na navegação: se você aceitar os cookies de medição, o site registra páginas vistas, buscas feitas e cliques em telefone e formulário. Se recusar, nada disso é registrado e o site funciona do mesmo jeito.</p>
+    <p>Os formulários não guardam nada no site. Eles montam uma mensagem com o que você digitou e abrem o WhatsApp, onde você decide se envia. A partir daí, a conversa segue as regras do próprio WhatsApp, e a Aldeia usa seus dados só para responder ao pedido.</p>
+    <p>Na navegação: se você aceitar os cookies de medição, o site registra páginas vistas, buscas feitas e cliques em telefone, WhatsApp e formulário. Se recusar, nada disso é registrado e o site funciona do mesmo jeito.</p>
     <h2 class="sub">Ferramentas de medição</h2>
     <p>Quando ativadas pela Aldeia, as ferramentas usadas são o Google Analytics, o Google Tag Manager e o Pixel da Meta. Elas só carregam depois do seu aceite. Você pode mudar a escolha a qualquer momento no link "Preferências de cookies", no rodapé.</p>
     <h2 class="sub">Seus direitos</h2>

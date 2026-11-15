@@ -6,6 +6,7 @@
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
   var evento = function (n, d) { if (window.aldeiaEvento) window.aldeiaEvento(n, d); };
   var brl = function (v) { return 'R$ ' + Math.round(v).toLocaleString('pt-BR'); };
+  var qs = new URLSearchParams(location.search);
 
   /* topo: transparente sobre o hero, sólido depois de 80px */
   var topo = $('[data-topo]');
@@ -37,14 +38,27 @@
     alvos.forEach(function (a) { io.observe(a); });
   } else { alvos.forEach(function (a) { a.classList.add('in'); }); }
 
-  /* WhatsApp: só aparece se houver número em config.js */
-  function linkWa(texto) { return 'https://wa.me/' + C.whatsapp + '?text=' + encodeURIComponent(texto); }
-  if (C.whatsapp) {
-    $$('[data-wa-troca]').forEach(function (a) {
-      a.textContent = 'WhatsApp'; a.href = linkWa('Olá. Vim pelo site da Aldeia.'); a.target = '_blank'; a.rel = 'noopener';
-      a.setAttribute('data-canal', 'whatsapp');
+  /* WhatsApp: todo [data-wa] abre a conversa com a mensagem pronta. O número vem do config.js. */
+  function linkWa(texto) { return 'https://wa.me/' + (C.whatsapp || '') + '?text=' + encodeURIComponent(texto); }
+  function urlPagina() { return location.origin + location.pathname; }
+  function textoFiltros() {
+    var f = $('[data-filtros]'); if (!f) return '';
+    var out = [], rot = { tipo: 'Tipo', bairro: 'Bairro', quartos: 'Dormitórios', preco: 'Valor' };
+    Object.keys(rot).forEach(function (k) {
+      var c = f.elements[k]; if (c && c.value) out.push(rot[k] + ': ' + c.options[c.selectedIndex].text);
     });
+    var modo = f.dataset.modo || (f.elements.modo ? f.elements.modo.value : '');
+    if (modo) out.unshift('Negócio: ' + (modo === 'l' ? 'alugar' : 'comprar'));
+    return out.length ? '\n' + out.join('\n') : '';
   }
+  function prepararWa(a) {
+    var msg = a.getAttribute('data-wa-msg') || '';
+    if (a.hasAttribute('data-wa-filtros')) msg += textoFiltros();
+    if (a.hasAttribute('data-wa-pagina')) msg += '\n' + urlPagina();
+    a.href = linkWa(msg);
+  }
+  $$('[data-wa]').forEach(prepararWa);
+  document.addEventListener('click', function (e) { var a = e.target.closest('[data-wa]'); if (a) prepararWa(a); }, true);
 
   /* busca do hero */
   var busca = $('[data-busca]');
@@ -118,11 +132,10 @@
   /* filtros da listagem */
   var form = $('[data-filtros]'), grade = $('[data-grade]');
   if (form && grade) {
-    var cards = $$('[data-card]', grade), fixo = form.dataset.modo, vazio = $('[data-vazio]'), cont = $('[data-contagem]');
+    var cards = $$('[data-card]', grade), fixo = form.dataset.modo, vazio = $('[data-vazio]'), contagem = $('[data-contagem]');
     var campo = function (n) { return form.elements[n]; };
-    var q = new URLSearchParams(location.search);
     ['modo', 'tipo', 'bairro', 'quartos', 'preco', 'codigo', 'ordem'].forEach(function (n) {
-      if (campo(n) && q.get(n)) campo(n).value = q.get(n);
+      if (campo(n) && qs.get(n)) campo(n).value = qs.get(n);
     });
     var primeira = true;
     var aplicar = function () {
@@ -143,7 +156,7 @@
         menor: function (a, b) { return valor(a) - valor(b); }, maior: function (a, b) { return valor(b) - valor(a); },
         area: function (a, b) { return b.dataset.area - a.dataset.area; } }[f.ordem] || null;
       if (ordenar) cards.slice().sort(ordenar).forEach(function (c) { grade.appendChild(c); });
-      if (cont) cont.textContent = n;
+      if (contagem) contagem.textContent = n;
       if (vazio) vazio.hidden = n > 0;
       grade.hidden = n === 0;
       var p = new URLSearchParams();
@@ -151,6 +164,7 @@
       if (!fixo && modo) p.set('modo', modo);
       history.replaceState(null, '', location.pathname + (p.toString() ? '?' + p : ''));
       desenharPinos();
+      $$('[data-wa-filtros]').forEach(prepararWa);
       if (!primeira || p.toString()) evento('Search', { search_string: p.toString(), resultados: n, content_category: modo === 'l' ? 'locacao' : modo === 'v' ? 'venda' : 'todos' });
       primeira = false;
     };
@@ -161,81 +175,101 @@
     aplicar();
   }
 
-  /* galeria da ficha */
+  /* galeria da ficha: todas as fotos, setas, contador e miniatura ativa sempre à vista */
   var gal = $('[data-galeria]');
   if (gal) {
     var fotos = []; try { fotos = JSON.parse(gal.dataset.fotos || '[]'); } catch (e) {}
-    var img = $('[data-gal-img]', gal), atual = 0, luz = null;
+    var img = $('[data-gal-img]', gal), minis = $('[data-gal-minis]', gal), cont = $('[data-gal-cont]', gal), atual = 0, luz = null;
     var ir = function (n) {
       if (!fotos.length) return;
       atual = (n + fotos.length) % fotos.length;
-      if (img) { img.src = fotos[atual]; img.alt = img.alt.replace(/foto \d+/, 'foto ' + (atual + 1)); }
-      $$('[data-gal-ir]', gal).forEach(function (m, i) { if (i === atual) m.setAttribute('aria-current', 'true'); else m.removeAttribute('aria-current'); });
+      if (img) { img.removeAttribute('width'); img.removeAttribute('height'); img.src = fotos[atual]; img.alt = img.alt.replace(/foto \d+/, 'foto ' + (atual + 1)); }
+      if (cont) cont.textContent = atual + 1;
+      $$('[data-gal-ir]', gal).forEach(function (m, i) {
+        if (i === atual) {
+          m.setAttribute('aria-current', 'true');
+          if (minis) minis.scrollTo({ left: m.offsetLeft - (minis.clientWidth - m.offsetWidth) / 2, behavior: 'smooth' });
+        } else { m.removeAttribute('aria-current'); }
+      });
+      var prox = new Image(); prox.src = fotos[(atual + 1) % fotos.length]; // deixa a próxima em cache
       if (luz) { $('img', luz).src = fotos[atual]; $('[data-luz-n]', luz).textContent = (atual + 1) + ' de ' + fotos.length; }
     };
-    var fechar = function () { if (luz) { luz.remove(); luz = null; document.documentElement.style.overflow = ''; var b = $('[data-gal-abrir]', gal); if (b) b.focus(); } };
-    var abrir = function () {
+    var deslizar = function (el) {
+      var x0 = null;
+      el.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+      el.addEventListener('touchend', function (e) { if (x0 === null) return; var d = e.changedTouches[0].clientX - x0; if (Math.abs(d) > 48) ir(atual + (d < 0 ? 1 : -1)); x0 = null; });
+    };
+    var fecharLuz = function () {
+      if (!luz) return;
+      document.body.removeChild(luz); luz = null; document.documentElement.style.overflow = '';
+      var b = $('[data-gal-abrir]', gal); if (b) b.focus();
+    };
+    var abrirLuz = function () {
       if (!fotos.length || luz) return;
       luz = document.createElement('div'); luz.className = 'luz'; luz.setAttribute('role', 'dialog'); luz.setAttribute('aria-modal', 'true'); luz.setAttribute('aria-label', 'Fotos do imóvel');
       luz.innerHTML = '<div class="luz-topo"><span data-luz-n></span><button type="button" data-luz-x>Fechar</button></div>' +
         '<div class="luz-palco"><img alt="Foto ampliada do imóvel"></div>' +
         '<div class="luz-base"><button type="button" data-luz-a>Anterior</button><button type="button" data-luz-p>Próxima</button></div>';
       document.body.appendChild(luz); document.documentElement.style.overflow = 'hidden';
-      $('[data-luz-x]', luz).addEventListener('click', fechar);
+      $('[data-luz-x]', luz).addEventListener('click', fecharLuz);
       $('[data-luz-a]', luz).addEventListener('click', function () { ir(atual - 1); });
       $('[data-luz-p]', luz).addEventListener('click', function () { ir(atual + 1); });
-      var x0 = null;
-      luz.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
-      luz.addEventListener('touchend', function (e) { if (x0 === null) return; var d = e.changedTouches[0].clientX - x0; if (Math.abs(d) > 48) ir(atual + (d < 0 ? 1 : -1)); x0 = null; });
+      luz.addEventListener('click', function (e) { if (e.target.classList.contains('luz-palco')) fecharLuz(); });
+      deslizar(luz);
       ir(atual); $('[data-luz-x]', luz).focus();
     };
+    var palco = $('.gal-palco', gal); if (palco) deslizar(palco);
+    if (img) {
+      var medir = function () { img.classList.toggle('gal-baixa', img.naturalWidth > 0 && Math.max(img.naturalWidth, img.naturalHeight) < 600); };
+      img.addEventListener('load', medir); if (img.complete) medir();
+    }
     gal.addEventListener('click', function (e) {
       var m = e.target.closest('[data-gal-ir]'); if (m) return ir(Number(m.dataset.galIr));
-      if (e.target.closest('[data-gal-abrir]')) abrir();
+      if (e.target.closest('[data-gal-ant]')) return ir(atual - 1);
+      if (e.target.closest('[data-gal-prox]')) return ir(atual + 1);
+      if (e.target.closest('[data-gal-abrir]')) abrirLuz();
     });
     document.addEventListener('keydown', function (e) {
-      if (!luz) return;
-      if (e.key === 'Escape') fechar(); else if (e.key === 'ArrowRight') ir(atual + 1); else if (e.key === 'ArrowLeft') ir(atual - 1);
+      if (e.key === 'Escape') return fecharLuz();
+      if (!luz && !gal.contains(document.activeElement)) return;
+      if (e.key === 'ArrowRight') ir(atual + 1); else if (e.key === 'ArrowLeft') ir(atual - 1);
     });
   }
 
-  /* formulários: validam, registram o Lead e abrem WhatsApp, endpoint próprio ou e-mail */
-  var qs = new URLSearchParams(location.search);
+  /* formulários: montam a mensagem, registram o Lead e abrem o WhatsApp */
   $$('[data-form]').forEach(function (f) {
-    var sel = $('[data-assunto-sel]', f);
-    if (sel && qs.get('assunto')) sel.value = qs.get('assunto');
+    var sel = $('[data-assunto-sel]', f), area = $('textarea[data-msg]', f);
+    if (sel) {
+      var modelos = $$('option', sel).map(function (o) { return o.getAttribute('data-msg'); });
+      var trocarModelo = function () {
+        if (!area.value.trim() || modelos.indexOf(area.value) > -1) area.value = sel.options[sel.selectedIndex].getAttribute('data-msg');
+      };
+      if (qs.get('assunto')) { sel.value = qs.get('assunto'); if (sel.selectedIndex < 0) sel.selectedIndex = 0; trocarModelo(); }
+      sel.addEventListener('change', trocarModelo);
+    }
     f.addEventListener('submit', function (e) {
       e.preventDefault();
-      var ok = true, saida = $('[data-form-ok]', f);
-      $$('[required]', f).forEach(function (c) {
-        var bom = c.value.trim().length >= (c.name === 'telefone' ? 8 : 2);
-        c.setAttribute('aria-invalid', String(!bom)); if (!bom && ok) { c.focus(); } ok = ok && bom;
-      });
-      if (!ok) { saida.hidden = false; saida.textContent = 'Preencha nome e telefone para a Aldeia conseguir retornar.'; return; }
-      var d = {}; $$('input,select,textarea', f).forEach(function (c) { if (c.name && c.value.trim()) d[c.name] = c.value.trim(); });
-      var assunto = f.dataset.assunto + (sel ? ': ' + sel.options[sel.selectedIndex].text : '');
-      var linhas = [assunto, '', 'Nome: ' + d.nome, 'Telefone: ' + d.telefone];
-      if (d.email) linhas.push('E-mail: ' + d.email);
-      ['finalidade', 'tipo', 'bairro'].forEach(function (k) { if (d[k]) linhas.push(k.charAt(0).toUpperCase() + k.slice(1) + ': ' + d[k]); });
-      if (d.mensagem) linhas.push('', d.mensagem);
-      linhas.push('', 'Página: ' + location.href);
-      var o = window.aldeiaOrigem ? window.aldeiaOrigem() : {};
-      if (o.utm_source) linhas.push('Origem: ' + o.utm_source + ' / ' + (o.utm_medium || '') + ' / ' + (o.utm_campaign || ''));
+      var saida = $('[data-form-ok]', f), msg = area.value.trim();
+      area.setAttribute('aria-invalid', String(!msg));
+      if (!msg) { saida.hidden = false; saida.textContent = 'Escreva a mensagem antes de enviar.'; area.focus(); return; }
+      var linhas = [msg];
+      $$('[data-linha]', f).forEach(function (c) { if (c.value.trim()) linhas.push(c.getAttribute('data-linha') + ': ' + c.value.trim()); });
+      var nome = (f.elements.nome.value || '').trim();
+      if (nome) linhas.push('Meu nome é ' + nome + '.');
+      if (f.dataset.cod) linhas.push(urlPagina());
       var texto = linhas.join('\n');
-      var id = window.aldeiaEvento ? window.aldeiaEvento('Lead', { content_name: assunto, content_ids: f.dataset.cod ? [f.dataset.cod] : [] }) : '';
-      saida.hidden = false;
-      if (C.endpointLead) {
-        fetch(C.endpointLead, { method: 'POST', headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ assunto: assunto, dados: d, origem: o, pagina: location.href, event_id: id }) })
-          .then(function (r) { saida.textContent = r.ok ? 'Mensagem enviada. A Aldeia retorna no horário de atendimento.' : 'Não foi possível enviar agora. Ligue para (19) 3241-6444.'; if (r.ok) f.reset(); })
-          .catch(function () { saida.textContent = 'Não foi possível enviar agora. Ligue para (19) 3241-6444.'; });
-      } else if (C.whatsapp) {
-        window.open(linkWa(texto), '_blank', 'noopener');
-        saida.textContent = 'Abrimos o WhatsApp com a sua mensagem pronta. É só enviar.';
-      } else {
-        location.href = 'mailto:' + (C.emailContato || 'aldeia@aldeia.com.br') + '?subject=' + encodeURIComponent(assunto) + '&body=' + encodeURIComponent(texto);
-        saida.textContent = 'Abrimos o seu programa de e-mail com a mensagem pronta. Se nada abriu, ligue para (19) 3241-6444.';
+      var assunto = f.dataset.assunto + (sel ? ': ' + sel.options[sel.selectedIndex].text : '');
+      var id = window.aldeiaEvento ? window.aldeiaEvento('Lead', { content_name: assunto, content_ids: f.dataset.cod ? [f.dataset.cod] : [], canal: 'whatsapp' }) : '';
+      if (C.endpointLead && navigator.sendBeacon) { // cópia do lead para CRM ou API de Conversões, sem atrasar o visitante
+        navigator.sendBeacon(C.endpointLead, new Blob([JSON.stringify({ assunto: assunto, texto: texto, nome: nome,
+          origem: window.aldeiaOrigem ? window.aldeiaOrigem() : {}, pagina: location.href, event_id: id })], { type: 'application/json' }));
       }
+      window.open(linkWa(texto), '_blank', 'noopener');
+      saida.hidden = false;
+      saida.textContent = 'Abrimos o WhatsApp com a sua mensagem pronta. É só enviar. ';
+      var a = document.createElement('a');
+      a.href = linkWa(texto); a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Se nada abriu, toque aqui.';
+      saida.appendChild(a);
     });
   });
 
